@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giỏ Hàng Của Bạn – ÔMƠ Shop</title>
+  <meta name="description" content="Xem và quản lý các sản phẩm gấu bông trong giỏ hàng của bạn tại ÔMƠ Shop.">
+  <link rel="icon" href="assets/images/img_20.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span>📍 255 Hà Huy Tập, Q. Thanh Khê, TP. Đà Nẵng</span>
+        <span>⏰ 08:00 – 22:00 (Thứ 2 - CN)</span>
+      </div>
+      <div class="top-bar-right">
+        <span>🚚 Giao hỏa tốc 1-2h tại Đà Nẵng</span>
+        <span>📞 Hotline: <a href="tel:022456789">222-456-789</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-icon">🧸</div>
+        <div class="logo-text-wrap">
+          <h1>ÔMƠ</h1>
+          <span class="logo-slogan">Ôm một chú gấu, giữ một giấc mơ</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Trang chủ</a></li>
+          <li><a href="gioi-thieu.html" class="nav-link">Giới thiệu</a></li>
+          <li><a href="cua-hang.html" class="nav-link">Cửa hàng</a></li>
+          <li><a href="tin-tuc.html" class="nav-link">Tin tức</a></li>
+          <li><a href="gio-hang.html" class="nav-link active">Giỏ hàng</a></li>
+          <li><a href="thanh-toan.html" class="nav-link">Thanh toán</a></li>
+          <li><a href="chinh-sach.html" class="nav-link">Chính sách</a></li>
+          <li><a href="lien-he.html" class="nav-link">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="cua-hang.html" class="action-btn" title="Tìm kiếm">🔍</a>
+        <a href="gio-hang.html" class="action-btn" title="Giỏ hàng">
+          🛒
+          <span class="cart-badge">0</span>
+        </a>
+        <button class="mobile-menu-toggle" aria-label="Mở menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-hero-title">Giỏ Hàng Của Bạn 🛒</h1>
+      <div class="page-hero-breadcrumb">
+        <a href="index.html">Trang chủ</a>
+        <span>/</span>
+        <span>Giỏ hàng</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Content -->
+  <section class="section-padding">
+    <div class="container">
+      
+      <!-- Free Shipping Notice Bar -->
+      <div id="freeShipNotice" style="background: var(--soft-pink-bg); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 14px 20px; margin-bottom: 30px; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.4rem;">🚚</span>
+        <div style="flex-grow: 1;">
+          <p id="freeShipText" style="font-weight: 600; font-size: 0.95rem; color: var(--text-main); margin-bottom: 4px;">
+            Miễn phí vận chuyển cho đơn hàng từ <strong>300.000 VND</strong>!
+          </p>
+          <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.06); border-radius: 4px; overflow: hidden;">
+            <div id="freeShipProgress" style="height: 100%; background: var(--primary-deep); width: 0%; transition: width 0.4s ease;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Cart Layout -->
+      <div class="cart-layout" id="cartLayout">
+        
+        <!-- Cart Items Table -->
+        <div class="cart-table-card">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            <h3 style="font-family: var(--font-heading); font-size: 1.3rem; color: var(--text-main);">
+              Danh Sách Gấu Bông Đã Chọn
+            </h3>
+            <button onclick="clearCart()" style="background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 0.88rem; text-decoration: underline;">
+              Làm trống giỏ hàng
+            </button>
+          </div>
+
+          <div class="cart-table-header">
+            <div>Sản Phẩm</div>
+            <div>Đơn Giá</div>
+            <div>Số Lượng</div>
+            <div>Tổng</div>
+            <div></div>
+          </div>
+
+          <div id="cartItemsList">
+            <!-- Rendered by JS -->
+          </div>
+
+          <div style="margin-top: 24px;">
+            <a href="cua-hang.html" class="btn btn-outline" style="font-size: 0.88rem;">
+              ← Tiếp Tục Chọn Gấu Bông
+            </a>
+          </div>
+        </div>
+
+        <!-- Order Summary Card -->
+        <div class="cart-summary-card">
+          <h3 style="font-family: var(--font-heading); font-size: 1.3rem; color: var(--primary-deep); margin-bottom: 20px;">
+            Tóm Tắt Đơn Hàng
+          </h3>
+
+          <div class="summary-row">
+            <span>Tạm tính (<span id="summaryTotalItems">0</span> sản phẩm):</span>
+            <strong id="summarySubtotal">0 VND</strong>
+          </div>
+
+          <div class="summary-row">
+            <span>Phí vận chuyển:</span>
+            <strong id="summaryShipping">30.000 VND</strong>
+          </div>
+
+          <div class="summary-row" id="voucherRow" style="display: none; color: #2B9348;">
+            <span>Mã giảm giá (<span id="voucherCodeLabel"></span>):</span>
+            <strong id="summaryDiscount">-0 VND</strong>
+          </div>
+
+          <!-- Promo Input -->
+          <div class="promo-wrap">
+            <input type="text" id="promoCodeInput" class="promo-input" placeholder="Nhập mã OMOYEUTHUONG">
+            <button class="btn btn-outline" onclick="applyPromoCode()" style="padding: 10px 18px; font-size: 0.88rem;">Áp Dụng</button>
+          </div>
+          <div id="promoMessage" style="font-size: 0.85rem; margin-top: -10px; margin-bottom: 14px;"></div>
+
+          <div class="summary-row total">
+            <span>Tổng thanh toán:</span>
+            <span id="summaryGrandTotal">0 VND</span>
+          </div>
+
+          <p style="font-size: 0.82rem; color: var(--text-light); margin-bottom: 20px; line-height: 1.5;">
+            * Đã bao gồm thuế và hỗ trợ đóng hộp quà xinh xắn kèm thiệp viết tay từ ÔMƠ.
+          </p>
+
+          <a href="thanh-toan.html" class="btn btn-primary" style="width: 100%; font-size: 1.05rem; padding: 14px 20px;">
+            Tiến Hành Thanh Toán 💕
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Empty Cart State -->
+      <div id="cartEmptyCard" style="display: none; background: #fff; border-radius: var(--radius-md); border: 1px solid var(--border-color); padding: 60px 20px; text-align: center; box-shadow: var(--shadow-card);">
+        <div class="cart-empty-icon">🧸💔</div>
+        <h2 style="font-family: var(--font-heading); color: var(--text-main); margin-bottom: 12px;">Giỏ hàng của bạn đang trống</h2>
+        <p style="color: var(--text-muted); font-size: 1.05rem; max-width: 500px; margin: 0 auto 28px;">
+          Hãy ghé thăm cửa hàng ÔMƠ để chọn cho mình hoặc người thương một chú gấu bông thật êm ái nhé!
+        </p>
+        <a href="cua-hang.html" class="btn btn-primary" style="padding: 14px 36px;">
+          Khám Phá Cửa Hàng Ngay 💕
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h2>🧸 ÔMƠ SHOP</h2>
+          <p>
+            Tiệm gấu bông nhỏ xinh tại Đà Nẵng. Nơi lưu giữ những cái ôm mềm mại và nâng niu từng giấc mơ trong trẻo của bạn.
+          </p>
+          <div class="footer-socials">
+            <a href="https://facebook.com" class="social-icon-btn" target="_blank">📘</a>
+            <a href="https://instagram.com" class="social-icon-btn" target="_blank">📸</a>
+            <a href="https://tiktok.com" class="social-icon-btn" target="_blank">🎵</a>
+            <a href="https://zalo.me" class="social-icon-btn" target="_blank">💬</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Về ÔMƠ</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="gioi-thieu.html">Giới thiệu về ÔMƠ</a></li>
+            <li><a href="cua-hang.html">Cửa hàng gấu bông</a></li>
+            <li><a href="tin-tuc.html">Tin tức & Mẹo hay</a></li>
+            <li><a href="lien-he.html">Liên hệ chúng tớ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Chính Sách & Hỗ Trợ</h4>
+          <ul class="footer-links">
+            <li><a href="chinh-sach.html">Chính sách mua hàng</a></li>
+            <li><a href="chinh-sach.html#doi-tra">Chính sách đổi trả (3 ngày)</a></li>
+            <li><a href="gio-hang.html">Giỏ hàng của bạn</a></li>
+            <li><a href="thanh-toan.html">Hướng dẫn thanh toán</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Thông Tin Liên Hệ</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <span class="icon">📍</span>
+              <span>255 Hà Huy Tập, Q. Thanh Khê, TP. Đà Nẵng</span>
+            </li>
+            <li>
+              <span class="icon">📞</span>
+              <span>Hotline / Zalo: <strong>022456789</strong> (222-456-789)</span>
+            </li>
+            <li>
+              <span class="icon">✉️</span>
+              <span>Email: omoshop@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 ÔMƠ Shop – Ôm trọn vỗ về, giữ trọn giấc mơ. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="floating-actions">
+    <a href="tel:022456789" class="floating-btn hotline" title="Gọi Hotline">📞</a>
+    <a href="lien-he.html" class="floating-btn zalo" title="Chat với ÔMƠ">💬</a>
+    <button class="floating-btn back-top" title="Lên đầu trang">↑</button>
+  </div>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script>
+    let appliedDiscountPercent = 0;
+    let appliedVoucherCode = '';
+
+    function renderCartPage() {
+      const cart = getCart();
+      const cartLayout = document.getElementById('cartLayout');
+      const cartEmptyCard = document.getElementById('cartEmptyCard');
+      const listEl = document.getElementById('cartItemsList');
+
+      if (cart.length === 0) {
+        if (cartLayout) cartLayout.style.display = 'none';
+        if (cartEmptyCard) cartEmptyCard.style.display = 'block';
+        return;
+      }
+
+      if (cartLayout) cartLayout.style.display = 'grid';
+      if (cartEmptyCard) cartEmptyCard.style.display = 'none';
+
+      let subtotal = 0;
+      let totalQty = 0;
+
+      listEl.innerHTML = cart.map(item => {
+        const itemTotal = item.price * item.quantity;
+        subtotal += itemTotal;
+        totalQty += item.quantity;
+
+        return `
+          <div class="cart-item-row">
+            <div class="cart-item-info">
+              <img src="${item.image}" alt="${item.name}" class="cart-item-img">
+              <div class="cart-item-details">
+                <h4>${item.name}</h4>
+                <span>Size: ${item.size}</span>
+              </div>
+            </div>
+            <div>
+              <strong>${formatVND(item.price)}</strong>
+            </div>
+            <div>
+              <div class="qty-stepper">
+                <button class="qty-btn" onclick="updateCartQuantity('${item.id}', ${item.quantity - 1})">-</button>
+                <input type="number" class="qty-input" value="${item.quantity}" min="1" readonly>
+                <button class="qty-btn" onclick="updateCartQuantity('${item.id}', ${item.quantity + 1})">+</button>
+              </div>
+            </div>
+            <div>
+              <strong style="color: var(--primary-deep);">${formatVND(itemTotal)}</strong>
+            </div>
+            <div>
+              <button class="cart-remove-btn" onclick="removeFromCart('${item.id}')" title="Xóa khỏi giỏ">🗑️</button>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Free shipping progress
+      const FREE_SHIP_THRESHOLD = 300000;
+      let shippingFee = subtotal >= FREE_SHIP_THRESHOLD ? 0 : 30000;
+      const progressPercent = Math.min(100, Math.round((subtotal / FREE_SHIP_THRESHOLD) * 100));
+      document.getElementById('freeShipProgress').style.width = `${progressPercent}%`;
+
+      const freeShipText = document.getElementById('freeShipText');
+      if (subtotal >= FREE_SHIP_THRESHOLD) {
+        freeShipText.innerHTML = `🎉 Bạn đã đủ điều kiện <strong>Miễn Phí Vận Chuyển</strong>!`;
+      } else {
+        const remaining = FREE_SHIP_THRESHOLD - subtotal;
+        freeShipText.innerHTML = `Mua thêm <strong>${formatVND(remaining)}</strong> để được <strong>Miễn Phí Giao Hàng</strong>!`;
+      }
+
+      // Check active voucher
+      const discountAmount = Math.round(subtotal * (appliedDiscountPercent / 100));
+      const grandTotal = Math.max(0, subtotal + shippingFee - discountAmount);
+
+      document.getElementById('summaryTotalItems').textContent = totalQty;
+      document.getElementById('summarySubtotal').textContent = formatVND(subtotal);
+      document.getElementById('summaryShipping').textContent = shippingFee === 0 ? 'Miễn phí' : formatVND(shippingFee);
+
+      const voucherRow = document.getElementById('voucherRow');
+      if (discountAmount > 0) {
+        voucherRow.style.display = 'flex';
+        document.getElementById('voucherCodeLabel').textContent = appliedVoucherCode;
+        document.getElementById('summaryDiscount').textContent = `-${formatVND(discountAmount)}`;
+      } else {
+        voucherRow.style.display = 'none';
+      }
+
+      document.getElementById('summaryGrandTotal').textContent = formatVND(grandTotal);
+    }
+
+    function applyPromoCode() {
+      const input = document.getElementById('promoCodeInput');
+      const msg = document.getElementById('promoMessage');
+      const code = input ? input.value.trim().toUpperCase() : '';
+
+      if (code === 'OMOYEUTHUONG' || code === 'OMOCHU') {
+        appliedDiscountPercent = 10;
+        appliedVoucherCode = code;
+        msg.style.color = '#2B9348';
+        msg.textContent = '✅ Áp dụng mã giảm giá 10% thành công!';
+        showToast('Áp dụng mã giảm 10% thành công! 🎁');
+      } else if (code === 'FREESHIP') {
+        appliedDiscountPercent = 5;
+        appliedVoucherCode = code;
+        msg.style.color = '#2B9348';
+        msg.textContent = '✅ Áp dụng mã ưu đãi FREESHIP thành công!';
+        showToast('Đã áp dụng mã ưu đãi! 🚚');
+      } else if (code === '') {
+        msg.style.color = '#D90429';
+        msg.textContent = 'Vui lòng nhập mã giảm giá.';
+      } else {
+        msg.style.color = '#D90429';
+        msg.textContent = 'Mã giảm giá không hợp lệ. Bạn thử mã "OMOYEUTHUONG" nhé!';
+      }
+      renderCartPage();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Tự động thêm sản phẩm mẫu nếu giỏ đang trống lần đầu
+      const cart = getCart();
+      if (cart.length === 0 && window.PRODUCTS && window.PRODUCTS.length > 0) {
+        // Cho vào giỏ Kirby mẫu 1 cái để demo như Google Site ban đầu
+        const kirby = window.PRODUCTS.find(p => p.id === 'sp-05') || window.PRODUCTS[0];
+        cart.push({
+          id: kirby.id,
+          name: kirby.name,
+          price: kirby.price,
+          originalPrice: kirby.originalPrice,
+          image: kirby.image,
+          size: kirby.size,
+          quantity: 1
+        });
+        saveCart(cart);
+      }
+      renderCartPage();
+    });
+  </script>
+</body>
+</html>

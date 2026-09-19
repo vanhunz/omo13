@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cửa Hàng Gấu Bông ÔMƠ – Đầy Đủ Mẫu Mã Xinh Xắn & Cao Cấp</title>
+  <meta name="description" content="Khám phá toàn bộ bộ sưu tập gấu bông ÔMƠ: Móc khóa gấu nhỏ (5-15cm), gấu vừa ôm (20-30cm) và gấu bông khổng lồ mềm mại (30cm+).">
+  <link rel="icon" href="assets/images/img_20.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span>📍 255 Hà Huy Tập, Q. Thanh Khê, TP. Đà Nẵng</span>
+        <span>⏰ 08:00 – 22:00 (Thứ 2 - CN)</span>
+      </div>
+      <div class="top-bar-right">
+        <span>🚚 Giao hỏa tốc 1-2h tại Đà Nẵng</span>
+        <span>📞 Hotline: <a href="tel:022456789">222-456-789</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-icon">🧸</div>
+        <div class="logo-text-wrap">
+          <h1>ÔMƠ</h1>
+          <span class="logo-slogan">Ôm một chú gấu, giữ một giấc mơ</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Trang chủ</a></li>
+          <li><a href="gioi-thieu.html" class="nav-link">Giới thiệu</a></li>
+          <li><a href="cua-hang.html" class="nav-link active">Cửa hàng</a></li>
+          <li><a href="tin-tuc.html" class="nav-link">Tin tức</a></li>
+          <li><a href="gio-hang.html" class="nav-link">Giỏ hàng</a></li>
+          <li><a href="thanh-toan.html" class="nav-link">Thanh toán</a></li>
+          <li><a href="chinh-sach.html" class="nav-link">Chính sách</a></li>
+          <li><a href="lien-he.html" class="nav-link">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="cua-hang.html" class="action-btn" title="Tìm kiếm">🔍</a>
+        <a href="gio-hang.html" class="action-btn" title="Giỏ hàng">
+          🛒
+          <span class="cart-badge">0</span>
+        </a>
+        <button class="mobile-menu-toggle" aria-label="Mở menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-hero-title">Cửa Hàng ÔMƠ 🛍️</h1>
+      <div class="page-hero-breadcrumb">
+        <a href="index.html">Trang chủ</a>
+        <span>/</span>
+        <span>Cửa hàng</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop Content -->
+  <section class="section-padding">
+    <div class="container">
+      
+      <!-- Controls: Tabs, Search & Sort -->
+      <div class="shop-controls">
+        <div class="category-tabs">
+          <button class="cat-tab-btn active" data-cat="all">Tất Cả Mẫu 🧸</button>
+          <button class="cat-tab-btn" data-cat="gau-nho">🌟 Gấu nhỏ (5cm-15cm)</button>
+          <button class="cat-tab-btn" data-cat="gau-vua">🌟 Gấu vừa (20cm-30cm)</button>
+          <button class="cat-tab-btn" data-cat="gau-to">🌟 Gấu to (30cm trở lên)</button>
+        </div>
+
+        <div class="shop-filter-group">
+          <div class="search-input-wrap">
+            <span class="search-icon-inside">🔍</span>
+            <input type="text" id="searchInput" class="search-input" placeholder="Tìm tên gấu bông...">
+          </div>
+
+          <select id="sortSelect" class="sort-select">
+            <option value="default">Sắp xếp: Mặc định</option>
+            <option value="price-asc">Giá: Thấp đến Cao</option>
+            <option value="price-desc">Giá: Cao đến Thấp</option>
+            <option value="rating">Đánh giá cao nhất</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Result Counter -->
+      <div style="margin-bottom: 24px; color: var(--text-muted); font-size: 0.95rem;">
+        Hiển thị <strong id="productCount" style="color: var(--primary-deep);">0</strong> chú gấu bông phù hợp
+      </div>
+
+      <!-- Product Grid -->
+      <div class="product-grid" id="shopProductGrid">
+        <!-- Rendered by JavaScript -->
+      </div>
+
+      <!-- Empty State -->
+      <div id="shopEmptyState" style="display: none; text-align: center; padding: 60px 20px; background: #fff; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+        <div style="font-size: 3.5rem; margin-bottom: 12px;">🧸🔍</div>
+        <h3 style="font-family: var(--font-heading); color: var(--text-main); margin-bottom: 8px;">Không tìm thấy chú gấu bông nào</h3>
+        <p style="color: var(--text-muted); margin-bottom: 20px;">Bạn thử tìm bằng từ khóa khác hoặc bấm nút bên dưới để xem lại tất cả nhé!</p>
+        <button class="btn btn-primary" onclick="resetFilters()">Xem Lại Tất Cả Sản Phẩm 💕</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Hotline Banner -->
+  <div class="container" style="margin-bottom: 40px;">
+    <div class="hotline-banner">
+      <div class="hotline-text">
+        <h3>Bạn muốn tìm mẫu gấu bông theo kích thước riêng? 🎁</h3>
+        <p>Hãy gọi ngay <strong>222-456-789</strong> hoặc chat Zalo để được ÔMƠ tư vấn chi tiết nhé!</p>
+      </div>
+      <div class="hotline-action">
+        <a href="tel:022456789" class="btn btn-white">📞 Hotline 022456789</a>
+        <a href="lien-he.html" class="btn btn-outline" style="border-color: #fff; color: #fff;">Gặp Tư Vấn Viên</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h2>🧸 ÔMƠ SHOP</h2>
+          <p>
+            Tiệm gấu bông nhỏ xinh tại Đà Nẵng. Nơi lưu giữ những cái ôm mềm mại và nâng niu từng giấc mơ trong trẻo của bạn.
+          </p>
+          <div class="footer-socials">
+            <a href="https://facebook.com" class="social-icon-btn" target="_blank">📘</a>
+            <a href="https://instagram.com" class="social-icon-btn" target="_blank">📸</a>
+            <a href="https://tiktok.com" class="social-icon-btn" target="_blank">🎵</a>
+            <a href="https://zalo.me" class="social-icon-btn" target="_blank">💬</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Về ÔMƠ</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="gioi-thieu.html">Giới thiệu về ÔMƠ</a></li>
+            <li><a href="cua-hang.html">Cửa hàng gấu bông</a></li>
+            <li><a href="tin-tuc.html">Tin tức & Mẹo hay</a></li>
+            <li><a href="lien-he.html">Liên hệ chúng tớ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Chính Sách & Hỗ Trợ</h4>
+          <ul class="footer-links">
+            <li><a href="chinh-sach.html">Chính sách mua hàng</a></li>
+            <li><a href="chinh-sach.html#doi-tra">Chính sách đổi trả (3 ngày)</a></li>
+            <li><a href="gio-hang.html">Giỏ hàng của bạn</a></li>
+            <li><a href="thanh-toan.html">Hướng dẫn thanh toán</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Thông Tin Liên Hệ</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <span class="icon">📍</span>
+              <span>255 Hà Huy Tập, Q. Thanh Khê, TP. Đà Nẵng</span>
+            </li>
+            <li>
+              <span class="icon">📞</span>
+              <span>Hotline / Zalo: <strong>022456789</strong> (222-456-789)</span>
+            </li>
+            <li>
+              <span class="icon">✉️</span>
+              <span>Email: omoshop@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 ÔMƠ Shop – Ôm trọn vỗ về, giữ trọn giấc mơ. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="floating-actions">
+    <a href="tel:022456789" class="floating-btn hotline" title="Gọi Hotline">📞</a>
+    <a href="lien-he.html" class="floating-btn zalo" title="Chat với ÔMƠ">💬</a>
+    <button class="floating-btn back-top" title="Lên đầu trang">↑</button>
+  </div>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script>
+    let currentCategory = 'all';
+    let searchQuery = '';
+    let sortMode = 'default';
+
+    function renderShop() {
+      const grid = document.getElementById('shopProductGrid');
+      const emptyState = document.getElementById('shopEmptyState');
+      const countEl = document.getElementById('productCount');
+      if (!grid || !window.PRODUCTS) return;
+
+      let list = [...window.PRODUCTS];
+
+      // Filter by category
+      if (currentCategory !== 'all') {
+        list = list.filter(p => p.category === currentCategory);
+      }
+
+      // Filter by search query
+      if (searchQuery.trim() !== '') {
+        const q = searchQuery.toLowerCase().trim();
+        list = list.filter(p => p.name.toLowerCase().includes(q) || p.description.toLowerCase().includes(q) || p.categoryName.toLowerCase().includes(q));
+      }
+
+      // Sort
+      if (sortMode === 'price-asc') {
+        list.sort((a, b) => a.price - b.price);
+      } else if (sortMode === 'price-desc') {
+        list.sort((a, b) => b.price - a.price);
+      } else if (sortMode === 'rating') {
+        list.sort((a, b) => b.rating - a.rating || b.reviewsCount - a.reviewsCount);
+      }
+
+      countEl.textContent = list.length;
+
+      if (list.length === 0) {
+        grid.innerHTML = '';
+        emptyState.style.display = 'block';
+      } else {
+        emptyState.style.display = 'none';
+        grid.innerHTML = list.map(p => `
+          <div class="product-card">
+            <div class="product-thumb-wrap">
+              <span class="product-badge">${p.badge}</span>
+              <img src="${p.image}" alt="${p.name}" class="product-img">
+              <button class="product-quick-btn" onclick="openQuickView('${p.id}')">Xem Nhanh 👁️</button>
+            </div>
+            <div class="product-body">
+              <span class="product-category-tag">${p.categoryName}</span>
+              <h3 class="product-title">${p.name}</h3>
+              <div class="product-rating">
+                ⭐⭐⭐⭐⭐ <span class="rating-count">(${p.reviewsCount})</span>
+              </div>
+              <div class="product-price-row">
+                <span class="current-price">${formatVND(p.price)}</span>
+                <span class="original-price">${formatVND(p.originalPrice)}</span>
+              </div>
+              <button class="btn btn-primary product-card-btn" onclick="addToCart('${p.id}')">
+                Thêm Vào Giỏ 💕
+              </button>
+            </div>
+          </div>
+        `).join('');
+      }
+    }
+
+    function resetFilters() {
+      currentCategory = 'all';
+      searchQuery = '';
+      sortMode = 'default';
+      document.querySelectorAll('.cat-tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.cat === 'all');
+      });
+      document.getElementById('searchInput').value = '';
+      document.getElementById('sortSelect').value = 'default';
+      renderShop();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Category buttons
+      document.querySelectorAll('.cat-tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.cat-tab-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentCategory = btn.dataset.cat;
+          renderShop();
+        });
+      });
+
+      // Search
+      const searchInput = document.getElementById('searchInput');
+      if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+          searchQuery = e.target.value;
+          renderShop();
+        });
+      }
+
+      // Sort
+      const sortSelect = document.getElementById('sortSelect');
+      if (sortSelect) {
+        sortSelect.addEventListener('change', (e) => {
+          sortMode = e.target.value;
+          renderShop();
+        });
+      }
+
+      // Initial render
+      renderShop();
+    });
+  </script>
+</body>
+</html>

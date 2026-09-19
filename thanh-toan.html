@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thanh Toán Đơn Hàng – ÔMƠ Shop</title>
+  <meta name="description" content="Thanh toán an toàn, tiện lợi qua Chuyển khoản QR ngân hàng, Ví MoMo hoặc Tiền mặt khi nhận hàng (COD).">
+  <link rel="icon" href="assets/images/img_20.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span>📍 255 Hà Huy Tập, Q. Thanh Khê, TP. Đà Nẵng</span>
+        <span>⏰ 08:00 – 22:00 (Thứ 2 - CN)</span>
+      </div>
+      <div class="top-bar-right">
+        <span>🚚 Giao hỏa tốc 1-2h tại Đà Nẵng</span>
+        <span>📞 Hotline: <a href="tel:022456789">222-456-789</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-icon">🧸</div>
+        <div class="logo-text-wrap">
+          <h1>ÔMƠ</h1>
+          <span class="logo-slogan">Ôm một chú gấu, giữ một giấc mơ</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Trang chủ</a></li>
+          <li><a href="gioi-thieu.html" class="nav-link">Giới thiệu</a></li>
+          <li><a href="cua-hang.html" class="nav-link">Cửa hàng</a></li>
+          <li><a href="tin-tuc.html" class="nav-link">Tin tức</a></li>
+          <li><a href="gio-hang.html" class="nav-link">Giỏ hàng</a></li>
+          <li><a href="thanh-toan.html" class="nav-link active">Thanh toán</a></li>
+          <li><a href="chinh-sach.html" class="nav-link">Chính sách</a></li>
+          <li><a href="lien-he.html" class="nav-link">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="cua-hang.html" class="action-btn" title="Tìm kiếm">🔍</a>
+        <a href="gio-hang.html" class="action-btn" title="Giỏ hàng">
+          🛒
+          <span class="cart-badge">0</span>
+        </a>
+        <button class="mobile-menu-toggle" aria-label="Mở menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-hero-title">Thanh Toán Đơn Hàng 💳</h1>
+      <div class="page-hero-breadcrumb">
+        <a href="index.html">Trang chủ</a>
+        <span>/</span>
+        <a href="gio-hang.html">Giỏ hàng</a>
+        <span>/</span>
+        <span>Thanh toán</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Checkout Section -->
+  <section class="section-padding">
+    <div class="container">
+      
+      <div style="background: var(--soft-pink-bg); border-left: 4px solid var(--primary-deep); padding: 14px 20px; border-radius: var(--radius-sm); margin-bottom: 30px; font-size: 0.95rem; color: var(--text-main);">
+        🌸 <em>Quý khách vui lòng kiểm tra thông tin nhận hàng và không tắt trình duyệt cho đến khi nhận được thông báo đặt hàng thành công!</em>
+      </div>
+
+      <div class="checkout-layout">
+        
+        <!-- Left Column: Shipping & Payment Form -->
+        <div class="checkout-form-column">
+          
+          <!-- Customer & Delivery Info -->
+          <div class="checkout-card">
+            <h3 class="checkout-card-title">
+              <span>📍</span> Thông Tin Giao Hàng
+            </h3>
+            
+            <form id="checkoutForm" onsubmit="event.preventDefault(); submitOrder();">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Họ và tên của bạn *</label>
+                  <input type="text" id="custName" class="form-control" placeholder="Ví dụ: Nguyễn Mai Phương" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Số điện thoại nhận hàng *</label>
+                  <input type="tel" id="custPhone" class="form-control" placeholder="Ví dụ: 0905123456" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Địa chỉ nhận hàng chi tiết *</label>
+                <input type="text" id="custAddress" class="form-control" placeholder="Số nhà, tên đường, phường/xã, quận/huyện, tỉnh/thành" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Ghi chú cho tiệm gấu ÔMƠ (Tùy chọn)</label>
+                <textarea id="custNote" class="form-control" rows="3" placeholder="Ví dụ: Nhờ shop viết thiệp sinh nhật gửi tặng bạn..., Giao hàng giờ hành chính..."></textarea>
+              </div>
+            </form>
+          </div>
+
+          <!-- Payment Methods -->
+          <div class="checkout-card">
+            <h3 class="checkout-card-title">
+              <span>💳</span> Phương Thức Thanh Toán
+            </h3>
+
+            <div class="payment-method-option selected" id="payMethodBank" onclick="selectPaymentMethod('bank')">
+              <input type="radio" name="payMethod" id="radioBank" checked>
+              <div>
+                <strong>Chuyển khoản Ngân hàng / Quét mã VietQR (Khuyên dùng)</strong>
+                <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">
+                  Quét mã QR tự động điền số tiền và nội dung qua tất cả các app ngân hàng.
+                </p>
+              </div>
+            </div>
+
+            <div class="payment-method-option" id="payMethodMoMo" onclick="selectPaymentMethod('momo')">
+              <input type="radio" name="payMethod" id="radioMoMo">
+              <div>
+                <strong>Thanh toán qua Ví MoMo</strong>
+                <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">
+                  Chuyển nhanh qua ví điện tử MoMo an toàn, tiện lợi.
+                </p>
+              </div>
+            </div>
+
+            <div class="payment-method-option" id="payMethodCOD" onclick="selectPaymentMethod('cod')">
+              <input type="radio" name="payMethod" id="radioCOD">
+              <div>
+                <strong>Thanh toán khi nhận hàng (COD)</strong>
+                <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">
+                  Khách hàng kiểm tra hộp bên ngoài và thanh toán tiền mặt trực tiếp cho shipper.
+                </p>
+              </div>
+            </div>
+
+            <!-- QR Code Container for Bank / MoMo -->
+            <div id="qrDisplayBox" class="qr-box-wrap">
+              <h4 style="font-family: var(--font-heading); color: var(--primary-deep); margin-bottom: 8px;">
+                QUÉT MÃ QUA ỨNG DỤNG NGÂN HÀNG / VÍ ĐIỆN TỬ
+              </h4>
+              <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 14px;">
+                Mở App Ngân Hàng hoặc MoMo và quét mã bên dưới để thanh toán tức thì:
+              </p>
+
+              <!-- Dynamic QR Display with SVG / VietQR style -->
+              <div style="background: #fff; width: 220px; height: 220px; margin: 0 auto 16px; border-radius: var(--radius-sm); border: 2px solid var(--primary-pink); padding: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: var(--shadow-sm);">
+                <!-- Realistic VietQR Visual Representation -->
+                <svg viewBox="0 0 100 100" width="160" height="160">
+                  <rect width="100" height="100" fill="white" />
+                  <!-- QR corner squares -->
+                  <rect x="10" y="10" width="26" height="26" fill="#D46A72" rx="4" />
+                  <rect x="15" y="15" width="16" height="16" fill="white" />
+                  <rect x="19" y="19" width="8" height="8" fill="#D46A72" />
+
+                  <rect x="64" y="10" width="26" height="26" fill="#D46A72" rx="4" />
+                  <rect x="69" y="15" width="16" height="16" fill="white" />
+                  <rect x="73" y="19" width="8" height="8" fill="#D46A72" />
+
+                  <rect x="10" y="64" width="26" height="26" fill="#D46A72" rx="4" />
+                  <rect x="15" y="69" width="16" height="16" fill="white" />
+                  <rect x="19" y="73" width="8" height="8" fill="#D46A72" />
+
+                  <!-- QR Patterns -->
+                  <rect x="42" y="12" width="6" height="6" fill="#333" />
+                  <rect x="52" y="12" width="6" height="6" fill="#333" />
+                  <rect x="42" y="24" width="6" height="12" fill="#333" />
+                  <rect x="52" y="20" width="6" height="6" fill="#333" />
+
+                  <rect x="12" y="42" width="12" height="6" fill="#333" />
+                  <rect x="28" y="42" width="6" height="12" fill="#333" />
+                  <rect x="38" y="42" width="8" height="8" fill="#D46A72" />
+                  <rect x="50" y="42" width="6" height="6" fill="#333" />
+                  <rect x="60" y="42" width="14" height="6" fill="#333" />
+                  <rect x="80" y="42" width="8" height="8" fill="#333" />
+
+                  <rect x="42" y="56" width="14" height="6" fill="#333" />
+                  <rect x="62" y="56" width="6" height="14" fill="#333" />
+                  <rect x="74" y="56" width="14" height="6" fill="#333" />
+
+                  <rect x="42" y="68" width="8" height="8" fill="#D46A72" />
+                  <rect x="54" y="68" width="6" height="20" fill="#333" />
+                  <rect x="66" y="74" width="22" height="6" fill="#333" />
+                  <rect x="74" y="84" width="14" height="6" fill="#333" />
+                </svg>
+                <div style="font-size: 0.72rem; font-weight: 700; color: var(--primary-deep); margin-top: 4px;">
+                  VIETQR • MB BANK
+                </div>
+              </div>
+
+              <!-- Bank Transfer Info -->
+              <div class="bank-info-box">
+                <div>🏦 <strong>Ngân hàng:</strong> MB Bank (Quân Đội)</div>
+                <div>👤 <strong>Chủ tài khoản:</strong> TIỆM GẤU ÔMƠ</div>
+                <div>🔢 <strong>Số tài khoản:</strong> <strong style="color: var(--primary-deep); font-size: 1.05rem;">022456789999</strong> <button onclick="copyToClipboard('022456789999')" style="background: none; border: 1px solid var(--border-color); padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; cursor: pointer;">Copy</button></div>
+                <div>💰 <strong>Số tiền:</strong> <strong id="qrAmountDisplay" style="color: var(--primary-deep);">200.000 VND</strong></div>
+                <div>📝 <strong>Nội dung:</strong> <strong id="qrTransferNote" style="color: var(--primary-deep);">OMOSHOP 123</strong> <button onclick="copyToClipboard(document.getElementById('qrTransferNote').textContent)" style="background: none; border: 1px solid var(--border-color); padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; cursor: pointer;">Copy</button></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Right Column: Order Summary -->
+        <div class="checkout-summary-column">
+          <div class="checkout-card">
+            <h3 class="checkout-card-title">
+              <span>🧾</span> Thông Tin Đơn Hàng
+            </h3>
+
+            <!-- Order items list preview -->
+            <div id="checkoutItemsList" style="max-height: 260px; overflow-y: auto; margin-bottom: 20px; border-bottom: 1px dashed var(--border-color); padding-bottom: 15px;">
+              <!-- Rendered by JS -->
+            </div>
+
+            <div class="summary-row">
+              <span>Mã đơn hàng:</span>
+              <strong id="orderCodeDisplay" style="color: var(--primary-deep);">#OMO-123</strong>
+            </div>
+
+            <div class="summary-row">
+              <span>Giá trị đơn hàng:</span>
+              <strong id="checkoutSubtotal">0 VND</strong>
+            </div>
+
+            <div class="summary-row">
+              <span>Phí vận chuyển:</span>
+              <strong id="checkoutShipping">0 VND</strong>
+            </div>
+
+            <div class="summary-row">
+              <span>Phí giao dịch:</span>
+              <strong style="color: #2B9348;">0 VND</strong>
+            </div>
+
+            <div class="summary-row total">
+              <span>Số tiền thanh toán:</span>
+              <span id="checkoutGrandTotal" style="color: var(--primary-deep);">0 VND</span>
+            </div>
+
+            <button type="button" class="btn btn-primary" onclick="submitOrder()" style="width: 100%; margin-top: 20px; font-size: 1.05rem; padding: 14px 20px;">
+              Xác Nhận Đặt Hàng Ngay 💕
+            </button>
+
+            <a href="gio-hang.html" class="btn btn-outline" style="width: 100%; margin-top: 12px; font-size: 0.9rem;">
+              Quay Lại Giỏ Hàng
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Order Success Modal -->
+  <div id="orderSuccessModal" class="modal-backdrop">
+    <div class="modal-card" style="max-width: 550px; text-align: center; padding: 40px 30px;">
+      <div style="font-size: 4rem; margin-bottom: 12px;">🎉🧸</div>
+      <h2 style="font-family: var(--font-heading); color: var(--primary-deep); margin-bottom: 10px;">Đặt Hàng Thành Công!</h2>
+      <p style="color: var(--text-muted); font-size: 0.98rem; line-height: 1.7; margin-bottom: 20px;">
+        Cảm ơn bạn đã tin tưởng và chọn ÔMƠ. Chúng mình đã tiếp nhận đơn hàng <strong id="modalSuccessOrderCode">#OMO-123</strong> và sẽ liên hệ xác nhận sớm nhất!
+      </p>
+      
+      <div style="background: var(--soft-pink-bg); padding: 16px; border-radius: var(--radius-sm); text-align: left; font-size: 0.9rem; line-height: 1.8; margin-bottom: 24px;">
+        <div>👤 <strong>Người nhận:</strong> <span id="modalSuccessName"></span></div>
+        <div>📞 <strong>Số điện thoại:</strong> <span id="modalSuccessPhone"></span></div>
+        <div>📍 <strong>Địa chỉ giao:</strong> <span id="modalSuccessAddress"></span></div>
+        <div>💰 <strong>Tổng thanh toán:</strong> <strong id="modalSuccessTotal" style="color: var(--primary-deep);"></strong></div>
+      </div>
+
+      <div style="display: flex; gap: 12px; justify-content: center;">
+        <a href="index.html" class="btn btn-primary" onclick="handleFinishOrder()">Về Trang Chủ 💕</a>
+        <a href="cua-hang.html" class="btn btn-outline" onclick="handleFinishOrder()">Tiếp Tục Mua Sắm</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h2>🧸 ÔMƠ SHOP</h2>
+          <p>
+            Tiệm gấu bông nhỏ xinh tại Đà Nẵng. Nơi lưu giữ những cái ôm mềm mại và nâng niu từng giấc mơ trong trẻo của bạn.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Về ÔMƠ</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+            <li><a href="cua-hang.html">Cửa hàng</a></li>
+            <li><a href="tin-tuc.html">Tin tức</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Chính Sách & Hỗ Trợ</h4>
+          <ul class="footer-links">
+            <li><a href="chinh-sach.html">Chính sách mua hàng</a></li>
+            <li><a href="chinh-sach.html#doi-tra">Chính sách đổi trả</a></li>
+            <li><a href="gio-hang.html">Giỏ hàng</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Thông Tin Liên Hệ</h4>
+          <ul class="footer-contact-list">
+            <li><span>📍 255 Hà Huy Tập, Q. Thanh Khê, TP. Đà Nẵng</span></li>
+            <li><span>📞 Hotline: <strong>022456789</strong> (222-456-789)</span></li>
+            <li><span>✉️ Email: omoshop@gmail.com</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 ÔMƠ Shop – Ôm trọn vỗ về, giữ trọn giấc mơ. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script>
+    let orderCode = 'OMO-' + Math.floor(1000 + Math.random() * 9000);
+
+    function selectPaymentMethod(type) {
+      document.querySelectorAll('.payment-method-option').forEach(el => el.classList.remove('selected'));
+      const qrBox = document.getElementById('qrDisplayBox');
+
+      if (type === 'bank') {
+        document.getElementById('payMethodBank').classList.add('selected');
+        document.getElementById('radioBank').checked = true;
+        qrBox.style.display = 'block';
+      } else if (type === 'momo') {
+        document.getElementById('payMethodMoMo').classList.add('selected');
+        document.getElementById('radioMoMo').checked = true;
+        qrBox.style.display = 'block';
+      } else if (type === 'cod') {
+        document.getElementById('payMethodCOD').classList.add('selected');
+        document.getElementById('radioCOD').checked = true;
+        qrBox.style.display = 'none';
+      }
+    }
+
+    function renderCheckoutPage() {
+      const cart = getCart();
+      const listEl = document.getElementById('checkoutItemsList');
+      if (!listEl) return;
+
+      if (cart.length === 0) {
+        listEl.innerHTML = '<p style="color: var(--text-muted); text-align: center; padding: 20px;">Giỏ hàng của bạn đang trống.</p>';
+        return;
+      }
+
+      let subtotal = 0;
+      listEl.innerHTML = cart.map(item => {
+        const itemTotal = item.price * item.quantity;
+        subtotal += itemTotal;
+        return `
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; font-size: 0.9rem;">
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <img src="${item.image}" alt="${item.name}" style="width: 44px; height: 44px; object-fit: contain; background: #FFF8F8; border-radius: 6px; padding: 4px; border: 1px solid var(--border-color);">
+              <div>
+                <strong style="display: block;">${item.name}</strong>
+                <span style="color: var(--text-light); font-size: 0.8rem;">SL: ${item.quantity} × ${formatVND(item.price)}</span>
+              </div>
+            </div>
+            <strong>${formatVND(itemTotal)}</strong>
+          </div>
+        `;
+      }).join('');
+
+      const FREE_SHIP_THRESHOLD = 300000;
+      const shippingFee = subtotal >= FREE_SHIP_THRESHOLD ? 0 : 30000;
+      const grandTotal = subtotal + shippingFee;
+
+      document.getElementById('orderCodeDisplay').textContent = '#' + orderCode;
+      document.getElementById('checkoutSubtotal').textContent = formatVND(subtotal);
+      document.getElementById('checkoutShipping').textContent = shippingFee === 0 ? 'Miễn phí' : formatVND(shippingFee);
+      document.getElementById('checkoutGrandTotal').textContent = formatVND(grandTotal);
+
+      document.getElementById('qrAmountDisplay').textContent = formatVND(grandTotal);
+      document.getElementById('qrTransferNote').textContent = 'OMOSHOP ' + orderCode;
+    }
+
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        showToast(`Đã sao chép: ${text} ✨`);
+      });
+    }
+
+    function submitOrder() {
+      const name = document.getElementById('custName').value.trim();
+      const phone = document.getElementById('custPhone').value.trim();
+      const address = document.getElementById('custAddress').value.trim();
+
+      if (!name || !phone || !address) {
+        showToast('Vui lòng điền đầy đủ Họ tên, Số điện thoại và Địa chỉ!', '⚠️');
+        return;
+      }
+
+      const cart = getCart();
+      if (cart.length === 0) {
+        showToast('Giỏ hàng của bạn đang trống!', '⚠️');
+        return;
+      }
+
+      const grandTotal = document.getElementById('checkoutGrandTotal').textContent;
+
+      document.getElementById('modalSuccessOrderCode').textContent = '#' + orderCode;
+      document.getElementById('modalSuccessName').textContent = name;
+      document.getElementById('modalSuccessPhone').textContent = phone;
+      document.getElementById('modalSuccessAddress').textContent = address;
+      document.getElementById('modalSuccessTotal').textContent = grandTotal;
+
+      document.getElementById('orderSuccessModal').classList.add('show');
+    }
+
+    function handleFinishOrder() {
+      clearCart();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      renderCheckoutPage();
+    });
+  </script>
+</body>
+</html>
