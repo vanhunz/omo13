@@ -221,8 +221,24 @@ document.addEventListener('DOMContentLoaded', () => {
   const toggleBtn = document.querySelector('.mobile-menu-toggle');
   const navMenu = document.querySelector('.nav-menu');
   if (toggleBtn && navMenu) {
+    toggleBtn.setAttribute('aria-expanded', 'false');
     toggleBtn.addEventListener('click', () => {
-      navMenu.classList.toggle('active');
+      const isOpen = navMenu.classList.toggle('active');
+      toggleBtn.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    navMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        toggleBtn.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    document.addEventListener('click', event => {
+      if (!navMenu.contains(event.target) && !toggleBtn.contains(event.target)) {
+        navMenu.classList.remove('active');
+        toggleBtn.setAttribute('aria-expanded', 'false');
+      }
     });
   }
 
