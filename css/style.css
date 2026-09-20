@@ -2014,6 +2014,109 @@ body::after { content: '✿'; right: 3%; bottom: 24%; color: var(--sage); animat
 
 @media (max-height: 500px) { .omo-chat { display: none; } }
 
+/* ========================================================================== 
+   PINK ONLY PALETTE
+   ========================================================================== */
+:root {
+  --primary-pink: #f58eae;
+  --primary-dark-pink: #e96f98;
+  --primary-deep: #c94b78;
+  --soft-pink-bg: #ffe8f0;
+  --soft-pink-light: #fff5f8;
+  --warm-cream: #fffafb;
+  --bg-creamy: #fff0f5;
+  --text-main: #3c2932;
+  --text-muted: #80626f;
+  --text-light: #b797a5;
+  --ink: #3c2932;
+  --sage: #f4a6bd;
+  --mint: #ffe1ec;
+  --sun: #ffc4d8;
+  --sky: #f8c4d6;
+  --border-color: rgba(201, 75, 120, 0.18);
+  --border-light: rgba(201, 75, 120, 0.1);
+  --shadow-sm: 0 8px 20px rgba(201, 75, 120, 0.09);
+  --shadow-md: 0 18px 40px rgba(201, 75, 120, 0.14);
+  --shadow-lg: 0 28px 70px rgba(201, 75, 120, 0.2);
+  --shadow-card: 0 14px 34px rgba(201, 75, 120, 0.09);
+}
+
+body {
+  background-color: var(--warm-cream);
+  background-image: radial-gradient(circle at 5% 8%, rgba(245,142,174,.18), transparent 18rem), radial-gradient(circle at 96% 27%, rgba(244,166,189,.16), transparent 20rem), radial-gradient(circle at 60% 95%, rgba(255,196,216,.18), transparent 22rem);
+}
+
+body::before { color: #f58eae; }
+body::after { color: #e96f98; }
+::selection { background: var(--primary-deep); color: #fff; }
+.top-bar { background: linear-gradient(90deg, #c94b78, #f58eae 52%, #e96f98); }
+.main-header, .main-header.is-scrolled { background: rgba(255,250,251,.94); border-color: rgba(201,75,120,.12); }
+.logo-icon { background: linear-gradient(145deg, #f58eae, #c94b78); box-shadow: 5px 5px 0 #f8c4d6, 0 9px 20px rgba(201,75,120,.25); }
+.logo-text-wrap h1 { color: var(--primary-deep); }
+.nav-link:hover, .nav-link.active { color: var(--primary-deep); background: var(--soft-pink-bg); }
+.nav-link.active::after { background: var(--primary-pink); }
+.action-btn:hover { color: var(--primary-deep); border-color: var(--primary-pink); background: #fff0f5; }
+.cart-badge { background: var(--primary-deep); }
+
+.hero-section { background: linear-gradient(125deg, #ffe0eb 0%, #fff7f9 48%, #ffdce9 100%); }
+.hero-section::after { color: var(--primary-deep); }
+.hero-title span { color: var(--primary-deep); }
+.hero-title span::after { background: rgba(245,142,174,.5); }
+.btn-primary { background: linear-gradient(135deg, #f58eae, #c94b78); box-shadow: 0 12px 25px rgba(201,75,120,.3); }
+.btn-primary:hover { background: linear-gradient(135deg, #e96f98, #a93662); }
+.btn-outline:hover { color: var(--primary-deep); border-color: var(--primary-pink); background: #ffe8f0; }
+.hero-image-wrap::before { background: rgba(255,255,255,.76); box-shadow: 0 0 0 18px rgba(245,142,174,.13); }
+.hero-main-img { box-shadow: 18px 22px 0 rgba(245,142,174,.25), var(--shadow-lg); }
+.floating-pill { border-color: rgba(201,75,120,.22); }
+.floating-pill:nth-child(odd), .floating-pill:nth-child(even) { border-left-color: var(--primary-pink); }
+
+.hero-tag, .section-badge { color: var(--primary-deep); background: rgba(255,240,246,.9); border-color: rgba(201,75,120,.2); }
+.story-summary-box { background: linear-gradient(135deg, rgba(255,255,255,.94), #fff0f5); }
+.story-feat-icon { background: linear-gradient(145deg, #f58eae, #c94b78); }
+.product-card:hover { border-color: rgba(201,75,120,.35); box-shadow: 0 20px 42px rgba(201,75,120,.16); }
+.product-thumb-wrap { background: linear-gradient(145deg, #fff0f6, #ffe4ee); }
+.product-badge { background: linear-gradient(90deg, #c94b78, #f58eae); }
+.wishlist-btn:hover, .wishlist-btn.is-loved { color: var(--primary-deep); background: #ffe3ee; border-color: rgba(201,75,120,.28); }
+.current-price { color: var(--primary-deep); }
+.why-section { background: linear-gradient(135deg, #ffe5ef, #fff1f6 62%, #ffdce9); }
+.why-icon { background: linear-gradient(145deg, #f58eae, #c94b78); box-shadow: 6px 6px 0 rgba(245,142,174,.35); }
+.hotline-banner { background: linear-gradient(110deg, #c94b78, #f58eae 52%, #e96f98); }
+.page-hero { background: linear-gradient(110deg, #ffe0eb, #fff0f5 48%, #ffdce9); }
+.cat-tab-btn:hover, .cat-tab-btn.active { background: linear-gradient(90deg, #c94b78, #f58eae); }
+.search-input:focus, .sort-select:focus, .form-control:focus { border-color: var(--primary-pink); box-shadow: 0 0 0 4px rgba(245,142,174,.14); }
+.site-footer { background: linear-gradient(145deg, #3c2932, #5c3145); }
+.footer-brand h2 { color: #ffb8d0; }
+.social-icon-btn:hover { background: var(--primary-pink); color: #fff; }
+.scroll-progress { background: linear-gradient(90deg, #c94b78, #f58eae, #ffc4d8, #e96f98); }
+.wishlist-count { background: var(--primary-deep); }
+
+.omo-chat-launcher { background: linear-gradient(135deg, #c94b78, #f58eae); box-shadow: 0 12px 28px rgba(201,75,120,.32); }
+.omo-chat-head { background: linear-gradient(120deg, #c94b78, #f58eae, #e96f98); }
+.omo-chat-messages { background: linear-gradient(145deg, #fffafb, #fff0f5); }
+.omo-chat-message.user { background: var(--primary-pink); }
+.omo-chat-quick-replies button { color: var(--primary-deep); border-color: rgba(201,75,120,.22); }
+.omo-chat-quick-replies button:hover { background: var(--primary-pink); }
+.omo-chat-form input { border-color: rgba(201,75,120,.22); }
+.omo-chat-form input:focus { border-color: var(--primary-pink); box-shadow: 0 0 0 3px rgba(245,142,174,.14); }
+.omo-chat-form button { background: var(--primary-deep); }
+
+/* Final pink authority layer */
+.btn-primary,
+.product-card-btn { background: linear-gradient(135deg, #f58eae, #c94b78); color: #fff; }
+.btn-primary:hover,
+.product-card-btn:hover { background: linear-gradient(135deg, #e96f98, #a93662); color: #fff; }
+.why-section { background: linear-gradient(135deg, #ffe5ef, #fff1f6 62%, #ffdce9); }
+.hotline-banner { background: linear-gradient(110deg, #c94b78, #f58eae 52%, #e96f98); }
+.page-hero { background: linear-gradient(110deg, #ffe0eb, #fff0f5 48%, #ffdce9); }
+.site-footer { background: linear-gradient(145deg, #3c2932, #5c3145); }
+.floating-btn.zalo { background: linear-gradient(135deg, #f58eae, #c94b78); }
+.floating-btn.back-top { background: var(--primary-deep); }
+.omo-chat-launcher, .omo-chat-head { background: linear-gradient(120deg, #c94b78, #f58eae, #e96f98); }
+
+@media (max-width: 768px) {
+  .nav-menu { background: rgba(255,250,251,.98); }
+}
+
 @keyframes pulseButton {
   0% { box-shadow: 0 0 0 0 rgba(230, 57, 70, 0.7); }
   70% { box-shadow: 0 0 0 15px rgba(230, 57, 70, 0); }
@@ -2399,3 +2502,17 @@ body {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
 }
+
+/* Final pink authority layer */
+.btn-primary,
+.product-card-btn { background: linear-gradient(135deg, #f58eae, #c94b78) !important; color: #fff !important; }
+.btn-primary:hover,
+.product-card-btn:hover { background: linear-gradient(135deg, #e96f98, #a93662) !important; color: #fff !important; }
+.why-section { background: linear-gradient(135deg, #ffe5ef, #fff1f6 62%, #ffdce9) !important; }
+.hotline-banner { background: linear-gradient(110deg, #c94b78, #f58eae 52%, #e96f98) !important; }
+.page-hero { background: linear-gradient(110deg, #ffe0eb, #fff0f5 48%, #ffdce9) !important; }
+.site-footer { background: linear-gradient(145deg, #3c2932, #5c3145) !important; }
+.floating-btn.zalo { background: linear-gradient(135deg, #f58eae, #c94b78) !important; }
+.floating-btn.back-top { background: #c94b78 !important; }
+.omo-chat-launcher,
+.omo-chat-head { background: linear-gradient(120deg, #c94b78, #f58eae, #e96f98) !important; }
