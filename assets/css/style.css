@@ -2526,3 +2526,15 @@ body {
 .floating-btn.back-top { background: #c94b78 !important; }
 .omo-chat-launcher,
 .omo-chat-head { background: linear-gradient(120deg, #c94b78, #f58eae, #e96f98) !important; }
+
+.facebook-action {
+  color: #fff !important;
+  background: linear-gradient(135deg, #f58eae, #c94b78) !important;
+  border-color: transparent !important;
+  box-shadow: 0 6px 14px rgba(201, 75, 120, 0.2);
+}
+.facebook-action:hover {
+  color: #fff !important;
+  background: linear-gradient(135deg, #c94b78, #a93662) !important;
+  transform: translateY(-2px) scale(1.04);
+}
