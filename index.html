@@ -380,6 +380,7 @@
           <div class="product-card">
             <div class="product-thumb-wrap">
               <span class="product-badge">${p.badge}</span>
+              <button class="wishlist-btn" data-product-id="${p.id}" onclick="toggleWishlist('${p.id}')" aria-label="Thêm vào yêu thích" aria-pressed="false">♡</button>
               <img src="${p.image}" alt="${p.name}" class="product-img">
               <button class="product-quick-btn" onclick="openQuickView('${p.id}')">Xem Nhanh 👁️</button>
             </div>
