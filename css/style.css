@@ -2100,6 +2100,16 @@ body::after { color: #e96f98; }
 .omo-chat-form input:focus { border-color: var(--primary-pink); box-shadow: 0 0 0 3px rgba(245,142,174,.14); }
 .omo-chat-form button { background: var(--primary-deep); }
 
+.top-bar {
+  background: linear-gradient(90deg, #c94b78 0%, #e96f98 48%, #f58eae 100%) !important;
+  color: #fff !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow: 0 4px 14px rgba(201, 75, 120, 0.18);
+}
+.top-bar a,
+.top-bar span { color: #fff !important; }
+.top-bar a:hover { color: #fff5f8 !important; }
+
 /* Final pink authority layer */
 .btn-primary,
 .product-card-btn { background: linear-gradient(135deg, #f58eae, #c94b78); color: #fff; }
