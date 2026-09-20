@@ -2553,3 +2553,10 @@ body {
   object-fit: cover;
   border-radius: 50%;
 }
+.social-inline-link {
+  color: var(--primary-deep);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.social-inline-link:hover { color: var(--primary-dark-pink); }
