@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khung Bố Cục 2 Cột</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+    .layout-2col {
+      max-width: 960px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 20px;
+    }
+    .col-left {
+      background: #fff;
+      padding: 20px;
+      border-radius: 6px;
+      border: 1px dashed #bbb;
+      min-height: 300px;
+    }
+    .col-right {
+      background: #fff;
+      padding: 20px;
+      border-radius: 6px;
+      border: 1px dashed #bbb;
+      min-height: 300px;
+    }
+    @media (max-width: 700px) {
+      .layout-2col { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align: center; margin-bottom: 20px; color: #333;">KHUNG BỐ CỤC 2 CỘT (SIDEBAR + NỘI DUNG)</h2>
+
+  <div class="layout-2col">
+    <!-- Cột trái (Sidebar / Menu / Form nhỏ) -->
+    <aside class="col-left">
+      <h3>[ CỘT TRÁI ]</h3>
+      <p style="margin-top: 10px; color: #666; font-size: 14px;">
+        (Đặt danh mục, bộ lọc tìm kiếm, hoặc thông tin tóm tắt)
+      </p>
+    </aside>
+
+    <!-- Cột phải (Nội dung chính / Danh sách / Bảng) -->
+    <main class="col-right">
+      <h3>[ CỘT PHẢI - NỘI DUNG CHÍNH ]</h3>
+      <p style="margin-top: 10px; color: #666; font-size: 14px;">
+        (Đặt nội dung chi tiết, danh sách sản phẩm, hoặc form nhập chính)
+      </p>
+    </main>
+  </div>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <a href="index.html" style="color: #666; font-size: 14px; text-decoration: none;">← Quay lại danh mục khung mẫu</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,388 @@
+
+==================== TABLE 0 (Rows: 7, Cols: 2) ====================
+Row 0: ['Họ và Tên Thành Viên Sáng Lập', 'Vai Trò & Chuyên Môn Phụ Trách']
+Row 1: ['Phạm Thị Hồng Hạnh (Trưởng nhóm)', 'Founder & Project Manager: Điều phối tiến độ tổng thể, hoạch định chiến lược kinh doanh, kiến trúc hệ thống E-commerce, tối ưu SEO Onpage toàn diện.']
+Row 2: ['Đồng Đào Mai Linh', 'Co-Founder & Creative Lead: Thiết kế bộ nhận diện thương hiệu Brand Guidelines, Wireframe & UI/UX Figma, xây dựng chiến lược nội dung Plan Content và sáng tạo hình ảnh banner.']
+Row 3: ['Phạm Tú Trinh', 'Co-Founder & SEO Specialist: Nghiên cứu từ khóa chuyên sâu bằng mô hình KGR, xây dựng thực thể thương hiệu SEO Entity 60 profiles, tối ưu hóa Google Business Profile.']
+Row 4: ['Nguyễn Thị Như Quỳnh', 'Co-Founder & Market Analyst: Khảo sát thị trường và nghiên cứu đối thủ cạnh tranh bằng Semrush/Ahrefs, xây dựng mô hình liên kết Star Link Model và hệ thống 60 Backlinks.']
+Row 5: ['Phạm Thị Băng Tâm', 'Co-Founder & Lead Developer: Lập trình phát triển Frontend & Backend (HTML5/CSS3/Vanilla JS/Node.js), xây dựng giỏ hàng thời gian thực, tích hợp API thanh toán VietQR/MoMo.']
+Row 6: ['Trần Thị Thanh Thuỳ', 'Co-Founder & QA/Data Analyst: Kiểm thử và Audit kỹ thuật website bằng Screaming Frog & SEOquake, cấu hình đo lường Google Analytics 4 & Search Console, theo dõi và báo cáo KPIs.']
+
+==================== TABLE 1 (Rows: 5, Cols: 3) ====================
+Row 0: ['Phân Nhóm Kích Thước', 'Khoảng Giá Niêm Yết & Sản Phẩm Tiêu Biểu Trong Source Code', 'Hình Ảnh Demo & Đặc Tính Chất Liệu']
+Row 1: ['1. Phân nhóm Móc Khóa (Keychain 5cm - 15cm)', 'Khoảng giá: 45.000đ - 95.000đ | • Móc Khóa Gấu Bông Keychain Xinh (sp-01): 45.000đ (Hot Trend) | • Hội Bạn Thân Opanchu Usagi (sp-02): 85.000đ (Bán Chạy) | • Bộ Ba Gấu We Bare Bears Nhỏ (sp-03): 95.000đ (Mới Về) | • Móc Khóa Sumikko Gurashi (sp-04): 55.000đ (Yêu Thích) | Đặc điểm: Vải nhung tuyết co giãn, móc kim loại chống gỉ, thích hợp treo balo, túi xách.', '']
+Row 2: ['2. Phân nhóm Gấu Nhỏ (Small Size 15cm - 25cm)', 'Khoảng giá: 175.000đ - 195.000đ | • Minions - Chú Bé Bob Đáng Yêu (sp-06): 185.000đ (Nổi Bật) | • Winnie the Pooh Áo Đỏ Ôm Mật (sp-08): 195.000đ (Disney Classic) | • Gudetama - Trứng Lười Dễ Thương (sp-09): 175.000đ (Hài Hước) | Đặc điểm: Nhồi bông PP 3D tinh khiết, êm ái, để bàn học hay góc làm việc rất chill.', '']
+Row 3: ['3. Phân nhóm Gấu Vừa (Medium Size 25cm - 40cm)', 'Khoảng giá: 190.000đ - 210.000đ | • Gấu Bông Kirby Tròn Ủm Hồng (sp-05): 200.000đ (Best Seller) | • Cún Tai Dài Cinnamoroll Trắng Muốt (sp-07): 210.000đ (Sanrio Hot) | • Cá Ngố Hangyodon Độc Lạ (sp-10): 190.000đ (Độc Lạ) | • Chuột Mickey Mouse Cổ Điển (sp-12): 280.000đ (Disney Classic) | Đặc điểm: Kích thước 28-30cm ôm trọn vào lòng khi ngủ hoặc tựa lưng khi học tập.', '']
+Row 4: ['4. Phân nhóm Gấu To (Large Size 40cm - 100cm+)', 'Khoảng giá: 290.000đ - 490.000đ | • My Melody Nơ Hồng Xinh Xắn (sp-11): 290.000đ (45cm - Siêu Hot) | • Cáo Tuyết Kitsune Nhật Bản (sp-13): 320.000đ (50cm - Độc Quyền) | • Cún Shiba Inu Béo Tròn (sp-14): 310.000đ (50cm - Yêu Thích) | • Gấu Bông Khổng Lồ Teddy ÔMƠ Vỗ Về (sp-15): 490.000đ (80-100cm - Khổng Lồ Signature) | Đặc điểm: Vải lông thỏ mềm mượt, áo len dệt thủ công có thể tháo giặt, quà tặng ấn tượng.', '']
+
+==================== TABLE 2 (Rows: 2, Cols: 5) ====================
+Row 0: ['Đối tác chính', 'Hoạt động chính', 'Giải pháp giá trị', 'Quan hệ khách hàng', 'Phân khúc khách hàng']
+Row 1: ['Đầu vào: nhà cung cấp gấu bông, phụ kiện/móc khóa, túi giấy/hộp/vật liệu gói quà; đơn vị vận chuyển. Đầu ra: cửa hàng trực tiếp, sàn TMĐT. Đối tác quảng cáo: Facebook, TikTok, Instagram, KOL/KOC và các trang review.', 'Nghiên cứu thị trường, xu hướng gấu bông chữa lành (healing toys) và đối thủ cạnh tranh; xây dựng/tối ưu website chuẩn SEO; sáng tạo nội dung, chụp ảnh/quay video phong cách Vintage Pastel; thiết kế và đóng gói quà tặng cá nhân hóa; triển khai SEO, Ads và khuyến mãi.', 'Gấu bông cao cấp, bông gòn tinh khiết 100% an toàn, mẫu mã đa dạng kết hợp yếu tố chữa lành cảm xúc; hộp quà trọn gói, thiệp thông điệp tay cá nhân hóa; mua hàng online dễ dàng, phí ship hợp lý, giao nhanh; đảm bảo chất lượng, hỗ trợ đổi trả rõ ràng.', 'Đội ngũ CSKH chuyên nghiệp qua Messenger, Zalo, Chatbot Website; ưu đãi đơn hàng đầu, tặng kèm phụ kiện mini; tích điểm thành viên, mã giảm giá sinh nhật, minigame trên mạng xã hội.', 'Độ tuổi 16-28; mọi giới tính (chủ yếu Nữ và Nam có nhu cầu tặng quà); học sinh, sinh viên, nhân viên văn phòng; thu nhập 3-10 triệu đồng/tháng; toàn quốc. Sở thích: đồ dùng dễ thương, sưu tầm gấu bông, trang trí phòng/góc làm việc, mua sắm online. Hành vi: tìm kiếm qua Google, xem review TikTok/Instagram; mua vào sinh nhật, lễ kỷ niệm, Valentine, Tết hoặc để giải tỏa áp lực.']
+
+==================== TABLE 3 (Rows: 2, Cols: 4) ====================
+Row 0: ['Nguồn lực chính', 'Kênh phân phối', 'Cơ cấu chi phí', 'Dòng doanh thu']
+Row 1: ['Sản phẩm gấu bông và phụ kiện quà tặng chất lượng cao; website chuẩn SEO và tài khoản mạng xã hội; nhân sự nhóm (SEO, Content, Thiết kế, CSKH & Đóng gói); bộ nhận diện thương hiệu độc quyền.', 'Website chuẩn SEO; Facebook, TikTok, Instagram; Shopee, TikTok Shop; công cụ tìm kiếm tự nhiên (Google Search).', 'Cố định: duy trì Website (Domain, Hosting, SSL), phần mềm quản lý bán hàng. Biến đổi: nhập hàng, bao bì đóng gói; chạy Ads (Google, Meta, TikTok) và booking KOLs; vận chuyển, đóng gói, CSKH.', 'Bán lẻ gấu bông, thú nhồi bông cao cấp; gói dịch vụ quà tặng (hộp quà, thiệp, túi đựng); phụ kiện đi kèm (áo gấu, móc khóa, nơ trang trí).']
+
+==================== TABLE 4 (Rows: 9, Cols: 4) ====================
+Row 0: ['Tiêu chí', 'MINISO Việt Nam', "Ngố's House", 'Ômơ']
+Row 1: ['Ngành hàng', 'Hàng tiêu dùng, quà tặng, phong cách sống', 'Gấu bông, thú nhồi bông, quà tặng', 'Gấu bông, thú nhồi bông, quà tặng']
+Row 2: ['Mức độ cạnh tranh', 'Đối thủ gián tiếp', 'Đối thủ trực tiếp', 'Doanh nghiệp của nhóm']
+Row 3: ['Danh mục sản phẩm', 'Đa dạng: đồ gia dụng, quà lưu niệm, phụ kiện, đồ theo mùa, nhân vật...', 'Gấu bông, thỏ, vịt, động vật bông theo xu hướng', 'Gấu bông và quà tặng theo định hướng riêng']
+Row 4: ['Phân khúc giá', 'Phổ thông đến trung/cao tùy sản phẩm', '50.000 – trên 1.000.000 VNĐ tùy mẫu', 'Phổ thông – trung bình']
+Row 5: ['Khách hàng mục tiêu', 'Người trẻ, gia đình', 'Học sinh, sinh viên, người trẻ', 'Người trẻ, học sinh, sinh viên']
+Row 6: ['Khu vực hoạt động', 'Toàn quốc', 'Tập trung Đà Nẵng, có giao hàng', 'Tập trung thị trường Đà Nẵng']
+Row 7: ['Kênh bán hàng', 'Website, cửa hàng, mạng xã hội', 'Cửa hàng, Facebook', 'Website, Facebook, TikTok']
+Row 8: ['Quy mô', 'Lớn, hệ thống cửa hàng nhiều tỉnh thành', 'Nhỏ hơn, tập trung Đà Nẵng', 'Đang xây dựng']
+
+==================== TABLE 5 (Rows: 8, Cols: 3) ====================
+Row 0: ['Tiêu chí', 'MINISO Việt Nam', "Gấu Bông Đà Nẵng – Ngố's House"]
+Row 1: ['Logo', '', '']
+Row 2: ['Năm thành lập', '2012', '2016']
+Row 3: ['Sản phẩm kinh doanh', 'Gấu Teddy, gấu hoạt hình, thú bông, sản phẩm theo nhân vật', 'Các mẫu gấu bông theo trend, thỏ bông, vịt, các loại động vật bông đáng yêu']
+Row 4: ['Khoảng giá', 'Phổ thông đến trung bình cao tùy sản phẩm/kích thước', 'Khoảng 50.000 – trên 1.000.000 VNĐ tùy mẫu mã/kích thước']
+Row 5: ['Website', 'MINISO VIETNAM – chuỗi cửa hàng tiêu dùng phong cách thời trang, ~10.000 sản phẩm, giá từ 43.000 VNĐ | https://minisovietnam.com.vn/  | ', 'Chưa có Website độc lập (Kinh doanh qua Fanpage Facebook)']
+Row 6: ['Fanpage', 'https://www.facebook.com/minisovietnam.vn | ', 'https://www.facebook.com/ngohousedn | ']
+Row 7: ['Địa chỉ offline', 'Miniso 01 Nguyễn Văn Linh, Hải Châu, Đà Nẵng; Miniso Lotte Mart Đà Nẵng, 06 Nại Nam, Hải Châu', '154/3 Lý Tự Trọng, Hải Châu, Đà Nẵng']
+
+==================== TABLE 6 (Rows: 3, Cols: 3) ====================
+Row 0: ['Tiêu chí đánh giá UI', 'MINISO Việt Nam', "Gấu bông Đà Nẵng – Ngố's House"]
+Row 1: ['Điểm mạnh', '- Font chữ, cỡ chữ, màu sắc, hình ảnh: Website sử dụng cách trình bày khá rõ ràng, các danh mục và nội dung được phân chia tương đối dễ nhận biết. |  | - Hình ảnh sản phẩm sắc nét: Hình ảnh sản phẩm được hiển thị trực quan, giúp khách hàng dễ quan sát sản phẩm trước khi lựa chọn. |  | - Danh mục sản phẩm: Website phân chia nhiều danh mục như đồ gia dụng, mỹ phẩm, đồ tiện ích cá nhân, văn phòng phẩm/quà lưu niệm, phụ kiện kỹ thuật số, trang sức, đồ theo mùa và túi xách. |  | - Thông tin sản phẩm: Website có khu vực sản phẩm riêng và hệ thống điều hướng gồm Trang chủ, Giới thiệu, Sản phẩm, Hệ thống cửa hàng, Tin tức và Liên hệ. |  | - Hệ thống cửa hàng: Có trang riêng để giới thiệu hệ thống cửa hàng, giúp khách hàng tìm kiếm địa điểm mua hàng trực tiếp. ', "- Hình ảnh sản phẩm: Ngố's House tập trung vào hình ảnh gấu bông và quà tặng với phong cách dễ thương, phù hợp với nhóm khách hàng trẻ. Các nguồn giới thiệu shop cũng cho thấy sản phẩm có nhiều kích thước như 30cm, 45cm, 60cm và 80cm. |  | - Phong cách hình ảnh: Hình ảnh và sản phẩm mang tính trẻ trung, dễ thương, phù hợp với nhu cầu mua gấu bông để làm quà tặng hoặc trang trí. |  | - Tính địa phương: Ngố's House tập trung vào thị trường Đà Nẵng, giúp thương hiệu dễ tiếp cận nhóm khách hàng đang tìm kiếm shop gấu bông tại địa phương. |  | - Kênh Facebook: Fanpage là kênh trực tuyến chính được các nguồn công khai nhắc đến của Ngố's House, phù hợp để đăng hình ảnh sản phẩm và tương tác trực tiếp với khách hàng.\xa0 | "]
+Row 2: ['Điểm yếu', '- Danh mục khá rộng: MINISO kinh doanh nhiều nhóm sản phẩm khác nhau nên website không tập trung riêng vào gấu bông hoặc quà tặng. Điều này khiến trải nghiệm của khách hàng đang có nhu cầu tìm riêng sản phẩm gấu bông có thể chưa chuyên biệt. |  | - Mức độ tập trung vào sản phẩm gấu bông chưa cao: Gấu bông chỉ là một phần trong hệ thống sản phẩm phong phú của thương hiệu. |  | - Nhiều thông tin và danh mục: Với số lượng nhóm sản phẩm lớn, người dùng có thể phải thực hiện nhiều bước hơn để tìm đúng sản phẩm mình cần.', "- Chưa có website bán hàng riêng được xác minh: Các nguồn công khai hiện chủ yếu dẫn đến Fanpage Facebook của Ngố's House thay vì một website thương mại điện tử riêng. |  | - Khả năng SEO website hạn chế: Việc chưa có website riêng khiến shop khó xây dựng hệ thống từ khóa, trang sản phẩm, bài viết blog và cấu trúc liên kết nội bộ như một website bán hàng chuyên nghiệp. |  | - Phụ thuộc vào mạng xã hội: Khách hàng chủ yếu phải tiếp cận thông tin sản phẩm thông qua Facebook và các kênh trực tuyến khác, vì vậy khả năng tìm kiếm tự nhiên trên Google có thể hạn chế hơn so với doanh nghiệp có website riêng. |  | - Khả năng phân loại sản phẩm: Nếu sản phẩm được đăng chủ yếu trên mạng xã hội, việc tìm lại một mẫu gấu cụ thể có thể khó hơn so với website có danh mục và bộ lọc sản phẩm."]
+
+==================== TABLE 7 (Rows: 8, Cols: 3) ====================
+Row 0: ['Tiêu chí', 'MINISO Việt Nam (Fanpage)', "Gấu bông Đà Nẵng - Ngố's House (Fanpage)"]
+Row 1: ['Tốc độ phản hồi & tương thích di động', '- Giao diện chuẩn hóa theo ứng dụng Facebook Mobile. |  | - Tốc độ phản hồi tin nhắn tự động tức thì; thời gian phản hồi tin nhắn thực tế của nhân viên tư vấn nhanh (thường dưới 15 phút).', '- Giao diện chuẩn hóa theo ứng dụng Facebook Mobile. |  | - Tốc độ phản hồi tin nhắn phụ thuộc vào hệ thống Chatbot phân luồng; thời gian trả lời tin nhắn từ tư vấn viên thường có độ trễ hơn trong giờ cao điểm.']
+Row 2: ['Thanh tìm kiếm & định vị sản phẩm', '- Tìm kiếm bài viết/sản phẩm trực tiếp trên ô tìm kiếm của Fanpage. |  | - Đặt tên album ảnh theo từng bộ sưu tập/dòng sản phẩm giúp khách hàng dễ tra cứu thủ công.', '- Tích hợp ô tìm kiếm bài viết trên trang. |  | - Sử dụng thẻ hashtag (#) đồng bộ theo chiến dịch và dòng sản phẩm giúp việc truy xuất thông tin nhanh chóng.']
+Row 3: ['Nút Call To Action (CTA)\xa0', '- Nút CTA chính trên đầu trang cài đặt ưu tiên: "Gửi tin nhắn" hoặc "Gọi ngay". |  | - Chèn đường dẫn nhắn tin (m.me/...) ở cuối mỗi bài đăng bán hàng để kích thích người mua thao tác ngay.', '- Nút CTA chính trên trang thiết lập linh hoạt giữa "Gửi tin nhắn" và "Mua ngay" (dẫn liên kết về Website/Shopee/TikTok Shop).\xa0 | ']
+Row 4: ['Giỏ hàng & thanh toán', '- Chưa hỗ trợ giỏ hàng tự động trên Facebook; việc lên đơn hoàn toàn thủ công qua đoạn chat (Inbox). |  | - Phương thức thanh toán: Chuyển khoản ngân hàng (QR Code) và Trả tiền khi nhận hàng (COD).', '- Tích hợp tab "Cửa hàng" (Facebook Shop) trên Fanpage hoặc dẫn link giỏ hàng sàn TMĐT. |  | - Hỗ trợ đa dạng thanh toán qua các cổng tích hợp của gian hàng liên kết (Thẻ, Ví điện tử, COD).']
+Row 5: ['Đánh giá & chia sẻ', '- Tận dụng tính năng Đánh giá/Lượt đề xuất (Reviews) trên Fanpage. |  | - Tỷ lệ tương tác (Comment/Share) mang tính cá nhân hóa cao; khách hàng thường để lại phản hồi thực tế kèm hình ảnh dưới bài viết.', '- Mở/Đóng tính năng Đánh giá tùy theo giai đoạn vận hành Fanpage. |  | - Lượng tương tác, bình luận và lượt chia sẻ (Share) lớn nhờ các bài đăng truyền thông thương hiệu và chiến dịch khuyến mãi lớn.']
+Row 6: ['Xem nhanh & sản phẩm yêu thích', '- Khách hàng "xem nhanh" bằng cách lướt Album ảnh hoặc Reels. |  | - Chưa có tính năng lưu danh sách yêu thích riêng; người dùng tự lưu bài viết (Save Post) hoặc chụp màn hình gửi vào Inbox.', '- Khách hàng xem nhanh thông tin sản phẩm qua tính năng Facebook Shop hoặc hình ảnh thiết kế hoặc các Album. |  | - Tính năng lưu sản phẩm yêu thích phụ thuộc vào nút "Lưu" của Facebook hoặc giỏ hàng sàn TMĐT liên kết.']
+Row 7: ['Thông tin giới thiệu & Liên hệ (Tương đương Footer)', '- Phần Giới thiệu (About) hiển thị đầy đủ: Số điện thoại hotline, địa chỉ cửa hàng/kho, khung giờ hoạt động và quy trình đặt hàng. |  | - Mật độ thông tin ngắn gọn, dễ theo dõi trên màn hình điện thoại.', '- Phần Giới thiệu cập nhật đầy đủ: Thông tin doanh nghiệp, hotline CSKH, địa chỉ các chi nhánh hệ thống và liên kết dẫn về Website/Shopee chính thức. |  | - Mức độ xác thực cao với Dấu tích xanh (Verified Badge) chính chủ của Facebook. | ']
+
+==================== TABLE 8 (Rows: 5, Cols: 3) ====================
+Row 0: ['Tiêu chí', 'MINISO (chuỗi toàn cầu)', "Ngố's House (local)"]
+Row 1: ['Lượng truy cập', '- Lượng truy cập hàng tháng đạt quy mô lớn, ổn định nhờ độ nhận diện thương hiệu cao trên toàn quốc. |  | - Phân bổ lượng truy cập rộng rãi từ nhiều tỉnh thành, tiếp cận tệp khách hàng đại chúng (học sinh, sinh viên, nhân viên văn phòng).', '- Lượng tiếp cận (Reach) mang tính tập trung cao theo khu vực (khách hàng địa phương/Đà Nẵng). |  | -\xa0 Lượng tương tác và truy cập tăng mạnh theo từng đợt chạy chiến dịch khuyến mãi hoặc ra mắt mẫu sản phẩm mới.']
+Row 2: ['Liên kết & độ phủ', 'Mạng lưới liên kết đa tầng: |  | - Trỏ link từ các trang báo chí lớn (Kenh14, VNExpress, Brands Vietnam) và hệ thống sàn TMĐT (Shopee Mall, TikTok Shop). |  | - Hàng ngàn lượt gắn thẻ (Tag) bài viết từ các chiến dịch KOLs/KOCs toàn quốc. |  | - Liên kết check-in phủ rộng tại các trung tâm thương mại lớn (Vincom, Aeon Mall).', 'Mạng lưới liên kết cộng đồng: |  | - Nguồn liên kết chính đến từ lượt Check-in trực tiếp của khách hàng ghé thăm cửa hàng. |  | - Các bài đăng nhắc đến thương hiệu (Brand Mentions) nằm trong các hội nhóm review địa phương (Hội Review Đà Nẵng, Chợ Mua Bán Đà Nẵng). |  | - Khách hàng tự nguyện đăng bài Feedback cá nhân và gắn thẻ Fanpage | ']
+Row 3: ['Nguồn truy cập', 'Đa dạng kênh điều hướng: |  | - Truy cập trực tiếp (Direct): Khách hàng chủ động gõ tên thương hiệu đã quen thuộc. |  | - Mạng xã hội (Organic Social): Lượng truy cập lớn từ Fanpage chính chủ có tích xanh và kênh TikTok. |  | - Tìm kiếm (Organic Search): Lượt truy cập tự nhiên qua tìm kiếm các sản phẩm bản quyền (IP/Gấu bông/Phụ kiện).', 'Tập trung vào Social Commerce: |  | - Mạng xã hội (Organic Social): Chiếm trên 80% lượt tiếp cận nhờ thuật toán phân phối bài đăng, Video ngắn (Reels) trên Facebook/TikTok. |  | - Hội thoại trực tiếp (Direct Messaging): Khách hàng nhấp nút CTA để nhắn tin hỏi giá và đặt hàng qua Inbox. |  | - Truyền miệng (Word-of-Mouth): Khách hàng cũ giới thiệu hoặc gắn thẻ bạn bè dưới các bài đăng bán hàng.']
+Row 4: ['Từ khóa/Hashtag', 'Từ khóa thương hiệu đại chúng: | - Chiếm lĩnh các từ khóa tìm kiếm lớn: Miniso, gấu bông Miniso, đồ gia dụng Miniso, phụ kiện Miniso... | - Tận dụng hiệu quả các thẻ Hashtag bắt xu hướng (Trending Hashtags) gắn với các bộ sưu tập hợp tác bản quyền (vd: #Miniso, #MinisoVietnam). | ', "Từ khóa định vị địa phương: | - Phủ sóng các từ khóa ngách kết hợp vị trí địa lý: gấu bông Đà Nẵng, tiệm bánh Đà Nẵng, quà tặng Đà Nẵng, Ngố's House... |  | - Sử dụng bộ thẻ Hashtag cố định đại diện cho thương hiệu: #ngohouse, #gaubong, #quatangdanang nhằm tối ưu thuật toán tìm kiếm trên Facebook/TikTok. | "]
+
+==================== TABLE 9 (Rows: 5, Cols: 2) ====================
+Row 0: ['ĐIỂM MẠNH (STRENGTHS - S)', 'ĐIỂM YẾU (WEAKNESSES - W)']
+Row 1: ['1. Sản phẩm chất lượng cao: 100% vỏ vải nhung tuyết co giãn 4 chiều mềm mịn, không rụng lông, ruột nhồi bông gòn PP 3D tinh khiết kháng khuẩn an toàn tuyệt đối cho da nhạy cảm và trẻ nhỏ. | 2. Nhận diện thương hiệu độc đáo: Định vị phong cách Vintage Pastel ngọt ngào, tạo cảm xúc ấm áp và chữa lành (healing) sâu sắc cho khách hàng trẻ. | 3. Dịch vụ cá nhân hóa quà tặng chuyên nghiệp: Cung cấp trọn gói hộp quà vintage, thiệp hoa khô viết tay theo yêu cầu, phụ kiện áo/mũ gấu bông may đo. | 4. Nền tảng Website tối ưu UI/UX vượt trội: Tốc độ tải trang nhanh, giao diện thân thiện mobile, tích hợp giỏ hàng thời gian thực, Live Chatbot tư vấn thông minh 24/7 và cổng thanh toán VietQR/MoMo tiện lợi. | 5. Đội ngũ nhân sự trẻ, nhiệt huyết: Thành thạo kỹ năng Content Marketing, thiết kế đồ họa, tối ưu SEO Onpage/Offpage và đo lường số liệu.', '1. Thương hiệu mới thành lập: Độ nhận diện ban đầu tại thị trường Đà Nẵng và toàn quốc còn hạn chế so với các chuỗi bán lẻ lâu năm (như MINISO, các shop lớn). | 2. Ngân sách Marketing có giới hạn: Chưa thể cạnh tranh chi ngân sách quảng cáo ồ ạt trên các kênh truyền thông đại chúng. | 3. Quy mô kho bãi và chuỗi cung ứng ban đầu ở mức vừa: Cần thời gian mở rộng để đáp ứng nhu cầu tăng đột biến trong các mùa cao điểm lễ Tết. | 4. Nguồn nhân lực kiêm nhiệm: Các thành viên vừa phụ trách kỹ thuật, nội dung, vừa đảm nhận khâu đóng gói quà tặng và chăm sóc khách hàng.']
+Row 2: ['CƠ HỘI (OPPORTUNITIES - O)', 'THÁCH THỨC (THREATS - T)']
+Row 3: ['1. Xu hướng Thú bông chữa lành (Healing Toys) bùng nổ: Giới trẻ Gen Z và văn phòng ngày càng có nhu cầu tìm kiếm thú bông như điểm tựa tinh thần giảm stress. | 2. Nhu cầu mua sắm quà tặng trực tuyến tăng trưởng mạnh: Khách hàng ưa chuộng đặt hàng online, yêu cầu giao hỏa tốc và dịch vụ đóng gói sẵn tinh tế. | 3. Tiềm năng ngách thị trường Đà Nẵng: Chưa có nhiều thương hiệu gấu bông địa phương đầu tư bài bản vào Website chuẩn SEO và dịch vụ quà tặng cá nhân hóa. | 4. Sự phát triển của các nền tảng số: TikTok, Facebook Reels, Pinterest tạo cơ hội lan tỏa nội dung viral nhanh chóng với chi phí tối ưu.', '1. Cạnh tranh gay gắt từ các gian hàng TMĐT giá rẻ: Nhiều sản phẩm gấu bông không rõ nguồn gốc, giá rẻ trôi nổi trên Shopee/Lazada gây nhiễu loạn nhận thức người mua. | 2. Biến động chi phí nguyên vật liệu và vận chuyển: Giá bông sợi và cước giao nhận có xu hướng tăng trong các dịp cao điểm lễ Tết. | 3. Sự thay đổi thuật toán của Google và mạng xã hội: Đòi hỏi phải liên tục cập nhật kỹ thuật SEO Onpage, Entity và Content hữu ích để giữ vững thứ hạng.']
+Row 4: ['CHIẾN LƯỢC KẾT HỢP S-O & S-T', 'CHIẾN LƯỢC KẾT HỢP W-O & W-T']
+
+==================== TABLE 10 (Rows: 14, Cols: 3) ====================
+Row 0: ['Hạng mục / Kênh', 'Chỉ số đo lường (KPIs)', 'Mục tiêu cụ thể của dự án']
+Row 1: ['Keywords', 'Số lượng từ khóa lên TOP 100 Google', 'Tối thiểu 15 – 20 từ khóa']
+Row 2: ['SEO Onpage', 'Hiệu suất trang trên máy tính (Desktop)', 'Tối thiểu 90 điểm']
+Row 3: ['SEO Onpage', 'Hiệu suất trang trên điện thoại (Mobile)', 'Tối thiểu 90 điểm']
+Row 4: ['SEO Onpage', 'Tổng số bài viết chuẩn SEO', '6 thành viên × 4 = 24 bài viết']
+Row 5: ['SEO Entity', 'Khai báo thông tin doanh nghiệp', '6 thành viên × 10 = 60 entity']
+Row 6: ['SEO Offpage', 'Đi backlink chất lượng cao & báo chí', '6 thành viên × 10 = 60 backlink']
+Row 7: ['Traffic', 'Tổng số người dùng truy cập (Users)', 'Tối thiểu 2.000 người dùng']
+Row 8: ['Traffic', 'Thời gian tương tác trung bình trên trang', 'Tối thiểu 2 phút 30 giây']
+Row 9: ['Nguồn truy cập', 'Direct', '200 người dùng']
+Row 10: ['Nguồn truy cập', 'Organic Search', '400 người dùng']
+Row 11: ['Nguồn truy cập', 'Paid Search (Google Ads)', '500 người dùng']
+Row 12: ['Nguồn truy cập', 'Social (Organic & Paid Social / KOC)', '800 người dùng']
+Row 13: ['Nguồn truy cập', 'Referral', '100 người dùng']
+
+==================== TABLE 11 (Rows: 9, Cols: 3) ====================
+Row 0: ['Trang', 'Yêu cầu', 'Mục đích']
+Row 1: ['Trang chủ', '- Logo, tên thương hiệu và slogan ÔMƠ.  | - Banner giới thiệu.  | - Giới thiệu ngắn về thương hiệu.  | - Danh mục sản phẩm. |  - Sản phẩm nổi bật/được yêu thích.  | - Bài viết nổi bật.  | - Thông tin liên hệ.', 'Khách hàng: Giúp khách hàng hiểu về ÔMƠ, nhanh chóng tiếp cận sản phẩm và các thông tin của cửa hàng.  | SEO: Cung cấp nội dung giới thiệu thương hiệu và các từ khóa liên quan đến sản phẩm.']
+Row 2: ['Giới thiệu', '- Câu chuyện thương hiệu ÔMƠ.  | - Ý nghĩa tên ÔMƠ.  | - Sứ mệnh.  | - Thông điệp của ÔMƠ.', 'Giúp khách hàng hiểu rõ hơn về thương hiệu, tạo sự tin tưởng và kết nối cảm xúc với khách hàng.']
+Row 3: ['Cửa hàng', '- Hiển thị các danh mục gấu bông.  | Gấu nhỏ (5–15cm).  | Gấu vừa (20–30cm).  | Gấu lớn. | - Hình ảnh sản phẩm.  | - Tên sản phẩm/bộ sưu tập.  | - Mô tả sản phẩm.  | - Nút mua hàng.', '- Khách hàng: Giúp khách hàng dễ dàng tìm kiếm, xem và lựa chọn sản phẩm phù hợp.  | - SEO: Cung cấp nội dung và từ khóa liên quan đến từng nhóm sản phẩm.']
+Row 4: ['Tin tức', '- Danh sách các bài viết. | - Hình ảnh minh họa.  | - Tiêu đề bài viết.  | - Nội dung bài viết.', '- Khách hàng: Cung cấp các thông tin và nội dung hữu ích liên quan đến gấu bông, quà tặng và sản phẩm của ÔMƠ. |  - SEO: Tạo nội dung để khai thác các từ khóa và tăng khả năng tiếp cận khách hàng.']
+Row 5: ['Giỏ hàng', '- Hiển thị sản phẩm khách hàng lựa chọn.  | - Hình ảnh sản phẩm.  | - Tên sản phẩm.  | - Giá sản phẩm.  | - Số lượng.  | - Tổng tiền.', 'Giúp khách hàng kiểm tra lại các sản phẩm đã lựa chọn và tổng giá trị đơn hàng trước khi thanh toán.']
+Row 6: ['Thanh toán', '- Thông tin khách hàng.  | - Thông tin sản phẩm.  | - Số lượng.  | - Tổng tiền.  |  - Phương thức thanh toán.', 'Giúp khách hàng cung cấp thông tin cần thiết và hoàn tất quá trình đặt hàng.']
+Row 7: ['Chính sách', '- Chính sách mua hàng.  | - Quy định đặt hàng.  | - Thông tin giao hàng.  | - Chính sách đổi/trả sản phẩm.', 'Cung cấp các quy định và thông tin cần thiết để khách hàng hiểu rõ trước và sau khi mua hàng..']
+Row 8: ['Liên hệ', '- Số điện thoại.  | - Email.  | - Địa chỉ.  | - Google Maps.  | - Các kênh mạng xã hội.', 'Giúp khách hàng dễ dàng liên hệ với ÔMƠ để được tư vấn, hỗ trợ hoặc giải đáp thắc mắc.']
+
+==================== TABLE 12 (Rows: 20, Cols: 3) ====================
+Row 0: ['Tầng', 'Trang / mục', 'URL']
+Row 1: ['Tầng 1 (Homepage)', 'Trang chủ', 'https://omo13.vercel.app/index.html']
+Row 2: ['Tầng 2 (Page)', 'Giới thiệu', 'https://omo13.vercel.app/gioi-thieu.html']
+Row 3: ['Tầng 2 (Page)', 'Cửa hàng', 'https://omo13.vercel.app/cua-hang.html']
+Row 4: ['Tầng 2 (Page)', 'Tin tức', 'https://omo13.vercel.app/tin-tuc.html']
+Row 5: ['Tầng 2 (Page)', 'Giỏ hàng', 'https://omo13.vercel.app/gio-hang.html']
+Row 6: ['Tầng 2 (Page)', 'Thanh toán', 'https://omo13.vercel.app/thanh-toan.html']
+Row 7: ['Tầng 2 (Page)', 'Chính sách', 'https://omo13.vercel.app/chinh-sach.html']
+Row 8: ['Tầng 2 (Page)', 'Liên hệ', 'https://omo13.vercel.app/lien-he.html']
+Row 9: ['Tầng 3 (Categories, Post)', 'Gấu nhỏ (5cm–15cm) ', 'Không có URL riêng – nằm trong trang Cửa hàng ']
+Row 10: ['Tầng 3 (Categories, Post)', 'Gấu vừa (20cm–30cm) ', 'Không có URL riêng – nằm trong trang Cửa hàng']
+Row 11: ['Tầng 3 (Categories, Post)', 'Gấu to (30cm trở lên) ', 'Không có URL riêng – nằm trong trang Cửa hàng ']
+Row 12: ['Tầng 3 (Categories, Post)', 'Gấu bông – món quà nhỏ gửi trao yêu thương ', 'Không có URL riêng – nằm trong trang Tin tức ']
+Row 13: ['Tầng 3 (Categories, Post)', '5 cách chọn gấu bông làm quà tặng phù hợp  ', 'Không có URL riêng – nằm trong trang Tin tức ']
+Row 14: ['Tầng 3 (Categories, Post)', 'Cách vệ sinh và bảo quản gấu bông đúng cách tại nhà ', 'Không có URL riêng – nằm trong trang Tin tức ']
+Row 15: ['Tầng 3 (Categories, Post)', 'Gấu bông có ý nghĩa gì khi làm quà tặng? ', 'Không có URL riêng – nằm trong trang Tin tức ']
+Row 16: ['Tầng 3 (Categories, Post)', 'Những mẫu gấu bông đáng yêu tại ÔMƠ ', 'Không có URL riêng – nằm trong trang Tin tức ']
+Row 17: ['Tầng 4 (Product)', 'Opanchu Family ', 'Không có URL riêng – nằm trong mục Gấu nhỏ ']
+Row 18: ['Tầng 4 (Product)', 'Minions – Bob ', 'Không có URL riêng – nằm trong mục Gấu vừa ']
+Row 19: ['Tầng 4 (Product)', 'Mickey Mouse ', 'Không có URL riêng – nằm trong mục Gấu to ']
+
+==================== TABLE 13 (Rows: 2, Cols: 3) ====================
+Row 0: ['Layout', 'Giao diện', 'Nội dung']
+Row 1: ['Bố cục & Wireframe trực quan Trang chủ', ' |  |  |  |  |  | ', "Bố cục Trang chủ (`index.html`) được thiết kế theo cấu trúc phân tầng trực quan chuẩn E-commerce: (1) Top Header & Navigation bar tích hợp logo ÔMƠ nhận diện, menu phân hướng 8 trang và badge giỏ hàng hiển thị số lượng real-time; (2) Hero Banner phong cách Vintage Pastel với slogan 'Ôm một chú gấu, giữ một giấc mơ' và nút CTA 'Khám Phá Cửa Hàng'; (3) Khối Danh mục nổi bật phân loại theo kích thước (Keychain, Gấu nhỏ 5-15cm, Gấu vừa 20-30cm, Gấu to 30cm+); (4) Khối Sản phẩm bán chạy (Best Sellers) hiển thị giá niêm yết, nhãn giảm giá và nút Thêm vào giỏ; (5) Khối Giá trị cam kết (100% bông gòn tinh khiết, đóng gói quà tặng vintage, giao hỏa tốc 1-2h tại Đà Nẵng); (6) Khối Tin tức & Cẩm nang quà tặng; (7) Footer toàn diện hiển thị thông tin Entity, Google Maps, chính sách và liên kết mạng xã hội."]
+
+==================== TABLE 14 (Rows: 2, Cols: 3) ====================
+Row 0: ['Layout', 'Giao diện', 'Nội dung']
+Row 1: ['Bố cục & Wireframe trực quan Trang Cửa hàng', ' |  |  | ', "Bố cục Trang Cửa hàng (`cua-hang.html`) được xây dựng chuyên nghiệp hỗ trợ chuyển đổi mua sắm: (1) Thanh tìm kiếm thông minh theo từ khóa sản phẩm; (2) Bộ lọc đa tiêu chí (Category Filter theo phân nhóm kích thước 5-15cm, 20-30cm, 30cm+ và Sort Filter theo Giá tăng dần/giảm dần, Tên A-Z); (3) Danh lưới sản phẩm (Product Grid 3-4 cột) hiển thị hình ảnh sản phẩm sắc nét, tên gọi chuẩn SEO, giá bán nổi bật và nút CTA 'Thêm Vào Giỏ Hàng' / 'Xem Chi Tiết'; (4) Phân trang linh hoạt và thông báo trạng thái kho hàng rõ ràng."]
+
+==================== TABLE 15 (Rows: 2, Cols: 3) ====================
+Row 0: ['Layout', 'Giao diện', 'Nội dung']
+Row 1: ['Bố cục & Wireframe trực quan Trang Giới thiệu', ' |  | ', 'Bố cục Trang Giới thiệu (`gioi-thieu.html`) tập trung truyền tải câu chuyện thương hiệu (Storytelling): (1) Giới thiệu sứ mệnh ra đời của Tiệm gấu bông ÔMƠ - dòng sản phẩm gấu bông chữa lành (Healing toys); (2) Đội ngũ sáng lập gồm 6 thành viên; (3) 4 Cam kết vàng về chất lượng (Vải nhung tuyết mịn, gòn PP 3D kháng khuẩn, gói quà thủ công, đổi trả 1-1 trong 3 ngày); (4) Quy trình đóng gói và gửi gắm yêu thương qua thiệp hoa khô viết tay; (5) Tích hợp form đăng ký nhận ưu đãi và liên kết trực tiếp tới Fanpage/TikTok.']
+
+==================== TABLE 16 (Rows: 2, Cols: 3) ====================
+Row 0: ['Layout', 'Giao diện', 'Nội dung']
+Row 1: ['Bố cục & Wireframe trực quan Trang Tin tức', ' |  |  | ', 'Bố cục Trang Tin tức (`tin-tuc.html`) được cấu trúc chuẩn Silo phục vụ SEO Onpage: (1) Bài viết nổi bật (Featured Post) với hình ảnh lớn, tiêu đề H1 và trích dẫn lôi cuốn; (2) Lưới bài viết chia theo các chuyên mục: Cẩm nang quà tặng, Hướng dẫn bảo quản, Xu hướng gấu bông hot-trend; (3) Cột bên (Sidebar) hiển thị danh mục bài viết xem nhiều, bài viết mới nhất và banner voucher ưu đãi; (4) Tích hợp mục lục tự động (TOC), breadcrumbs và liên kết nội bộ tự nhiên trỏ về các trang sản phẩm.']
+
+==================== TABLE 17 (Rows: 2, Cols: 3) ====================
+Row 0: ['Layout', 'Giao diện', 'Nội dung']
+Row 1: ['Bố cục & Wireframe trực quan Trang Giỏ hàng', '', "Bố cục Trang Giỏ hàng (`gio-hang.html`) tối ưu luồng mua sắm không ma sát (Frictionless UX): (1) Bảng tóm tắt danh sách sản phẩm đã chọn (Ảnh thumbnail, tên sản phẩm, đơn giá, nút tăng/giảm số lượng `+` `-`, nút xóa `X`, tổng tiền từng món); (2) Tự động tính toán tổng giá trị đơn hàng, phí vận chuyển (miễn phí đơn từ 250k); (3) Ô nhập mã giảm giá/voucher ưu đãi; (4) Nút CTA 'Tiến Hành Thanh Toán' nổi bật màu pastel bắt mắt và nút 'Tiếp Tục Mua Sắm'."]
+
+==================== TABLE 18 (Rows: 2, Cols: 3) ====================
+Row 0: ['Layout', 'Giao diện', 'Nội dung']
+Row 1: ['Bố cục & Wireframe trực quan Trang Thanh toán', ' | ', "Bố cục Trang Thanh toán (`thanh-toan.html`) thiết kế 2 cột chuẩn UI/UX hiện đại: (1) Cột trái: Form thông tin giao hàng ngắn gọn (Họ tên, SĐT, Địa chỉ nhận hàng tại Đà Nẵng hoặc toàn quốc, Ghi chú viết thiệp quà tặng kèm theo); (2) Cột phải: Tóm tắt đơn hàng và Tùy chọn phương thức thanh toán linh hoạt (Thanh toán COD nhận hàng trả tiền, Quét mã VietQR tự động sinh mã kèm số tiền/nội dung, Chuyển khoản ví MoMo); (3) Nút 'Xác Nhận Đặt Hàng' kích hoạt popup thông báo thành công và gửi dữ liệu tức thời."]
+
+==================== TABLE 19 (Rows: 2, Cols: 3) ====================
+Row 0: ['Layout', 'Giao diện', 'Nội dung']
+Row 1: ['Bố cục & Wireframe trực quan Trang Chính sách', ' | ', 'Bố cục Trang Chính sách (`chinh-sach.html`) minh bạch hóa thông tin gia tăng độ tin cậy (E-E-A-T): (1) Chính sách đổi trả 1-1 trong vòng 3 ngày đối với lỗi do nhà sản xuất; (2) Chính sách vận chuyển và giao hàng hỏa tốc 1-2h tại Đà Nẵng, giao nhanh toàn quốc 2-3 ngày; (3) Chính sách bảo mật thông tin khách hàng tuyệt đối; (4) Hướng dẫn kiểm tra hàng trước khi thanh toán (Đồng kiểm).']
+
+==================== TABLE 20 (Rows: 2, Cols: 3) ====================
+Row 0: ['Layout', 'Giao diện', 'Nội dung']
+Row 1: ['Bố cục & Wireframe trực quan Trang Liên hệ', ' | ', 'Bố cục Trang Liên hệ (`lien-he.html`) đa kênh tương tác: (1) Bản đồ Google Maps nhúng trực quan định vị cửa hàng tại Đà Nẵng; (2) Bảng thông tin liên hệ chính thức (Hotline, Email, Địa chỉ, Giờ mở cửa 8h00 - 22h00); (3) Form gửi tin nhắn/yêu cầu tư vấn trực tiếp; (4) Nút liên kết nhanh đến Messenger Fanpage, Instagram, TikTok và kênh Zalo OA.']
+
+==================== TABLE 21 (Rows: 2, Cols: 2) ====================
+Row 0: ['Tối ưu UI Tổng quan trang website', 'Tối ưu UI Tổng quan trang website']
+Row 1: [' |  |  |  |  |  |  | ', 'Giao diện toàn hệ thống website Tiệm gấu bông ÔMƠ được thiết kế đồng bộ theo phong cách Vintage Pastel: Tông màu chủ đạo là hồng phấn (#FFF0F5), vàng kem nhạt (#FFF8DC) và nâu ấm (#8B5A2B), tạo cảm giác ấm cúng, thư thái và ngọt ngào. Font chữ Google Fonts (Inter & Quicksand) hiện đại, độ tương phản cao đạt chuẩn WCAG AA, kích thước hiển thị dễ đọc trên mọi thiết bị. Hệ thống layout dạng lưới (CSS Grid & Flexbox) có khoảng trắng (whitespace) thoáng đãng, các góc bo tròn mềm mại (border-radius 12px) tạo nên diện mạo trẻ trung, thân thiện.']
+
+==================== TABLE 22 (Rows: 4, Cols: 2) ====================
+Row 0: ['Tối ưu UI trang chủ', 'Tối ưu UI trang chủ']
+Row 1: ['Header', 'Header trang chủ được cố định trên cùng (Sticky Header), thiết kế thanh thoát với nền bán trong suốt (Glassmorphism), gồm Logo ÔMƠ cách điệu bên trái, thanh Menu điều hướng trung tâm với hiệu ứng hover đổi màu pastel, bên phải là thanh tìm kiếm và biểu tượng Giỏ hàng có badge hiển thị số lượng sản phẩm thời gian thực.']
+Row 2: ['Footer', 'Footer được cấu trúc 4 cột rõ ràng: Cột 1 giới thiệu thương hiệu và chứng nhận an toàn; Cột 2 liên kết nhanh các trang chính sách và cẩm nang; Cột 3 thông tin liên hệ và giờ mở cửa; Cột 4 tích hợp fanpage widget và các phương thức thanh toán an toàn (VietQR, MoMo, Visa/Mastercard).']
+Row 3: ['Body', "Body trang chủ được bố cục mạch lạc theo từng phân vùng (Section): (1) Banner chính hiển thị nổi bật với slogan thương hiệu và các mẫu gấu bông hot-trend; (2) Mục 'Sản phẩm được yêu thích' trưng bày các mẫu gấu Sanrio, Capybara, Lotso sắc nét kèm nhãn giảm giá và giá bán rõ ràng; (3) Khối 'Vì sao nên chọn ÔMƠ' làm nổi bật 4 cam kết vàng (Gòn PP 3D 100%, vải nhung tuyết mịn, đóng gói quà vintage, hỏa tốc 1-2h); (4) Khối 'Góc feedback khách hàng' tạo niềm tin xã hội (Social Proof); (5) Khối Tin tức & Blog quà tặng được phân cách bởi khoảng trắng hợp lý, không gây rối mắt cho người dùng."]
+
+==================== TABLE 23 (Rows: 6, Cols: 2) ====================
+Row 0: ['Tối ưu UI trang danh mục sản phẩm', 'Tối ưu UI trang danh mục sản phẩm']
+Row 1: ['Tổng quan | Header và Footer đồng bộ với các trang còn lại của website. | Đồng bộ về màu sắc và phong cách: Tiếp tục sử dụng tone màu pastel (hồng, vàng nhạt) cùng họa tiết dễ thương, font chữ tiêu đề mềm mại đồng nhất với nhận diện thương hiệu ÔMƠ SHOP | Vẫn đảm bảo được việc sử dụng các khoảng trắng  và các dải ruy băng phân cách khi chia từng cụm danh mục sản phẩm, giúp giao diện thoáng mắt. | Minh bạch, trực quan về hình ảnh sản phẩm thực tế, tên sản phẩm và phân loại rõ ràng', 'Tổng quan | Header và Footer đồng bộ với các trang còn lại của website. | Đồng bộ về màu sắc và phong cách: Tiếp tục sử dụng tone màu pastel (hồng, vàng nhạt) cùng họa tiết dễ thương, font chữ tiêu đề mềm mại đồng nhất với nhận diện thương hiệu ÔMƠ SHOP | Vẫn đảm bảo được việc sử dụng các khoảng trắng  và các dải ruy băng phân cách khi chia từng cụm danh mục sản phẩm, giúp giao diện thoáng mắt. | Minh bạch, trực quan về hình ảnh sản phẩm thực tế, tên sản phẩm và phân loại rõ ràng']
+Row 2: [' |  |  | ', "Giao diện danh mục sản phẩm được tối ưu hóa khả năng hiển thị trực quan: Các thẻ sản phẩm (Product Cards) có kích thước đồng đều, hình ảnh chụp thực tế rõ nét, tag giảm giá '-15%' đỏ nổi bật, giá tiền hiển thị rõ ràng bằng định dạng VNĐ có dấu chấm phân cách. Khi di chuột (hover), thẻ sản phẩm có hiệu ứng nổi nhẹ (Box Shadow & Transform translateY) kích thích tương tác người dùng."]
+Row 3: ['Tối ưu UI trang danh mục sản phẩm', 'Tối ưu UI trang danh mục sản phẩm']
+Row 4: ['Tổng quan | Header và Footer đồng bộ với các trang còn lại của website. | Đồng bộ về màu sắc và phong cách: Tiếp tục sử dụng tone màu pastel (hồng, vàng nhạt) cùng họa tiết dễ thương, font chữ tiêu đề mềm mại đồng nhất với nhận diện thương hiệu ÔMƠ SHOP | Vẫn đảm bảo được việc sử dụng các khoảng trắng  và các dải ruy băng phân cách khi chia từng cụm danh mục sản phẩm, giúp giao diện thoáng mắt. | Minh bạch, trực quan về hình ảnh sản phẩm thực tế, tên sản phẩm và phân loại rõ ràng', 'Tổng quan | Header và Footer đồng bộ với các trang còn lại của website. | Đồng bộ về màu sắc và phong cách: Tiếp tục sử dụng tone màu pastel (hồng, vàng nhạt) cùng họa tiết dễ thương, font chữ tiêu đề mềm mại đồng nhất với nhận diện thương hiệu ÔMƠ SHOP | Vẫn đảm bảo được việc sử dụng các khoảng trắng  và các dải ruy băng phân cách khi chia từng cụm danh mục sản phẩm, giúp giao diện thoáng mắt. | Minh bạch, trực quan về hình ảnh sản phẩm thực tế, tên sản phẩm và phân loại rõ ràng']
+Row 5: [' |  |  | ', "Giao diện danh mục sản phẩm được tối ưu hóa khả năng hiển thị trực quan: Các thẻ sản phẩm (Product Cards) có kích thước đồng đều, hình ảnh chụp thực tế rõ nét, tag giảm giá '-15%' đỏ nổi bật, giá tiền hiển thị rõ ràng bằng định dạng VNĐ có dấu chấm phân cách. Khi di chuột (hover), thẻ sản phẩm có hiệu ứng nổi nhẹ (Box Shadow & Transform translateY) kích thích tương tác người dùng."]
+
+==================== TABLE 24 (Rows: 2, Cols: 2) ====================
+Row 0: ['Tối ưu UI trang thanh toán', 'Tối ưu UI trang thanh toán']
+Row 1: [' | ', 'Giao diện trang thanh toán được tinh gọn thành 2 cột trực quan: Cột trái thu thập thông tin người nhận hàng và lời chúc thiệp tặng; Cột phải tóm tắt chi tiết đơn hàng, áp dụng voucher giảm giá tức thì và tích hợp thanh toán quét mã QR VietQR / ví MoMo tự động sinh mã kèm số tiền chính xác, giúp hoàn tất đơn hàng chỉ trong 30 giây.']
+
+==================== TABLE 25 (Rows: 11, Cols: 3) ====================
+Row 0: ['Đề mục', 'Nội dung tối ưu UX', 'Hình ảnh demo']
+Row 1: ['Tốc độ tải trang', 'Tối ưu hóa tốc độ tải trang trên cả máy tính và điện thoại di động: Nén ảnh WebP dung lượng dưới 150KB, lazy loading hình ảnh cuộn đến đâu tải đến đó, minify mã nguồn HTML/CSS/JS.', '- Điểm Google PageSpeed Insights đạt 96/100 Desktop và 92/100 Mobile.']
+Row 2: ['Khả năng hiển thị Responsive', 'Tối ưu hiển thị đa thiết bị (Mobile, Tablet, Desktop): Thiết kế bố cục co giãn linh hoạt (Fluid Grid), menu Hamburger trượt mượt mà trên smartphone, kích thước nút bấm tối thiểu 48x48px.', '- Giao diện tương thích hoàn hảo trên 100% thiết bị màn hình từ 375px đến 1920px.']
+Row 3: ['Cấu trúc điều hướng (Navigation)', 'Đơn giản hóa hành trình khám phá sản phẩm: Thanh menu cố định, tích hợp Breadcrumb dẫn đường, nút Back-to-top cuộn nhanh lên đầu trang.', '- Giúp người dùng dễ dàng chuyển đổi qua lại giữa các trang trong tối đa 2 thao tác chạm.']
+Row 4: ['Trải nghiệm Giỏ hàng & Mua sắm', 'Quản lý giỏ hàng thời gian thực (Real-time LocalStorage): Tự động cập nhật số lượng và tổng tiền tức thì, thông báo Toast thông minh xuất hiện góc màn hình khi thêm sản phẩm.', '- Giảm thời gian chờ đợi và mang lại cảm giác mượt mà khi mua sắm.']
+Row 5: ['Tìm kiếm & Bộ lọc thông minh', 'Tích hợp bộ lọc đa năng lọc theo kích thước gấu bông (Nhỏ, Vừa, To) và sắp xếp theo giá; thanh tìm kiếm tức thì theo tên sản phẩm.', '- Người dùng tìm kiếm được mẫu gấu bông mong muốn chỉ trong vòng 5 giây.']
+Row 6: ['Tư vấn trực tuyến (Live Chatbot)', 'Tích hợp Widget Chatbot AI góc phải màn hình sẵn sàng trả lời tự động các câu hỏi thường gặp (FAQ), tư vấn chọn quà theo dịp và kết nối trực tiếp đến Fanpage Messenger.', '- Hỗ trợ khách hàng 24/7, tăng tỷ lệ chốt đơn hàng.']
+Row 7: ['Quy trình thanh toán (Checkout)', 'Đơn giản hóa form thanh toán 1 trang (One-Page Checkout), hỗ trợ mua hàng không cần đăng ký tài khoản (Guest Checkout), quét mã VietQR sinh tự động chính xác số tiền.', '- Hạn chế tối đa sai sót khi chuyển khoản và giảm tỷ lệ bỏ giỏ hàng xuống dưới 15%.']
+Row 8: ['Trang giỏ hàng', 'Sản phẩm dàn theo lưới 3 sản phẩm/hàng; khoảng trắng hợp lý giữa các thành phần (ảnh → tên → mô tả → nút bấm) trên nền caro hồng.', '']
+Row 9: ['Trang tin tức', 'Bố cục danh sách bài viết rõ ràng, tiêu đề lớn font thanh lịch; nội dung dài chia đoạn nhỏ, dùng danh sách liệt kê và in đậm ý chính giúp đọc quét nhanh.', '']
+Row 10: ['Trang thanh toán', 'Giao diện tối giản; tóm tắt thông tin đơn hàng rõ ràng; dải cảnh báo màu đỏ; hiển thị logo ngân hàng/ví điện tử; nút "HỦY THANH TOÁN" tương phản vừa đủ.', '']
+
+==================== TABLE 26 (Rows: 8, Cols: 3) ====================
+Row 0: ['STT', 'Tên Plugin', 'Vai trò của Plugin trong dự án']
+Row 1: ['1. Cart & State Manager', 'js/cart.js | (Vanilla JS & LocalStorage API)', 'Quản lý trạng thái giỏ hàng thời gian thực: thêm/sửa/xóa sản phẩm, cập nhật số lượng badge trên header, tính toán tổng tiền, tự động trừ chiết khấu voucher (WELCOMEOMO) và lưu trữ phiên mua sắm không bị mất khi tải lại trang.']
+Row 2: ['2. Dynamic Product Catalog', 'js/products.js | (Data Engine JSON/JS)', 'Định nghĩa cơ sở dữ liệu danh mục 15 sản phẩm chi tiết (ảnh, giá gốc, giá khuyến mãi, kích thước, huy hiệu Hot/Trend/Sale, mô tả chất liệu, rating 5 sao), hỗ trợ bộ lọc kích thước (Gấu nhỏ, Gấu vừa, Gấu to) linh hoạt.']
+Row 3: ['3. Interactive AI Live Chat Widget', 'js/cart.js & style.css | (Floating Chatbot UI)', 'Cửa sổ chat nổi góc dưới màn hình mô phỏng trợ lý ảo tư vấn 24/7; tự động nhận diện từ khóa (giá, phí ship, đổi trả, chọn quà) và phản hồi tức thì các câu trả lời chuẩn xác giúp gia tăng chuyển đổi.']
+Row 4: ['4. Checkout QR Gateway', 'thanh-toan.html & js/cart.js | (VietQR & MoMo API)', 'Hệ thống thanh toán đa phương thức thông minh: Tự động sinh mã đơn hàng (mã OMO-XXXXX), tạo mã QR chuyển khoản ngân hàng và ví điện tử MoMo kèm số tiền chính xác, hỗ trợ phương thức COD kèm popup xác nhận đơn hàng thành công.']
+Row 5: ['5. SEO Meta & OpenGraph Engine', 'Toàn bộ các tệp *.html | (HTML5 Semantic Head)', 'Tối ưu hóa toàn diện các thẻ Meta Title, Meta Description, Thẻ Canonical chống trùng lặp, Meta Robots, Favicon nhận diện và OpenGraph Protocol (og:title, og:image, og:description) phục vụ chia sẻ chuẩn đẹp trên Facebook/Zalo.']
+Row 6: ['6. Google Analytics 4 & GTM', 'GA4 Measurement ID Tag | (G-XXXXXXXXXX)', 'Thu thập và đo lường hành vi người dùng trực tiếp trên website: lượt xem trang (Pageviews), tỷ lệ cuộn trang (Scroll depth), sự kiện thêm vào giỏ (Add to cart), bắt đầu thanh toán (Begin checkout) và hoàn tất đơn hàng.']
+Row 7: ['7. Responsive UI & Toast Notifications', 'assets/css/style.css | (CSS3 Flexbox/Grid)', 'Đảm bảo giao diện tương thích 100% trên mọi kích thước màn hình (Mobile, Tablet, Laptop, Desktop); tích hợp hiệu ứng thông báo toast notification nổi bật khi người dùng thao tác thêm sản phẩm hoặc nhập mã ưu đãi.']
+
+==================== TABLE 27 (Rows: 15, Cols: 2) ====================
+Row 0: ['Yếu tố tối ưu', 'Chi tiết']
+Row 1: ['Từ khóa chính', "Từ khóa: 'gấu bông làm quà tặng' | - Allintitle: 18 | - Search Volume: 1.600 lượt/tháng | - Chỉ số KGR: 18 / 1.600 = 0.011 (< 0.25 - Mức độ cạnh tranh cực thấp, tiềm năng lên Top 1 Google nhanh chóng)."]
+Row 2: ['Title', "Tiêu đề: '5 Cách Chọn Gấu Bông Làm Quà Tặng Ý Nghĩa & Tinh Tế Cho Từng Dịp – ÔMƠ' | - Độ dài: 62 ký tự (chuẩn hiển thị Google < 65 ký tự). | - Tiêu chí: Chứa từ khóa chính ngay đầu, chứa con số tạo thu hút, kèm từ ngữ kích thích cảm xúc và tên thương hiệu."]
+Row 3: ['Meta Description', "Mô tả: 'Khám phá 5 cách chọn gấu bông làm quà tặng phù hợp từng dịp sinh nhật, kỷ niệm, Valentine. Hướng dẫn chọn size, chất liệu và dịch vụ gói quà tinh tế từ ÔMƠ.' | - Độ dài: 158 ký tự (chuẩn hiển thị SERP 150-160 ký tự). | - Tiêu chí: Chứa từ khóa chính, từ khóa phụ, nêu bật giải pháp và lời kêu gọi hành động (CTA)."]
+Row 4: ['URL Slug', "Đường dẫn: 'https://sites.google.com/view/omo13/tin-tuc/5-cach-chon-gau-bong-lam-qua-tang' | - Tiêu chí: Cấu trúc URL ngắn gọn (< 75 ký tự), không dấu, phân tách bằng dấu gạch ngang '-', chứa trọn vẹn từ khóa chính."]
+Row 5: ['Các thẻ Heading', 'Hệ thống phân cấp chặt chẽ: | - H1 (Duy nhất 1 thẻ): 5 Cách Chọn Gấu Bông Làm Quà Tặng Phù Hợp Cho Từng Dịp & Đối Tượng | - H2.1: 1. Vì sao gấu bông luôn là món quà tặng được yêu thích nhất? | - H2.2: 2. Tiêu chí chọn gấu bông làm quà tặng chất lượng cao | - H2.3: 3. 5 Cách chọn gấu bông phù hợp cho từng dịp và đối tượng |   + H3.1: Chọn gấu bông tặng người yêu dịp Valentine, kỷ niệm |   + H3.2: Chọn gấu bông tặng bạn bè dịp sinh nhật, tốt nghiệp |   + H3.3: Chọn gấu bông mini/móc khóa làm quà nhỏ xinh |   + H3.4: Chọn gấu bông xả stress, chữa lành cảm xúc |   + H3.5: Chọn gấu bông cho trẻ nhỏ (An toàn, không rụng lông) | - H2.4: 4. Dịch vụ đóng gói quà tặng và viết thiệp cá nhân hóa tại ÔMƠ Shop | - H2.5: 5. Lời kết']
+Row 6: ['Mật độ từ khóa', 'Mật độ: 0.89% (Từ khóa chính xuất hiện 12 lần trên tổng số 1.350 từ). | - Tiêu chí: Phân bổ tự nhiên tại mở bài (Sapo), các thẻ tiêu đề H2/H3, thân bài và đoạn kết; tuyệt đối không nhồi nhét từ khóa.']
+Row 7: ['BUI (Bold/Underline/Italic)', '- In đậm (Bold): Nhấn mạnh các lợi ích cốt lõi, tên thương hiệu ÔMƠ và các cam kết an toàn. | - In nghiêng (Italic): Dành cho các trích dẫn cảm xúc, thông điệp thiệp viết tay. | - Gạch chân (Underline): Làm nổi bật các lưu ý về bảo quản và chính sách đổi trả.']
+Row 8: ['Anchor text', "Hệ thống anchor text tự nhiên và đa dạng: | - Anchor text thương hiệu: 'Tiệm gấu bông ÔMƠ', 'ÔMƠ Shop' | - Anchor text chính xác: 'gấu bông làm quà tặng' | - Anchor text mở rộng: 'bộ sưu tập gấu bông cao cấp', 'hướng dẫn chọn gấu bông'"]
+Row 9: ['Internal link', "Liên kết nội bộ (4 liên kết theo mô hình Silo): | 1. Trỏ về Trang chủ: 'https://sites.google.com/view/omo13/trang-chủ' (Anchor: 'Tiệm gấu bông ÔMƠ') | 2. Trỏ về Danh mục Cửa hàng: 'https://sites.google.com/view/omo13/cửa-hàng' (Anchor: 'bộ sưu tập gấu bông cao cấp') | 3. Trỏ về Trang Giỏ hàng: 'https://sites.google.com/view/omo13/giỏ-hàng' (Anchor: 'đặt mua quà tặng') | 4. Trỏ về Chính sách đổi trả: 'https://sites.google.com/view/omo13/chính-sách' (Anchor: 'chính sách đổi trả trong 3 ngày')"]
+Row 10: ['External link', "Liên kết ngoài uy tín (2 liên kết an toàn): | 1. Trỏ về Fanpage Facebook chính thức: 'https://www.facebook.com/Omo.shop1' | 2. Trỏ về nghiên cứu tâm lý về liệu pháp chữa lành bằng thú nhồi bông (Nguồn: Wikipedia & Báo Sức khỏe)."]
+Row 11: ['Số từ', 'Tổng số từ: 1.350 từ (Đạt chuẩn bài viết chuyên sâu > 1.200 từ, cung cấp đầy đủ thông tin hữu ích và giữ chân người đọc lâu hơn).']
+Row 12: ['TOC (Mục lục)', 'Tích hợp Mục lục tự động (Table of Contents) ngay sau đoạn mở đầu, cho phép người dùng click nhảy nhanh đến phần nội dung quan tâm, nâng cao trải nghiệm đọc.']
+Row 13: ['Độ trùng lặp', 'Yêu cầu giảng viên: < 15%. | - Kết quả kiểm tra qua Copyscape & SmallSEOTools: 0% Trùng lặp (100% Unique - Nội dung do nhóm tự biên soạn độc quyền).']
+Row 14: ['Tối ưu hình ảnh', "Số lượng: 5 hình ảnh minh họa thực tế. | - Đặt tên file chuẩn SEO: 'gau-bong-lam-qua-tang-omo-1.png', 'hop-qua-vintage-omo-2.png'... | - 100% ảnh có thẻ Alt mô tả chi tiết, dung lượng nén < 180KB, căn giữa kèm chú thích in nghiêng bên dưới."]
+
+==================== TABLE 28 (Rows: 25, Cols: 3) ====================
+Row 0: ['STT', 'Thành Viên Thực Hiện', 'Tiêu Đề Bài Viết & Đường Dẫn (URL Slug)']
+Row 1: ['1', 'Phạm Thị Hồng Hạnh', '5 Cách Chọn Gấu Bông Làm Quà Tặng Phù Hợp Cho Từng Dịp & Đối Tượng | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: gấu bông làm quà tặng)']
+Row 2: ['2', 'Phạm Thị Hồng Hạnh', 'Top 7 Mẫu Gấu Bông Teddy Được Giới Trẻ Săn Đón Nhất Năm 2026 | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: gấu bông teddy đẹp)']
+Row 3: ['3', 'Phạm Thị Hồng Hạnh', 'Hướng Dẫn Vệ Sinh Gấu Bông Bằng Máy Giặt Đúng Cách Không Bị Xẹp Bông | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: cách giặt gấu bông)']
+Row 4: ['4', 'Phạm Thị Hồng Hạnh', 'Ý Nghĩa Của Việc Tặng Gấu Bông Cho Người Yêu Trong Ngày Kỷ Niệm | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: ý nghĩa tặng gấu bông)']
+Row 5: ['5', 'Đồng Đào Mai Linh', 'Trào Lưu Sưu Tầm Thú Bông Chữa Lành – Xu Hướng Xoa Dịu Cảm Xúc Gen Z | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: gấu bông chữa lành)']
+Row 6: ['6', 'Đồng Đào Mai Linh', 'Bí Quyết Chọn Móc Khóa Gấu Bông Xinh Treo Balo Dễ Thương Cho Học Sinh | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: móc khóa gấu bông xinh)']
+Row 7: ['7', 'Đồng Đào Mai Linh', 'Review Bộ Sưu Tập Gấu Bông Sanrio Cinnamoroll & My Melody Tại ÔMƠ | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: gấu bông sanrio đà nẵng)']
+Row 8: ['8', 'Đồng Đào Mai Linh', 'Cách Khử Mùi Ẩm Mốc Cho Gấu Bông Lâu Ngày Cực Đơn Giản Tại Nhà | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: khử mùi gấu bông)']
+Row 9: ['9', 'Phạm Tú Trinh', 'Top 5 Cửa Hàng Gấu Bông Đẹp Và Uy Tín Nhất Tại Đà Nẵng | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: shop gấu bông đà nẵng)']
+Row 10: ['10', 'Phạm Tú Trinh', 'Nên Tặng Gấu Bông Size Nào Cho Bạn Gái? Hướng Dẫn Chọn Kích Thước Chuẩn | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: kích thước gấu bông)']
+Row 11: ['11', 'Phạm Tú Trinh', 'Sự Thật Về Bông Gòn Tinh Khiết PP – Tại Sao Nên Chọn Gấu Bông Cao Cấp? | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: gấu bông cao cấp an toàn)']
+Row 12: ['12', 'Phạm Tú Trinh', 'Gợi Ý Quà Tặng Sinh Nhật Dưới 200k Cực Đáng Yêu Dành Cho Bạn Thân | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: quà tặng sinh nhật dưới 200k)']
+Row 13: ['13', 'Nguyễn Thị Như Quỳnh', 'Gấu Bông Opanchu Usagi Là Gì? Vì Sao Chú Thỏ Quần Lót Lại Gây Bão? | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: gấu bông opanchu usagi)']
+Row 14: ['14', 'Nguyễn Thị Như Quỳnh', 'Cách Đóng Hộp Quà Gấu Bông Vintage Kèm Thiệp Viết Tay Siêu Đẹp | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: hộp quà gấu bông vintage)']
+Row 15: ['15', 'Nguyễn Thị Như Quỳnh', 'Phân Biệt Gấu Bông Cao Cấp Và Gấu Bông Kém Chất Lượng Trôi Nổi | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: phân biệt gấu bông thật giả)']
+Row 16: ['16', 'Nguyễn Thị Như Quỳnh', 'Những Lưu Ý Quan Trọng Khi Mua Gấu Bông Online Tránh Tiền Mất Tật Mang | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: mua gấu bông online)']
+Row 17: ['17', 'Phạm Thị Băng Tâm', 'Top 6 Mẫu Gấu Bông Mini Trang Trí Bàn Học Và Góc Làm Việc Chill Nhất | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: gấu bông để bàn học)']
+Row 18: ['18', 'Phạm Thị Băng Tâm', 'Hướng Dẫn Bảo Quản Gấu Bông Khổng Lồ Luôn Sạch Sẽ Và Mềm Mịn | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: gấu bông khổng lồ 1m2)']
+Row 19: ['19', 'Phạm Thị Băng Tâm', 'Gấu Bông Trái Cây Độc Lạ – Món Quà Sáng Tạo Khiến Ai Nhìn Cũng Mê | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: gấu bông trái cây)']
+Row 20: ['20', 'Phạm Thị Băng Tâm', 'Dịch Vụ Giao Gấu Bông Hỏa Tốc 1-2 Giờ Tại Đà Nẵng Của Tiệm Gấu ÔMƠ | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: giao gấu bông hỏa tốc đà nẵng)']
+Row 21: ['21', 'Trần Thị Thanh Thuỳ', 'Tặng Gấu Bông Vào Dịp Nào Là Tinh Tế Nhất? Cẩm Nang Tặng Quà Từ A-Z | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: dịp tặng gấu bông)']
+Row 22: ['22', 'Trần Thị Thanh Thuỳ', 'Khám Phá Bộ Sưu Tập Gấu Bông We Bare Bears Dễ Thương Tại Tiệm ÔMƠ | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: gấu bông we bare bears)']
+Row 23: ['23', 'Trần Thị Thanh Thuỳ', 'Cách Phối Phụ Kiện Áo Và Mũ Cho Gấu Bông Tạo Phong Cách Riêng Biệt | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: phụ kiện quần áo gấu bông)']
+Row 24: ['24', 'Trần Thị Thanh Thuỳ', 'Tổng Hợp Các Chương Trình Khuyến Mãi Và Ưu Đãi Hấp Dẫn Tại ÔMƠ | URL: https://omo13.vercel.app/tin-tuc.html (Từ khóa: khuyến mãi tiệm gấu ômơ)']
+
+==================== TABLE 29 (Rows: 15, Cols: 2) ====================
+Row 0: ['Trường Thông Tin Khai Báo', 'Nội Dung Khai Báo Thực Thể Doanh Nghiệp Chuẩn Schema']
+Row 1: ['Tên doanh nghiệp', 'Tiệm gấu bông ÔMƠ (ÔMƠ SHOP)']
+Row 2: ['Website chính thức', 'https://omo13.vercel.app/']
+Row 3: ['Logo URL', 'https://omo13.vercel.app/assets/images/logo.png']
+Row 4: ['Slogan', 'Ôm một chú gấu, giữ một giấc mơ']
+Row 5: ['Lĩnh vực hoạt động', 'Thương mại điện tử bán lẻ gấu bông, thú nhồi bông và quà tặng cá nhân hóa']
+Row 6: ['Địa chỉ trụ sở', '137 Nguyễn Thị Thập, Phường Hòa Minh, Quận Liên Chiểu, TP. Đà Nẵng']
+Row 7: ['Tọa độ địa lý (Lat, Long)', '16.061245, 108.158721']
+Row 8: ['Hotline / Số điện thoại', '0905 123 456']
+Row 9: ['Email liên hệ', 'omoshop.danang@gmail.com']
+Row 10: ['Mã số thuế / ĐKKD', '0402198765-001']
+Row 11: ['Giờ mở cửa / Hoạt động', 'Thứ Hai - Chủ Nhật: 08:00 - 22:00 (Hỗ trợ đặt hàng online 24/7)']
+Row 12: ['Người đại diện pháp luật', 'Phạm Thị Hồng Hạnh (Founder & CEO)']
+Row 13: ['Khu vực phục vụ', 'Đà Nẵng (Giao hỏa tốc 1-2h) và Toàn quốc (Ship COD 2-3 ngày)']
+Row 14: ['Mạng xã hội chính thức (SameAs)', 'Facebook, Instagram, TikTok, Pinterest, YouTube, Behance, Medium, WordPress, Blogger, LinkedIn']
+
+==================== TABLE 30 (Rows: 11, Cols: 3) ====================
+Row 0: ['STT', 'Miền truy cập', 'Link Entity']
+Row 1: ['1', 'Facebook Fanpage', 'https://www.facebook.com/Omo.shop1']
+Row 2: ['2', 'Instagram Official', 'https://www.instagram.com/omo_shop_danang/']
+Row 3: ['3', 'TikTok Channel', 'https://www.tiktok.com/@omo.tiemgaubong']
+Row 4: ['4', 'Pinterest Business', 'https://www.pinterest.com/omoshopdanang/']
+Row 5: ['5', 'YouTube Brand Channel', 'https://www.youtube.com/@OmoTiemGauBongDaNang']
+Row 6: ['6', 'Behance Profile', 'https://www.behance.net/omoshopdanang']
+Row 7: ['7', 'Medium Blog', 'https://medium.com/@omoshopdanang']
+Row 8: ['8', 'WordPress.com Web 2.0', 'https://omoshopdanang.wordpress.com']
+Row 9: ['9', 'Blogger / Blogspot', 'https://omoshopdanang.blogspot.com']
+Row 10: ['10', 'LinkedIn Company', 'https://www.linkedin.com/company/omo-shop-tiem-gau-bong']
+
+==================== TABLE 31 (Rows: 11, Cols: 3) ====================
+Row 0: ['STT', 'Miền truy cập', 'Link']
+Row 1: ['1', 'Diễn Đàn Marketing VN', 'https://diendanmarketing.vn/threads/chia-se-tiem-gau-bong-vintage-chua-lanh-omo-tai-da-nang.14205/']
+Row 2: ['2', 'Webtretho Mua Sắm', 'https://webtretho.com/f/mua-sam-tieu-dung/dia-chi-mua-gau-bong-qua-tang-dep-va-an-toan-cho-be-o-da-nang']
+Row 3: ['3', 'Diễn Đàn Tinh Tế', 'https://tinhte.vn/thread/trai-nghiem-dat-gau-bong-hoa-toc-online-tai-tiem-omo.3812045/']
+Row 4: ['4', 'Cộng Đồng VOZ Forum', 'https://voz.vn/t/hoi-cac-bac-cho-mua-gau-bong-tang-gau-o-da-nang-uy-tin.912405/']
+Row 5: ['5', 'Mạng Xã Hội Linkhay', 'https://linkhay.com/link/7819234/bo-suu-tap-gau-bong-chua-lanh-healing-toys-moi-nhat-tai-omo']
+Row 6: ['6', 'Medium Publication', 'https://medium.com/@omoshopdanang/5-ly-do-nen-chon-gau-bong-tai-tiem-omo-da-nang-c821f92a']
+Row 7: ['7', 'WordPress Blog', 'https://omoshopdanang.wordpress.com/2026/08/20/top-cac-mau-gau-bong-hot-trend-2026/']
+Row 8: ['8', 'Blogger LifeStyle', 'https://omoshopdanang.blogspot.com/2026/08/huong-dan-ve-sinh-gau-bong-dung-cach.html']
+Row 9: ['9', 'Diễn Đàn Đời Sống', 'https://diendangiamcan.net/threads/qua-tang-tinh-than-y-nghia-tu-thu-nhoi-bong-omo.3912/']
+Row 10: ['10', 'Cổng Thông Tin TopDanang', 'https://topdanang.vn/danh-ba/tiem-gau-bong-va-qua-tang-omo-da-nang/']
+
+==================== TABLE 32 (Rows: 11, Cols: 3) ====================
+Row 0: ['STT', 'Miền truy cập', 'Link']
+Row 1: ['1', 'Diễn Đàn Marketing VN', 'https://diendanmarketing.vn/threads/chia-se-tiem-gau-bong-vintage-chua-lanh-omo-tai-da-nang.14205/']
+Row 2: ['2', 'Webtretho Mua Sắm', 'https://webtretho.com/f/mua-sam-tieu-dung/dia-chi-mua-gau-bong-qua-tang-dep-va-an-toan-cho-be-o-da-nang']
+Row 3: ['3', 'Diễn Đàn Tinh Tế', 'https://tinhte.vn/thread/trai-nghiem-dat-gau-bong-hoa-toc-online-tai-tiem-omo.3812045/']
+Row 4: ['4', 'Cộng Đồng VOZ Forum', 'https://voz.vn/t/hoi-cac-bac-cho-mua-gau-bong-tang-gau-o-da-nang-uy-tin.912405/']
+Row 5: ['5', 'Mạng Xã Hội Linkhay', 'https://linkhay.com/link/7819234/bo-suu-tap-gau-bong-chua-lanh-healing-toys-moi-nhat-tai-omo']
+Row 6: ['6', 'Medium Publication', 'https://medium.com/@omoshopdanang/5-ly-do-nen-chon-gau-bong-tai-tiem-omo-da-nang-c821f92a']
+Row 7: ['7', 'WordPress Blog', 'https://omoshopdanang.wordpress.com/2026/08/20/top-cac-mau-gau-bong-hot-trend-2026/']
+Row 8: ['8', 'Blogger LifeStyle', 'https://omoshopdanang.blogspot.com/2026/08/huong-dan-ve-sinh-gau-bong-dung-cach.html']
+Row 9: ['9', 'Diễn Đàn Đời Sống', 'https://diendangiamcan.net/threads/qua-tang-tinh-than-y-nghia-tu-thu-nhoi-bong-omo.3912/']
+Row 10: ['10', 'Cổng Thông Tin TopDanang', 'https://topdanang.vn/danh-ba/tiem-gau-bong-va-qua-tang-omo-da-nang/']
+
+==================== TABLE 33 (Rows: 10, Cols: 3) ====================
+Row 0: ['Hạng Mục Audit (Screaming Frog)', 'Số Liệu Thống Kê Thực Tế', 'Đánh Giá Kỹ Thuật & Mức Độ Tối Ưu']
+Row 1: ['1. Internal Links (Liên kết nội bộ)', '85 liên kết nội bộ thu thập', 'Cấu trúc Silo phân cấp rõ ràng giữa Trang chủ, Cửa hàng, Sản phẩm và Tin tức; Crawl Depth = 2; 0 trang mồ côi (Orphan Pages); tối ưu 100%.']
+Row 2: ['2. External Links (Liên kết ngoài)', '18 liên kết ngoài', "100% liên kết trỏ đến tên miền uy tín (Facebook, Google Maps, YouTube, Wikipedia) có thuộc tính rel='noopener noreferrer' an toàn."]
+Row 3: ['3. Security (Bảo mật HTTPS)', '100% URLs (8/8 trang)', 'Cài đặt chứng chỉ SSL/TLS mã hóa 256-bit hợp lệ, bảo mật dữ liệu truyền tải, 0 cảnh báo Mixed Content.']
+Row 4: ['4. Response Codes (Mã phản hồi)', '100% mã HTTP 200 OK; 2 URLs mã 301', 'Tất cả các trang hoạt động ổn định; thiết lập chuyển hướng 301 chuẩn SEO từ HTTP sang HTTPS; 0 lỗi 404 liên kết gãy; 0 lỗi máy chủ 500.']
+Row 5: ['5. URLs (Độ dài & Định dạng)', '100% URLs < 75 ký tự', "Đường dẫn ngắn gọn, thân thiện, dùng chữ thường không dấu, phân tách bằng dấu gạch ngang '-', chứa từ khóa chính, không chứa ký tự lạ."]
+Row 6: ['6. Page Titles (Thẻ tiêu đề)', '100% Unique Titles (0 trùng lặp)', 'Độ dài chuẩn từ 50 - 60 ký tự (< 600px), chứa từ khóa trọng tâm ở đầu và tên thương hiệu ÔMƠ ở cuối.']
+Row 7: ['7. Meta Descriptions (Thẻ mô tả)', '100% Unique Meta (0 trùng lặp)', 'Độ dài chuẩn từ 145 - 160 ký tự, tóm tắt chính xác nội dung, chứa từ khóa chính và CTA kích thích nhấp chuột.']
+Row 8: ['8. Thẻ Heading H1', '100% trang có duy nhất 1 thẻ H1', 'Thẻ H1 đặt ở đầu trang, thể hiện rõ chủ đề cốt lõi, các thẻ H2-H4 phân cấp logic và chặt chẽ.']
+Row 9: ['9. Images & Alt (Tối ưu hình ảnh)', '68 hình ảnh trên hệ thống', '100% ảnh có thẻ Alt mô tả chứa từ khóa liên quan; 100% ảnh nén dung lượng < 200KB; 0 lỗi hình ảnh bị vỡ.']
+
+==================== TABLE 34 (Rows: 13, Cols: 5) ====================
+Row 0: ['STT', 'Từ khóa', 'Vị trí', 'Link bài', 'Người thực hiện']
+Row 1: ['1', 'tiệm gấu bông ômơ', 'Top 1', 'https://omo13.vercel.app/index.html', 'Phạm Thị Hồng Hạnh']
+Row 2: ['2', 'gấu bông đà nẵng ômơ', 'Top 1', 'https://omo13.vercel.app/index.html', 'Đồng Đào Mai Linh']
+Row 3: ['3', 'móc khóa gấu bông xinh đà nẵng', 'Top 3', 'https://omo13.vercel.app/cua-hang.html', 'Phạm Tú Trinh']
+Row 4: ['4', '5 cách chọn gấu bông làm quà tặng', 'Top 4', 'https://omo13.vercel.app/tin-tuc.html', 'Phạm Thị Hồng Hạnh']
+Row 5: ['5', 'gấu bông healing toys đà nẵng', 'Top 5', 'https://omo13.vercel.app/tin-tuc.html', 'Đồng Đào Mai Linh']
+Row 6: ['6', 'gấu bông khổng lồ teddy đà nẵng', 'Top 6', 'https://omo13.vercel.app/cua-hang.html', 'Phạm Thị Băng Tâm']
+Row 7: ['7', 'cách vệ sinh gấu bông tại nhà', 'Top 7', 'https://omo13.vercel.app/tin-tuc.html', 'Trần Thị Thanh Thuỳ']
+Row 8: ['8', 'gấu bông opanchu usagi đà nẵng', 'Top 8', 'https://omo13.vercel.app/cua-hang.html', 'Nguyễn Thị Như Quỳnh']
+Row 9: ['9', 'gấu bông tặng bạn gái sinh nhật', 'Top 11', 'https://omo13.vercel.app/tin-tuc.html', 'Phạm Tú Trinh']
+Row 10: ['10', 'shop gấu bông quà tặng đà nẵng', 'Top 12', 'https://omo13.vercel.app/index.html', 'Nguyễn Thị Như Quỳnh']
+Row 11: ['11', 'gấu bông we bare bears mini', 'Top 14', 'https://omo13.vercel.app/cua-hang.html', 'Trần Thị Thanh Thuỳ']
+Row 12: ['12', 'gấu bông cinnamoroll nơ hồng', 'Top 16', 'https://omo13.vercel.app/cua-hang.html', 'Phạm Thị Băng Tâm']
+
+==================== TABLE 35 (Rows: 7, Cols: 3) ====================
+Row 0: ['STT', 'Các trang web liên kết hàng đầu', 'Trang đích (backlink)']
+Row 1: ['1', 'facebook.com (Fanpage & Group Mua Sắm)', 'https://omo13.vercel.app/index.html (145 liên kết)']
+Row 2: ['2', 'tinhte.vn (Diễn Đàn Công Nghệ & Đời Sống)', 'https://omo13.vercel.app/tin-tuc.html (38 liên kết)']
+Row 3: ['3', 'diendanmarketing.vn (Cộng Đồng SEO)', 'https://omo13.vercel.app/index.html (32 liên kết)']
+Row 4: ['4', 'wordpress.com (Blog Vệ Tinh Web 2.0)', 'https://omo13.vercel.app/cua-hang.html (25 liên kết)']
+Row 5: ['5', 'medium.com (Nền Tảng Xuất Bản Content)', 'https://omo13.vercel.app/tin-tuc.html (22 liên kết)']
+Row 6: ['6', 'webtretho.com (Diễn Đàn Gia Đình & Quà Tặng)', 'https://omo13.vercel.app/chinh-sach.html (18 liên kết)']
+
+==================== TABLE 36 (Rows: 14, Cols: 5) ====================
+Row 0: ['Website', 'Chỉ số KPIs', 'Mục tiêu', 'Thực tế đạt được', '% đạt được KPIs']
+Row 1: ['Keywords', 'Số lượng từ khóa lên TOP 100', 'Tối thiểu 15-20', '12 từ khóa lọt Top (8 từ Top 1-10)', '120.0%']
+Row 2: ['SEO Onpage', 'Hiệu suất trên máy tính', 'Tối thiểu 90', '96 / 100 điểm', '106.7%']
+Row 3: ['SEO Onpage', 'Hiệu suất trên điện thoại', 'Tối thiểu 90', '92 / 100 điểm', '102.2%']
+Row 4: ['SEO Onpage', 'Tổng số bài viết', '24 bài', '24 bài viết hoàn chỉnh', '100.0%']
+Row 5: ['SEO Entity', 'Khai báo doanh nghiệp', '60 entity', '60 profile entity đồng bộ', '100.0%']
+Row 6: ['SEO Offpage', 'Đi backlink và link chéo trên social', '60 backlink', '60 backlink chất lượng cao', '100.0%']
+Row 7: ['Traffic', 'Người dùng', 'Tối thiểu 2.000', '268 người dùng', '134.0%']
+Row 8: ['Traffic', 'Thời gian tương tác trung bình', 'Tối thiểu 2p30s', '2 phút 48 giây', '112.0%']
+Row 9: ['Nguồn truy cập', 'Direct', '200', '35% (94 users)', '140.0%']
+Row 10: ['Nguồn truy cập', 'Organic Search', '400', '23% (62 users)', '115.0%']
+Row 11: ['Nguồn truy cập', 'Paid Search', '500', '32% (86 users)', '128.0%']
+Row 12: ['Nguồn truy cập', 'Social', '800', '10% (26 users)', '100.0%']
+Row 13: ['Nguồn truy cập', 'Referral', '100', '12 từ khóa lọt Top (8 từ Top 1-10)', '120.0%']
+
+==================== TABLE 37 (Rows: 16, Cols: 3) ====================
+Row 0: ['STT', 'Tên công cụ đã sử dụng', 'Công dụng của công cụ trong dự án']
+Row 1: ['1', 'Google Trends', 'Nghiên cứu xu hướng tìm kiếm và nhu cầu thị trường đối với ngành hàng gấu bông trong 5 năm qua.']
+Row 2: ['2', 'Keyword Tool.io / Spineditor', 'Khảo sát và mở rộng danh sách từ khóa ngách, đo lường Search Volume và phân tích Search Intent.']
+Row 3: ['3', 'Google Search Operator (Allintitle)', 'Kiểm tra số lượng đối thủ cạnh tranh chính xác để tính toán chỉ số KGR (Keyword Golden Ratio < 0.25).']
+Row 4: ['4', 'Semrush / Ahrefs', "Phân tích đối thủ cạnh tranh (MINISO, Ngố's House), đo lường Authority Score, Organic Keywords và Backlinks."]
+Row 5: ['5', 'Figma', 'Thiết kế Wireframe, bố cục Layout giao diện trang chủ, danh mục sản phẩm và phối màu UI phong cách Pastel.']
+Row 6: ['6', 'Visual Studio Code', 'Môi trường lập trình phát triển source code website (HTML5, CSS3, JavaScript ES6, Node.js HTTP Server).']
+Row 7: ['7', 'SEOquake Extension', 'Audit nhanh On-page website: kiểm tra mật độ từ khóa, cấu trúc Headings (H1-H4), thẻ alt ảnh và liên kết nội bộ.']
+Row 8: ['8', 'Screaming Frog SEO Spider', 'Crawl toàn bộ website để quét lỗi kỹ thuật: phát hiện mã phản hồi HTTP, URL gãy, trùng lặp Title/Meta, kiểm tra bảo mật HTTPS.']
+Row 9: ['9', 'Google PageSpeed Insights', 'Đo lường các chỉ số Core Web Vitals (FCP, LCP, CLS) và tối ưu hóa tốc độ tải trang trên máy tính và điện thoại.']
+Row 10: ['10', 'Google Search Console', 'Khai báo URL Prefix, submit sitemap.xml, yêu cầu lập chỉ mục (Indexing) và theo dõi hiệu suất hiển thị tìm kiếm.']
+Row 11: ['11', 'Google Analytics 4 (GA4)', 'Đo lường lưu lượng truy cập (Users, Sessions), thời gian tương tác, các kênh truy cập (Channels) và hành vi người dùng.']
+Row 12: ['12', 'Canva / Photoshop', 'Thiết kế logo thương hiệu ÔMƠ, banner chương trình khuyến mãi, mockup sản phẩm và hình ảnh bài viết chuẩn SEO.']
+Row 13: ['13', 'Copyscape / SmallSEOTools', 'Kiểm tra độ trùng lặp văn bản (Plagiarism checker), đảm bảo bài viết đạt tính độc bản 100% Unique (< 15% trùng lặp).']
+Row 14: ['14', 'VietQR & MoMo API', 'Tích hợp giải pháp tạo mã QR thanh toán ngân hàng tự động kèm số tiền và mã đơn hàng tiện lợi.']
+Row 15: ['15', 'Git & GitHub / Vercel', 'Quản lý phiên bản mã nguồn dự án và triển khai hệ thống website TMĐT lên nền tảng đám mây Serverless.']
+
+==================== TABLE 38 (Rows: 7, Cols: 7) ====================
+Row 0: ['STT', 'Họ và tên', 'Chương 1', 'Chương 2', 'Chương 3', 'Chương 4', 'Chương 5']
+Row 1: ['1', 'Phạm Thị Hồng Hạnh', 'Mục 1.1, 1.1.1 (Thành lập, ý tưởng)', 'Mục 2.2 (SWOT) & 2.4 (KPIs tổng quan)', 'Mục 3.1.4 (Tối ưu UX) & 3.4 (Module)', 'Mục 4.2.2 (Bài demo) & 4.3 (SEO Onpage)', 'Mục 5.3 (Báo cáo KPI) & 5.6 (Đánh giá)']
+Row 2: ['2', 'Đồng Đào Mai Linh', 'Mục 1.1.2 (Lĩnh vực & danh mục SP)', 'Mục 2.1.1 (Khách hàng) & 2.3 (4P Mix)', 'Mục 3.1.3 (Demo Layout) & Tối ưu UI', 'Mục 4.2.1 (Plan Content) & 4 bài viết', 'Mục 5.4 (Đề xuất giải pháp phát triển)']
+Row 3: ['3', 'Phạm Tú Trinh', 'Mục 1.2.1 (Tiềm năng thị trường)', 'Mục 2.1.2 (Tổng quan đối thủ)', 'Mục 3.1.2 (Đặc tả hệ thống sitemap)', 'Mục 4.1 (Nghiên cứu từ khóa KGR) & 4.4', 'Mục 5.5 (Bảng 15 công cụ số sử dụng)']
+Row 4: ['4', 'Nguyễn Thị Như Quỳnh', 'Mục 1.2.2 (Google Trends 5 năm)', 'Mục 2.1.3 (Phân tích website đối thủ)', 'Mục 3.1.3 (Nội dung các trang chính)', 'Mục 4.5 (Mô hình Star Link & Backlink)', 'Mục 5.4 (Phân tích ưu điểm - nhược điểm)']
+Row 5: ['5', 'Phạm Thị Băng Tâm', 'Mục 1.3 (Business Model Canvas)', 'Mục 2.3 (Chiến lược giá & phân phối)', 'Mục 3.1.1 (Yêu cầu hệ thống & Core App)', 'Mục 4.3 (Kỹ thuật Onpage mã nguồn)', 'Mục 5.1.3 (Tối ưu điểm số PageSpeed)']
+Row 6: ['6', 'Trần Thị Thanh Thuỳ', 'Mục 1.3 (Cơ cấu chi phí & Doanh thu)', 'Mục 2.4 (Mô hình SMART áp dụng)', 'Mục 3.2 (Cài đặt GA4) & 3.3 (GSC/Sitemap)', 'Mục 4.2.2 (Kiểm tra Index bài viết)', 'Mục 5.1.1, 5.1.2 (Audit Screaming Frog)']
+
+==================== TABLE 39 (Rows: 7, Cols: 7) ====================
+Row 0: ['STT', 'Họ và Tên', 'Mã Sinh Viên', '% Đóng Góp (Tổng 100%)', 'Nhận Xét Quá Trình Thực Hiện Đồ Án', 'Điểm Đánh Giá Chung (%)', 'Chữ Ký Xác Nhận']
+Row 1: ['1', 'Phạm Thị Hồng Hạnh', '2311215101', '18%', 'Gương mẫu, điều phối nhóm xuất sắc, hoàn thành vượt mức các nhiệm vụ kỹ thuật và SEO.', '98%', 'Hạnh (Đã ký)']
+Row 2: ['2', 'Đồng Đào Mai Linh', '2311215102', '17%', 'Sáng tạo cao trong thiết kế UI/UX và nội dung, bài viết chỉn chu, đúng tiến độ.', '96%', 'Linh (Đã ký)']
+Row 3: ['3', 'Phạm Tú Trinh', '2311215103', '16%', 'Tỉ mỉ trong nghiên cứu từ khóa KGR và xây dựng hồ sơ thực thể Entity chuẩn xác.', '95%', 'Trinh (Đã ký)']
+Row 4: ['4', 'Nguyễn Thị Như Quỳnh', '2311215104', '16%', 'Chủ động phân tích đối thủ cạnh tranh, xây dựng mạng lưới backlink hiệu quả.', '95%', 'Quỳnh (Đã ký)']
+Row 5: ['5', 'Phạm Thị Băng Tâm', '2311215105', '17%', 'Kỹ năng lập trình xuất sắc, tối ưu hệ thống mượt mà và hỗ trợ nhóm tận tình.', '97%', 'Tâm (Đã ký)']
+Row 6: ['6', 'Trần Thị Thanh Thuỳ', '2311215106', '16%', 'Thực hiện audit kỹ lưỡng, đo lường chính xác các chỉ số GA4/GSC, tinh thần trách nhiệm cao.', '95%', 'Thuỳ (Đã ký)']

@@ -1,0 +1,138 @@
+=== FILE 1 HEADINGS (TEMPLATE / REQUIREMENTS) ===
+Sang chương mới thì sang trang mới, tên chương viết hoa, căn giữa, bôi đậm
+CHƯƠNG I. TỔNG QUAN VỀ DỰ ÁN
+1.1. Giới thiệu tổng quan về thương hiệu
+1.1.1. Thành lập và ý tưởng dự án
+1.1.2. Lĩnh vực kinh doanh và danh mục sản phẩm
+1.2. Lý do lựa chọn ngành hàng
+1.2.1. Tiềm năng thị trường và ngành hàng
+1.2.2. Google Trends
+1.3. Mô hình kinh doanh (sử dụng mô hình Business Canvas, kẻ bảng)
+
+CHƯƠNG II. HOẠCH ĐỊNH CHIẾN LƯỢC MARKETING
+2.1. Phân khúc thị trường
+2.1.1. Khách hàng mục tiêu
+Nhu cầu: (chia theo độ tuổi  bởi nhu cầu mỗi độ tuổi khác nhau. Ví dụ: xét về tiêu chí mua thì có: chất lượng sản phẩm, sự đa dạng dòng sản phẩm/kiểu dáng, dịch vụ hỗ trợ, giá thành, chương trình xúc tiến bán…; xét về mục đích mua thì có: mua do nhu cầu cá nhân, mua cho nhu cầu gia đình, mua do nhu cầu công việc, mua cho nhu cầu giao tiếp…)
+2.1.2. Đối thủ cạnh tranh
+2.2. Mô hình SWOT
+2.3. Mô hình 4P
+2.4. Xác định KPIs
+CHƯƠNG III. THIẾT KẾ WEBSITE
+3.1. Phân tích hệ thống
+3.1.1 Yêu cầu hệ thống
+3.1.3. Demo website
+3.1.4. Tối ưu UI/UX
+3.1.4.1. Tối ưu UI
+3.1.4.1. Tối ưu UX
+3.2. Cài đặt Google Analytics
+3.3. Khai báo Google Search Console và Submit Sitemap
+3.3.1. Khai báo Google Search Console
+3.3.2. Submit Sitemap
+3.4. Các Plugin đã cài đặt
+CHƯƠNG IV. SEO
+4.1. Nghiên cứu từ khóa
+4.2. Chiến lược nội dung
+4.2.1. Plan content
+4.2.2. Content tối ưu SEO
+4.3. SEO Onpage
+4.4. SEO Entity
+4.5. SEO Offpage
+4.5.1. Mô hình liên kết
+4.5.1. Tổng hợp link
+CHƯƠNG V. ĐO LƯỜNG VÀ ĐÁNH GIÁ
+5.1. Audit Website
+5.1.1. SEOquake
+5.1.2. Screaming Frog
+5.1.3. Google Pagespeed Insights
+5.2. Đo lường hiệu quả
+5.2.1. Vị trí thứ hạng từ khóa
+5.2.2. SemRush (chỉ dùng nếu trên công cụ này đã có chỉ số web - không bắt buộc)
+5.2.3. Chỉ số Google Search Console
+
+5.2.4. Chỉ số Google Analytics
+5.3. Báo cáo KPIs
+5.4. Ưu điểm - Nhược điểm - Đề xuất giải pháp
+5.5. Bảng các công cụ sử dụng
+5.6. Bảng phân công nhiệm vụ và đánh giá thành viên
+
+Bảng phân công nhiệm vụ và đánh giá thành viên (tách riêng trong GD1, còn GD2 gộp thành mục 5.6)
+
+==================================================
+=== FILE 2 HEADINGS (CURRENT DRAFT) ===
+CHƯƠNG I. TỔNG QUAN VỀ DỰ ÁN
+1.1. Giới thiệu tổng quan về thương hiệu
+1.1.1. Thành lập và ý tưởng dự án
+1.1.2. Lĩnh vực kinh doanh và danh mục sản phẩm
+1.2.Lý do lựa chọn ngành hàng
+1.2.1. Tiềm năng thị trường và ngành hàng
+1.2.2. Google Trends
+1.3. Mô hình kinh doanh
+Bảng 1.3. Mô hình Canvas của thương hiệu Tiệm gấu bông ÔMƠ
+CHƯƠNG II. HOẠCH ĐỊNH CHIẾN LƯỢC MARKETING
+2.1. Phân khúc thị trường
+2.1.1. Khách hàng mục tiêu
+Đây là nhóm khách hàng trẻ có tiềm năng lớn, thường có sở thích và quan tâm đến các sản phẩm dễ thương, có tính thẩm mỹ, phù hợp với xu hướng, bắt trend trên mạng xã hội và thường mua sản phẩm để tặng người thương hay bạn bè hoặc sử dụng cho bản thân. Nhóm này cũng dễ bị tác động bởi hình ảnh, video ngắn, đánh giá của người dùng và các chương trình khuyến mãi.
+Facebook: theo dõi Fanpage thương hiệu, tham khảo bài đăng, chương trình khuyến mãi và bình luận của khách hàng.
+2.1.2. Đối thủ cạnh tranh
+Bảng căn cứ lựa chọn đối thủ
+2.1.3 Phân tích website đối thủ
+2.4. Xác định KPIs
+2.1. Dựa vào độ quan tâm và đặc điểm của khách hàng mục tiêu
+2.2. Dựa vào mục tiêu chiến lược Marketing ban đầu
+2.3. Dựa vào nguồn lực như nhân lực và ngân sách nhóm
+2.4. Dựa vào thời gian triển khai
+2.5. Dựa vào đối thủ cạnh tranh
++ Nhờ có ngân sách, ÔMƠ không chỉ cạnh tranh bằng SEO mà còn cạnh tranh trực tiếp bằng các chương trình khuyến mãi, mini-game có thưởng và video viral trên TikTok/Facebook do KOC thực hiện để "phủ đầu" đối thủ trong phân khúc quà tặng chữa lành tại Đà Nẵng.
+3. Bảng tổng hợp các chỉ số KPIs chi tiết của dự án
+CHƯƠNG III. THIẾT KẾ WEBSITE
+3.1. Phân tích hệ thống
+3.1.1 Yêu cầu hệ thống
+Nhân lực
+Nền tảng
+Cơ sở vật chất
+3.1.3. Demo website
+3.1.3.1. Layout giao diện và nội dung trang chủ
+3.1.3.2. Layout giao diện và nội dung trang cửa hàng
+3.1.3.3. Layout giao diện và nội dung trang giới thiệu
+3.1.3.4. Layout giao diện và nội dung trang tin tức
+3.1.3.5. Layout giao diện và nội dung trang giỏ hàng
+3.1.3.6. Layout giao diện và nội dung trang thanh toán
+3.1.3.7. Layout giao diện và nội dung trang chính sách
+3.1.3.8. Layout giao diện và nội dung trang liên hệ
+3.1.4. Tối ưu UI/UX
+3.1.4.1. Tối ưu UI
+
+
+3.1.4.2. Tối ưu UX
+3.2. Cài đặt Google Analytics
+3.3. Khai báo Google Search Console và Submit Sitemap
+3.3.1. Khai báo Google Search Console
+3.3.2. Submit Sitemap
+3.4. Các Plugin đã cài đặt
+CHƯƠNG IV. SEO
+4.1. Nghiên cứu từ khóa
+4.2. Chiến lược nội dung
+4.2.1. Plan content
+4.2.2. Content tối ưu SEO
+4.3. SEO Onpage
+4.4. SEO Entity
+4.5. SEO Offpage
+4.5.1. Mô hình liên kết
+4.5.1. Tổng hợp link
+CHƯƠNG V. ĐO LƯỜNG VÀ ĐÁNH GIÁ
+5.1. Audit Website
+5.1.1. SEOquake
+5.1.2. Screaming Frog
+5.1.3. Google Pagespeed Insights
+5.2. Đo lường hiệu quả
+5.2.1. Vị trí thứ hạng từ khóa
+5.2.2. SemRush (chỉ dùng nếu trên công cụ này đã có chỉ số web - không bắt buộc)
+5.2.3. Chỉ số Google Search Console
+
+5.2.4. Chỉ số Google Analytics
+5.3. Báo cáo KPIs
+5.4. Ưu điểm - Nhược điểm - Đề xuất giải pháp
+5.5. Bảng các công cụ sử dụng
+5.6. Bảng phân công nhiệm vụ và đánh giá thành viên
+
+Bảng phân công nhiệm vụ và đánh giá thành viên (tách riêng trong GD1, còn GD2 gộp thành mục 5.6)

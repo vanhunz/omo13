@@ -1,0 +1,535 @@
+[Normal] KHUNG ASM
+[Normal] Soát chính tả, dấu câu
+[Normal] Làm bìa đúng form
+[Normal] Thống nhất font Times New Romans, cỡ chữ 13, khoảng cách dòng 1,5
+[Normal] Căn thẳng lề trái 3cm, lề phải 2cm, trên 2cm, dưới 2cm, căn cả bảng biểu, hình, lưu ý chữ lề phải phản thẳng hàng
+[Normal] Sang chương mới thì sang trang mới, tên chương viết hoa, căn giữa, bôi đậm
+[Normal] Có mục lục, đánh số rõ ràng ở giữa hoặc bên phải phía dưới trang
+[Normal] Ngoài mục lục phải có danh mục hình ảnh và danh mục bảng biểu, sơ đồ
+[Normal] Rút gọn link và mã QR thì lấy từ 1 nguồn chứ đừng mỗi người dùng 1 cái khác nhau. VD: https://bitly.com/ để rút gọn, https://me-qr.com/vi/qr-code-generator/qr để tạo mã QR
+[Normal] Khi chụp ảnh màn hình thì chụp full màn hình để đồng bộ chiều ngang và chiều cao của tất cả các ảnh (không bóp méo ảnh).
+[Normal] Dưới mỗi hình ảnh thì phải có tên ảnh (trích nguồn nếu có), dưới mỗi bảng biểu số liệu thì cũng phải có tên bảng (trích nguồn nếu có).  
+[Normal] Ví dụ: 
+[Normal] Nếu là hình ảnh thì ảnh căn giữa, tên hình in nghiêng và căn giữa như sau:
+[Normal]         Hình 1.1. Logo thương hiệu Ngọt Fashion
+[Normal] Nếu là biểu đồ, hình ảnh mang tính số liệu thì ngoài chú thích còn phải trích nguồn (in nghiêng, lệch lề phải):
+[Normal] Biểu đồ 1.1. Thống kê mức độ đo lường hiệu quả ROI của kênh email marketing
+[Normal] Nguồn: litmus.com
+[Heading 2] CHƯƠNG I. TỔNG QUAN VỀ DỰ ÁN
+[Heading 3] 1.1. Giới thiệu tổng quan về thương hiệu 
+[Normal] Tham khảo: https://drive.google.com/file/d/1AGOauOD03CQQ1K6Bc4ilrTnv0L-ckTXu/view?usp=sharing
+[Normal] Tên thương hiệu:
+[Normal] Slogan:
+[Normal] Logo:
+[Normal] Hình ảnh
+[Normal] Tên ảnh
+[Normal] Ý nghĩa logo:
+[Normal] Website: (link Website)
+[Normal] Hình ảnh QR
+[Normal] Tên ảnh
+[Normal] Fanpage: (link Fanpage)
+[Normal] Hình ảnh QR
+[Normal] Tên ảnh
+[Heading 4] 1.1.1. Thành lập và ý tưởng dự án
+[Normal] Ngày thành lập:
+[Normal] Đội ngũ sáng lập:
+[Normal] Ý tưởng dự án:
+[Normal] Mục đích:
+[Heading 4] 1.1.2. Lĩnh vực kinh doanh và danh mục sản phẩm
+[Normal] Tham khảo: https://drive.google.com/file/d/1QHtatm-y-sL9_Fn1mKUN5wViUaYUydgC/view?usp=drive_link
+[Normal] Lĩnh vực kinh doanh: (nói chung)
+[Normal] Danh mục sản phẩm:
+[Normal] Tên bảng
+[Heading 3] 1.2. Lý do lựa chọn ngành hàng
+[Normal] (Cụ thể phân tích ở 1.2,1 và 1.2.2: Nêu thực trạng, quan điểm chủ quan, khách quan như báo chí, sử dụng dữ liệu sơ cấp, thứ cấp. Bắt buộc có Google Trends (3-5 năm), có thể sử dụng thêm Buzzsumo, Shopee Analytics/Metric.vn, Search Volume - cái này sẽ dùng sau khi học xong phần nghiên cứu từ khóa do phải mất phí qua 1 số công cụ như Keywordtool.io/https://spineditor.com/Ahrefs/Semrush… để tăng tính thuyết phục - trả lời câu hỏi nêu lý do lựa chọn ngành hàng. Khi có minh họa số liệu bằng hình ảnh thì phải giải thích số liệu đó chứ không chỉ chụp màn hình là xong, các thông tin có số liệu bắt buộc phải ghi rõ trích từ nguồn nào)
+[Heading 4] 1.2.1. Tiềm năng thị trường và ngành hàng
+[Normal] Tham khảo:
+[Normal] Dữ liệu thứ cấp: https://drive.google.com/file/d/1vHd0IzfNul-KN2RhkIggrKVzwuWQDRjJ/view?usp=sharing
+[Normal] Buzzsumo: https://drive.google.com/file/d/119_2lzLehxtO-jMkhAWZQR3AFTsUMi3-/view?usp=sharing
+[Normal] Metric: https://drive.google.com/file/d/1kQWpbqECyU-7YlZMWpxUm3NcGWfQ_7Ef/view?usp=drive_link
+[Heading 4] 1.2.2. Google Trends 
+[Normal] Nghiên cứu 5 năm. Tối thiểu 3 từ (VD: nếu làm về ngành mỹ phẩm thì nhớ dùng các từ khóa cụ thể như “sữa rửa mặt”, “kem chống nắng” chứ không dùng từ “mỹ phẩm”):
+[Normal] https://drive.google.com/file/d/19a_fKP-oWIM68aJYaUjCJdPke1EY_YYJ/view?usp=drive_link 
+[Normal] và 
+[Normal] https://drive.google.com/file/d/1sOn1zzg5XNOGzC3BDrPUp9AQHsohC9HG/view?usp=drive_link 
+[Heading 3] 1.3. Mô hình kinh doanh (sử dụng mô hình Business Canvas, kẻ bảng)
+[Normal] Tham khảo: https://drive.google.com/file/d/1YKZ6ft-mwrdsXty54CaK5CJyuXAQadZb/view?usp=drive_link 
+[Normal] và
+[Normal] https://drive.google.com/file/d/1oRK9SOIY0aMGTuMzQUH7fHxXbfnspRfM/view?usp=drive_link
+[Heading 2] CHƯƠNG II. HOẠCH ĐỊNH CHIẾN LƯỢC MARKETING
+[Heading 3] 2.1. Phân khúc thị trường
+[Heading 4] 2.1.1. Khách hàng mục tiêu 
+[Normal] Tham khảo:
+[Normal] https://drive.google.com/file/d/1mrOZGctZ4i6L25R0dtZ7RjGVo8QAHNFI/view?usp=drive_link
+[Normal] (Lưu ý là phân tích khách hàng chứ không phải người tiêu dùng. Ví dụ: Nhóm kinh doanh về đồ bơi, có sản phẩm cho trẻ em thì trẻ em là người tiêu dùng, khách hàng phải là bố mẹ - những người có khả năng chi trả nhưng chưa chắc sử dụng. Phần này nếu làm được khảo sát như bảng hỏi thì tốt hoặc có dữ liệu thống kê khách quan, còn không đủ thời gian thì làm luôn)
+[Normal] *Nhân khẩu học
+[Normal] Độ tuổi: (có thể lấy 1 mốc hoặc nhiều mốc nhưng chỉ sử dụng đúng các mốc tuổi này: 18 - 24, 25 - 34, 35 - 44, 45 - 54, 55 - 64, từ 65 trở lên)
+[Normal] Giới tính: (nếu tập trung chuyên 1 giới thì ghi Nữ/Nam. Nếu không phục vụ chuyên giới nào thì nên ghi mọi giới tính thay vì cả Nam và Nữ)
+[Normal] Thu nhập: (ghi thu nhập nên nêu cả lý do chọn mức thu nhập như mối quan hệ giữa khoảng giá sản phẩm với khả năng chi trả hay thu nhập của đối tượng khách hàng, chẳng hạn do hướng tới phân khúc khách hàng cao cấp, bình dân, sinh viên…)
+[Normal] Nghề nghiệp: (ghi rõ nghề nghiệp chứ đừng ghi mọi nghề nghiệp)
+[Normal] Vị trí địa lý: (ghi rõ xem tập trung ở thành phố lớn hay các tỉnh lẻ…)
+[Normal] *Sở thích, nhu cầu
+[Normal] Sở thích: (chia theo độ tuổi nếu có nhiều mốc tuổi lựa chọn bên trên, mỗi độ tuổi sẽ có sở thích khác nhau chứ không gộp sở thích chung chung)
+[Normal] Nhu cầu: (chia theo độ tuổi  bởi nhu cầu mỗi độ tuổi khác nhau. Ví dụ: xét về tiêu chí mua thì có: chất lượng sản phẩm, sự đa dạng dòng sản phẩm/kiểu dáng, dịch vụ hỗ trợ, giá thành, chương trình xúc tiến bán…; xét về mục đích mua thì có: mua do nhu cầu cá nhân, mua cho nhu cầu gia đình, mua do nhu cầu công việc, mua cho nhu cầu giao tiếp…)
+[Normal] *Hành vi online
+[Normal] Thời gian online: (ghi rõ khung giờ, có thể xem 1 số nghiên cứu từ bên báo chí hay kênh bất kỳ nhưng phải ghi nguồn. Nên phân tích kỹ là tại sao khách hàng lại thường xuyên online vào khoảng thời gian đó. Ví dụ: 11h - 13h do khách hàng nghỉ trưa nên có thời gian online thư giãn, shopping…)
+[Normal] Kênh online, kênh mua sắm online: (như các website, Facebook, Tik Tok Shop, Shopee…)
+[Normal] Nơi tham khảo, tìm kiếm thông tin: (ghi rõ tên trang, web. Ví dụ: hội nhóm review trên Facebook, bình luận đánh giá các bài post của Fanpage 1 số brand, đánh giá trên Shopee 1 số brand, website xếp hạng hay diễn đàn đánh giá, báo chí…)
+[Heading 4] 2.1.2. Đối thủ cạnh tranh
+[Normal] Tham khảo:
+[Normal] https://drive.google.com/file/d/184nllvUtdSqDEvYjXzPd-IufD1gySeAY/view?usp=drive_link
+[Normal] https://drive.google.com/file/d/15o2rUWiADMnOnCMK0ESr0vMlbmL45NG-/view?usp=drive_link
+[Normal] https://drive.google.com/file/d/1Qa8R_Bdy34ejFvFy4s8wdLXXLt7m1Y15/view?usp=drive_link
+[Normal] Căn cứ lựa chọn đối thủ cạnh tranh: (liệt kê ra như sự tương đồng về ngành hàng và danh mục sản phẩm, phân khúc giá, cùng tệp khách hàng mục tiêu, quy mô kinh doanh…)
+[Normal] *Định vị trên thị trường
+[Normal] (Sơ đồ định vị dựa trên chất lượng và giá, sơ đồ so sánh vị trí của 2 đối thủ theo tiêu chí lựa chọn bên trên với doanh nghiệp của nhóm)
+[Normal] *Phân tích website đối thủ cạnh tranh
+[Normal] Phân tích tổng quan đối thủ cạnh tranh:
+[Normal] Phân tích Website đối thủ cạnh tranh bằng Ahrefs hoặc SemRush 
+[Normal] Bảng 2: Phân tích với các phần: các chỉ số cơ bản trong Domain overview, Backlink, top organic keyword. Nên kẻ bảng để so sánh song song 2 đối thủ. Phân tích các chỉ số và đánh giá chung:
+[Normal] - Authority Score: bao nhiêu
+[Normal] Chất lượng tổng thể của tên miền và hiệu suất SEO cao hay thấp.
+[Normal] - Organic Search Traffic: bao nhiêu
+[Normal] Lượng truy cập của người dùng vào website từ các kết quả tìm kiếm tự nhiên cao hay thấp, có xu hướng tăng hay giảm 1 tháng qua.
+[Normal] - Organic Keyword: bao nhiêu
+[Normal] Từ khóa tự nhiên lọt top nhiều hay ít, chủ yếu là loại từ thương hiệu hay sản phẩm?
+[Normal] - Paid Search Traffic: bao nhiêu
+[Normal] Hiện tại trên Semrush chưa có thông tin về Paid Search Traffic của thương hiệu hay nếu có ghi nhận thì là bao nhiêu, thế thì nhiều hay ít
+[Normal] - Backlinks: bao nhiêu
+[Normal] Số lượng backlink trỏ về website đang cao hay thấp, chủ yếu sử dụng anchor text nào?
+[Normal] - Referring domain: bao nhiêu
+[Normal] Các domain chứa backlink trỏ về website nhiều hay ít, chất lượng referring domain cao hay thấp?
+[Heading 3] 2.2. Mô hình SWOT
+[Normal] Tham khảo: https://drive.google.com/file/d/1gih_Zp2tyM4E5Q4POPoLffc16WTOdeWD/view?usp=drive_link
+[Heading 3] 2.3. Mô hình 4P
+[Normal] Tham khảo trong các AMS mẫu
+[Heading 3] 2.4. Xác định KPIs
+[Normal] Tham khảo: https://drive.google.com/file/d/1Bd5YEHH4vEMByAlAB0FYan-XGerl9-nz/view?usp=drive_link
+[Normal] Thời gian thực hiện: (ghi rõ ngày, từ tuần thứ 2 môn học đến hết tuần thứ 5 môn học)
+[Normal] Kênh thực hiện chính: Website (link website)
+[Normal] Mô hình SMART: (tóm tắt mô hình vào dự án chứ không nói lý thuyết chung chung)
+[Normal] Căn cứ xác định KPIs: (liệt kê, ví dụ: dựa vào độ quan tâm và đặc điểm của khách hàng mục tiêu, mục tiêu chiến lược Marketing ban đầu, nguồn lực như nhân lực và ngân sách nhóm, thời gian triển khai, đối thủ cạnh tranh…)
+[Normal] Tên bảng
+[Heading 2] CHƯƠNG III. THIẾT KẾ WEBSITE
+[Heading 3] 3.1. Phân tích hệ thống
+[Heading 4] 3.1.1 Yêu cầu hệ thống
+[Normal] Tham khảo: https://drive.google.com/file/d/1glaNp173R6Sdrll9yf0i1J6_aVuuCq9k/view?usp=drive_link 
+[Normal] *Yêu cầu
+[Normal] Nhân lực: Trình bày những kỹ năng, kinh nghiệm có khả năng làm dự án
+[Normal] Nền tảng: Xây dựng website trên nền tảng Wordpress
+[Normal] Cơ sở vật chất:
+[Normal] Hosting: Chỗ mua
+[Normal] Domain: Chỗ mua
+[Normal] Tham khảo: https://drive.google.com/file/d/1-BMHkYhAipjgKoG4pXfyDguCYuEtUIuB/view?usp=drive_link 
+[Normal] Tên bảng
+[Heading 4] 3.1.3. Demo website
+[Normal] Tên website:
+[Normal] *Phác thảo layout
+[Normal] Tham khảo: https://drive.google.com/file/d/1EaRT_vrxEAgy11KXmPHFQGsJpQUpbMQb/view?usp=sharing 
+[Normal] *Bố cục trang chủ
+[Normal] Tên bảng
+[Normal] *Bố cục trang danh mục sản phẩm 
+[Normal] Tên bảng
+[Normal] *Bố cục trang sản phẩm 
+[Normal] Tên bảng
+[Normal] *Bố cục trang tin tức 
+[Normal] Tên bảng
+[Normal] *Bố cục trang bài viết
+[Normal] Tên bảng
+[Normal] *Bố cục trang giỏ hàng 
+[Normal] Tên bảng
+[Normal] *Bố cục trang thanh toán 
+[Normal] Tên bảng
+[Normal] *Bố cục trang giới thiệu
+[Normal] Tên bảng
+[Normal] *Bố cục trang liên hệ
+[Normal] Tên bảng
+[Heading 4] 3.1.4. Tối ưu UI/UX
+[Normal] Tham khảo:
+[Normal] (1): https://drive.google.com/file/d/1BA1xqpfeTV4M0zHho-lUOf4yA_llMhNy/view?usp=sharing 
+[Normal] (2): https://drive.google.com/file/d/1YJhaaKkzTIRRsQEBWqTHlC2p0uiSgU43/view?usp=sharing 
+[Heading 5] 3.1.4.1. Tối ưu UI
+[Normal] (Trình bày các yếu tố trong tối ưu UI. Kẻ bảng ra, mỗi yếu tố kể đều có ảnh demo. 
+[Heading 5] 3.1.4.1. Tối ưu UX
+[Normal] (Trình bày các yếu tố trong tối ưu UI. Kẻ bảng ra, mỗi yếu tố kể đều có ảnh demo. 
+[Heading 3] 3.2. Cài đặt Google Analytics
+[Normal] (Chụp nguyên màn hình kết quả)
+[Heading 3] 3.3. Khai báo Google Search Console và Submit Sitemap
+[Heading 4] 3.3.1. Khai báo Google Search Console
+[Normal] (Chụp nguyên màn hình kết quả)
+[Heading 4] 3.3.2. Submit Sitemap
+[Normal] (Chụp nguyên màn hình kết quả)
+[Heading 3] 3.4. Các Plugin đã cài đặt
+[Normal] (Kẻ bảng 3 cột, cột 1 là tên plugin, cột 2 là ảnh plugin đã cài, cột 3 là vai trò của plugin đấy)
+[Heading 2] CHƯƠNG IV. SEO
+[Heading 3] 4.1. Nghiên cứu từ khóa
+[Normal] Liệt kê các bước, mỗi bước có 1 ảnh demo
+[Normal] Ảnh chụp màn hình hoặc kẻ bảng chi tiết bảng từ khóa của từng thành viên (chỉ cần chụp mỗi thành viên đủ tối thiểu 8 từ: link (Tập hợp bài lab 1)
+[Normal] Link bảng nghiên cứu từ khóa:
+[Normal] Ảnh QR
+[Heading 3] 4.2. Chiến lược nội dung
+[Heading 4] 4.2.1. Plan content
+[Normal] Link plan content
+[Normal] Ảnh QR
+[Normal] Chụp ảnh màn hình
+[Heading 4] 4.2.2. Content tối ưu SEO
+[Normal] Bài demo: link bài tự tin nhất trong nhóm
+[Normal] Ảnh QR
+[Normal] Chụp toàn ảnh màn hình demo bài viết trên web
+[Normal] * SEOquake bài viết:
+[Normal] Chụp ảnh màn hình demo 2 phần: Page info (chỉ chụp đến chỗ có title, meta) và Diagnosis (chỉ chụp đến chỗ có alt ảnh)
+[Normal] * Kiểm tra Index bài viết bằng Google search console hoặc gõ “site:URL” trên Google:
+[Normal] Chụp ảnh màn hình demo đúng link bài viết đó
+[Normal] * Tổng số lượng bài viết trên Website:
+[Normal] (yêu cầu ghi đủ tất cả các bài của cả nhóm)
+[Heading 3] 4.3. SEO Onpage
+[Normal] Bên cạnh các yếu tố tối ưu UI/UX, tối ưu nội dung đã trình bày ở trên, website của nhóm còn được tối ưu thêm các yếu tố kỹ thuật để cải thiện SEO onpage bao gồm:
+[Normal] Tham khảo: từ trang 95-97: Nhóm Hạnh.pdf
+[Heading 3] 4.4. SEO Entity
+[Normal] * Khai báo thực thể doanh nghiệp:
+[Normal] Website:
+[Normal] Logo:
+[Normal] Tên doanh nghiệp:
+[Normal] Ngày sinh:
+[Normal] Giới tính:
+[Normal] Số điện thoại:
+[Normal] Gmail:
+[Normal] Fanpage:
+[Normal] Youtube:
+[Normal] Instagram:
+[Normal] Sản phẩm cung cấp:
+[Normal] Giới thiệu: max 150 ký tự
+[Normal] Bio: max 65 ký tự
+[Normal] Địa chỉ: (Nếu không làm thực tế, không ghi chi tiết địa chỉ)
+[Normal] * Đồng bộ thông tin trong Trang giới thiệu hoặc Footer trên Website:
+[Normal] Chụp màn hình ảnh trang giới thiệu, footer đồng bộ 1 số thông tin khai báo bên trên
+[Normal] * Tạo Google My Business & Google Maps định danh thương hiệu:
+[Normal] Đăng ký Google My Business:
+[Normal] Chụp ảnh màn hình
+[Normal] Đăng ký Google Maps (nếu có):
+[Normal] Chụp ảnh màn hình
+[Normal] * Đồng bộ hóa thông tin trên các kênh Social Network và Blog, Web 2.0, Forum:
+[Normal] (Chỉ ghi 10 link để demo vào bảng dưới)
+[Normal] Danh sách chi tiết: link
+[Normal] Ảnh QR
+[Heading 3] 4.5. SEO Offpage 
+[Heading 4] 4.5.1. Mô hình liên kết
+[Normal] Nêu tên mô hình liên kết nhóm lựa chọn (thường là sao), định nghĩa theo cách hiểu của mình
+[Normal] Nêu ưu - nhược mô hình liên kết đó
+[Normal] Vẽ demo mô hình
+[Heading 4] 4.5.1. Tổng hợp link
+[Normal] * Backlink:
+[Normal] Blogger: link demo
+[Normal] Demo 1 ảnh chụp màn hình
+[Normal] (Chỉ ghi 10 link để demo vào bảng dưới)
+[Normal] * Social media và bookmarking:
+[Normal] Fanpage: link demo
+[Normal] Demo 1 ảnh chụp màn hình
+[Normal] (Chỉ ghi 10 link để demo vào bảng dưới)
+[Normal] Danh sách chi tiết: link tổng hợp của nhóm
+[Normal] Ảnh QR
+[Heading 2] CHƯƠNG V. ĐO LƯỜNG VÀ ĐÁNH GIÁ
+[Heading 3] 5.1. Audit Website
+[Heading 4] 5.1.1. SEOquake
+[Normal] Chụp ảnh SEOquake trang chủ. Phân tích URL, Title, Meta có tối ưu ký tự không, H1 có mấy cái, ảnh có Alt chưa, web đã có Robots.txt và XML Sitemaps chưa, đã có Favicon chưa
+[Heading 4] 5.1.2. Screaming Frog
+[Heading 4] 5.1.3. Google Pagespeed Insights
+[Normal] Chụp ảnh phiên bản cả điện thoại và máy tính. Đánh giá chỉ số
+[Heading 3] 5.2. Đo lường hiệu quả
+[Heading 4] 5.2.1. Vị trí thứ hạng từ khóa
+[Normal] Sử dụng công cụ nào để check?
+[Normal] Ảnh cap màn hình công cụ đó để show từ lọt top
+[Normal] Kết luận xem bao nhiêu từ và có bao nhiêu từ lọt top 100, 30, 10, 3? (có top nào trình bày top đó, còn không bỏ đi)
+[Heading 4] 5.2.2. SemRush (chỉ dùng nếu trên công cụ này đã có chỉ số web - không bắt buộc)
+[Normal] Chụp ảnh màn hình và phân tích, đánh giá phần Domain Overview (4 ô cơ bản)
+[Heading 4] 5.2.3. Chỉ số Google Search Console
+[Normal] * Tổng quan hiệu suất website
+[Normal] Chụp phần hiệu suất chọn loại tìm kiếm web
+[Normal] Tất cả các chỉ số đều phải phân tích đủ: (1) Giải thích chỉ số đó là gì, (2) số liệu ghi nhận là bao nhiêu, (3) đánh giá nó đang cao hay thấp so với mục tiêu đề ra 
+[Normal] - Tổng số lượt hiển thị
+[Normal] - Tổng số lượt nhấp
+[Normal] - CTR trung bình
+[Normal] - Vị trí trung bình
+[Normal] * Các trang lập chỉ mục
+[Normal] Chụp ảnh màn hình 
+[Normal] Có bao nhiêu trang đã và chưa được lập chỉ mục, chưa được lập vì lý do gì
+[Normal] * Liên kết
+[Normal] Chụp ảnh màn hình 
+[Normal] Có bao nhiêu liên kết bên trong, bao nhiêu liên kết bên ngoài. 
+[Normal] Referring Domain nào đã đi và backlink nào được đặt trên domain đó. Gõ vào “Các trang web liên kết hàng đầu” - chính là Referring domain, 1 Referring domain có thể đi nhiều backlink.
+[Normal] (nếu phần này nhóm không có thì bỏ qua còn nếu nhóm có thì kẻ bảng như thế này:)
+[Heading 4] 5.2.4. Chỉ số Google Analytics
+[Normal] * Báo cáo tổng quan
+[Normal] Chụp ảnh màn hình
+[Normal] Tất cả các chỉ số đều phải đủ: (1) Giải thích chỉ số đó là gì, (2) số liệu ghi nhận là bao nhiêu), (3) đánh giá nó đang cao hay thấp so với mục tiêu đề ra 
+[Normal] - Người dùng
+[Normal] - Người dùng mới
+[Normal] - Thời gian tương tác trung bình
+[Normal] * Nguồn truy cập của người dùng lần đầu
+[Normal] Chụp ảnh màn hình
+[Normal] Phân tích: (1) Người dùng truy cập lần đầu bằng những nguồn nào, (2) Nguồn nào có số lượng cao nhất (3) Tương tự những nguồn còn lại có chỉ số ra sao, (4) giải thích lý do
+[Normal] * Nguồn truy cập của nhóm kênh mặc định
+[Normal] Chụp ảnh màn hình
+[Normal] Phân tích: (1) Người dùng truy cập lần đầu bằng những nguồn nào, (2) Nguồn nào có số lượng cao nhất (3) Tương tự những nguồn còn lại có chỉ số ra sao, (4) giải thích lý do
+[Normal] * Trang có lượt xem nhiều nhất
+[Normal] Chụp ảnh màn hình
+[Normal] Phân tích: (1) Trang nào có lượt xem cao nhất, (2) đứng thứ 2 là trang nào, (3) đánh giá lý do
+[Normal] * Thông tin về nhân khẩu học
+[Normal] Chụp ảnh màn hình
+[Normal] Người dùng truy cập chủ yếu từ quốc gia, thành phố nào? Điều này có trùng khớp với đối tượng khách hàng mục tiêu ban đầu nhóm đề ra không? Nếu có/không thì giải thích lý do
+[Normal] * Thông tin về công nghệ
+[Normal] Chụp ảnh màn hình
+[Normal] Người dùng truy cập chủ yếu qua thiết bị nào (máy tính/điện thoại/máy tính bảng), hệ điều hành nào, trình duyệt nào
+[Heading 3] 5.3. Báo cáo KPIs
+[Heading 3] 5.4. Ưu điểm - Nhược điểm - Đề xuất giải pháp
+[Normal] Kẻ bảng hoặc trình bày bình thường tùy nhóm, đủ các yếu tố:
+[Normal] - Nhân sự trong nhóm: số lượng, ý thức, kiến thức, kỹ năng kinh nghiệm, ngân sách => kết quả chung của môn học
+[Normal] - Mức độ tiếp cận (quảng bá) đến người dùng => số lượng người dùng 
+[Normal] -Tối ưu SEO Onpage => thời gian trung bình người dùng ở lại trên web, lượt hiển thị, lượt nhấp, thứ hạng từ khóa
+[Normal] - Tối ưu SEO Offpage => các nguồn traffic
+[Normal] - Thông tin về nhân khẩu học, công nghệ -> ứng dụng được gì để cải thiện dự án
+[Heading 3] 5.5. Bảng các công cụ sử dụng
+[Normal] Kẻ bảng 3 cột: cột 1 là STT, cột 2 là tên công cụ đã sử dụng, cột 3 là công dụng của công cụ ứng dụng trong dự án
+[Heading 3] 5.6. Bảng phân công nhiệm vụ và đánh giá thành viên
+[Normal] (Có thể xoay ngang bảng, khi đi thi in đóng cùng ASM, trang cuối):
+[Normal] Tiêu chí dựa trên (đi thi nhớ xóa phần này):
+[Normal] Số lượng công việc được nhận (điểm người làm ít sẽ khác điểm người làm nhiều)
+[Normal] Sự tương tác với thành viên nhóm
+[Normal] Tiến độ thực hiện công việc được giao
+[Normal] Mức độ đóng góp ý tưởng
+[Normal] Thái độ trong quá trình làm
+[Normal] *Bảng đánh giá thành viên: (ghi đúng, công bằng, ASM đi thi có chữ ký các thành viên)
+[Normal] (Đánh giá cả khối lượng công việc và ý thức, trách nhiệm)
+[Heading 2] Bảng phân công nhiệm vụ và đánh giá thành viên (tách riêng trong GD1, còn GD2 gộp thành mục 5.6)
+[Normal] (Có thể xoay ngang bảng, khi đi thi in đóng cùng ASM, trang cuối):
+[Normal] Tiêu chí dựa trên (đi thi nhớ xóa phần này):
+[Normal] Số lượng công việc được nhận (điểm người làm ít sẽ khác điểm người làm nhiều)
+[Normal] Sự tương tác với thành viên nhóm
+[Normal] Tiến độ thực hiện công việc được giao
+[Normal] Mức độ đóng góp ý tưởng
+[Normal] Thái độ trong quá trình làm
+[Normal] *Bảng phân công công việc: (ghi rõ tên phần được giao chứ không ghi kiểu 1.1, 1.2…)
+[Normal] *Bảng đánh giá thành viên: (ghi đúng, công bằng, ASM đi thi có chữ ký các thành viên)
+[Normal] (Đánh giá cả khối lượng công việc và ý thức, trách nhiệm)
+
+--- TABLES ---
+
+Table 0:
+Danh mục sản phẩm | Khoảng giá | Hình ảnh demo
+ |  | Ảnh web cho từng sản phẩm
+ |  | 
+ |  | 
+ |  | 
+ |  | 
+
+Table 1:
+Tiêu chí | Tên đối thủ 1 | Tên đối thủ 2
+Logo |  | 
+Năm thành lập |  | 
+Sản phẩm kinh doanh |  | 
+Khoảng giá |  | 
+Website | Link Ảnh QR | Link Ảnh QR
+Địa chỉ offline |  | 
+
+Table 2:
+Website | Chỉ số KPIs | Mục tiêu
+Keywords | Số lượng từ khóa lên TOP 100 | Tối thiểu  10
+SEO Onpage | Hiệu suất trên máy tính | Tối thiểu 90
+SEO Onpage | Hiệu suất trên điện thoại | Tối thiểu 90
+SEO Onpage | Tổng số bài viết | Số thành viên x 4
+SEO Entity | Khai báo doanh nghiệp | Số thành viên x10
+SEO Offpage | Đi backlink và link chéo trên social | Số thành viên x10
+Traffic | Người dùng | tối thiểu 200
+Traffic | Thời gian tương tác trung bình | tối thiểu 2 phút rưỡi
+Các nguồn truy cập (lưu ý: tổng các nguồn phải bằng số người dùng) | Direct | 
+Các nguồn truy cập (lưu ý: tổng các nguồn phải bằng số người dùng) | Organic Search | 
+Các nguồn truy cập (lưu ý: tổng các nguồn phải bằng số người dùng) | Organic Social | 
+Các nguồn truy cập (lưu ý: tổng các nguồn phải bằng số người dùng) | Referral | 
+
+Table 3:
+Tầng 1 (Homepage) | Trang chủ | url
+Tầng 2 (Page) | Giới thiệu | url
+Tầng 2 (Page) | Sản phẩm/Cửa hàng | url
+Tầng 2 (Page) | Tin tức | url
+Tầng 2 (Page) | Wishlist | url
+Tầng 2 (Page) | Liên hệ | url
+Tầng 2 (Page) | Giỏ hàng | url
+Tầng 2 (Page) | Thanh toán | url
+Tầng 3 (Categories, Post) | Danh mục sản phẩm 1 | url
+Tầng 3 (Categories, Post) | Danh mục sản phẩm 2 | url
+Tầng 3 (Categories, Post) | Danh mục sản phẩm 3 | url
+Tầng 3 (Categories, Post) | … (đến tất cả danh mục) | url
+Tầng 3 (Categories, Post) | Tiêu đề bài blog 1 | url
+Tầng 3 (Categories, Post) | Tiêu đề bài blog 2 | url
+Tầng 3 (Categories, Post) | Tiêu đề bài blog 3 | url
+Tầng 3 (Categories, Post) | … (demo đến bài số 10) | url
+Tầng 4 (Product) | Tên sản phẩm, mỗi danh mục lấy 1 sản phẩm | url
+Tầng 4 (Product) | Tên sản phẩm, mỗi danh mục lấy 1 sản phẩm | url
+Tầng 4 (Product) | Tên sản phẩm, mỗi danh mục lấy 1 sản phẩm | url
+Tầng 4 (Product) | … | url
+
+Table 4:
+Layout | Giao diện | Nội dung
+Vẽ trên giấy hoặc Figma tùy ý | Hình ảnh trang chủ (chụp cả trang chứ đừng chụp màn hình mỗi phần 1 ảnh) | Header gồm: - Liệt kê - Liệt kê - …  Body gồm: - Liệt kê - Liệt kê  Footer gồm: - Liệt kê - Liệt kê
+
+Table 5:
+Layout | Giao diện | Nội dung
+Vẽ trên giấy hoặc Figma tùy ý | Hình ảnh trang danh mục sản phẩm (chụp cả trang chứ đừng chụp màn hình mỗi phần 1 ảnh) | Đồng bộ Header với trang chủ  Body gồm: - … - …  Đồng bộ Footer với trang chủ
+
+Table 6:
+Layout | Giao diện | Nội dung
+Vẽ trên giấy hoặc Figma tùy ý | Hình ảnh trang sản phẩm (chụp cả trang chứ đừng chụp màn hình mỗi phần 1 ảnh) | Đồng bộ Header với trang chủ  Body gồm: - … - …  Đồng bộ Footer với trang chủ
+
+Table 7:
+Layout | Giao diện | Nội dung
+Vẽ trên giấy hoặc Figma tùy ý | Hình ảnh trang tin tức (chụp cả trang chứ đừng chụp màn hình mỗi phần 1 ảnh) | Đồng bộ Header với trang chủ  Body gồm: - … - …  Đồng bộ Footer với trang chủ
+
+Table 8:
+Layout | Giao diện | Nội dung
+Vẽ trên giấy hoặc Figma tùy ý | Hình ảnh trang bài viết (chụp cả trang chứ đừng chụp màn hình mỗi phần 1 ảnh) | Đồng bộ Header với trang chủ  Body gồm: - … - …  Đồng bộ Footer với trang chủ
+
+Table 9:
+Layout | Giao diện | Nội dung
+Vẽ trên giấy hoặc Figma tùy ý | Hình ảnh giỏ hàng (chụp cả trang chứ đừng chụp màn hình mỗi phần 1 ảnh) | Đồng bộ Header với trang chủ  Body gồm: - … - …  Đồng bộ Footer với trang chủ
+
+Table 10:
+Layout | Giao diện | Nội dung
+Vẽ trên giấy hoặc Figma tùy ý | Hình ảnh trang thanh toán (chụp cả trang chứ đừng chụp màn hình mỗi phần 1 ảnh) | Đồng bộ Header với trang chủ  Body gồm: - … - …  Đồng bộ Footer với trang chủ
+
+Table 11:
+Layout | Giao diện | Nội dung
+Vẽ trên giấy hoặc Figma tùy ý | Hình ảnh trang giới thiệu (chụp cả trang chứ đừng chụp màn hình mỗi phần 1 ảnh) | Đồng bộ Header với trang chủ  Body gồm: - … - …  Đồng bộ Footer với trang chủ
+
+Table 12:
+Layout | Giao diện | Nội dung
+Vẽ trên giấy hoặc Figma tùy ý | Hình ảnh trang liên hệ (chụp cả trang chứ đừng chụp màn hình mỗi phần 1 ảnh) | Đồng bộ Header với trang chủ  Body gồm: - … - …  Đồng bộ Footer với trang chủ
+
+Table 13:
+Yếu tố tối ưu | Chi tiết | Hình ảnh demo
+Từ khóa chính | Ghi ra Allintitle: Volume: KGR: | Lấy ảnh từ bảng nghiên cứu từ khóa
+Title | Ghi ra Nêu tiêu chí đã tối ưu | 
+Meta | Ghi ra Nêu tiêu chí đã tối ưu | 
+URL | Ghi ra Nêu tiêu chí đã tối ưu | 
+Các thẻ Heading | Ghi từng thẻ từ H1 trở đi | Chụp ở SEOquake
+Mật độ từ khóa | Ghi ra trong bài là bao nhiêu Nêu đặc điểm | 
+BUI | Ghi | 
+Anchor text | Ghi | 
+Internal link | Ghi các link vào đây | 
+External link | Ghi các link vào đây | 
+Số từ | Ghi số lượng thực tế | 
+TOC | Mục lục dùng để làm gì ghi ra | 
+Độ trùng lặp | Giảng viên yêu cầu bao nhiêu ghi ra | 
+Ảnh | Số lượng ảnh trong bài thực tế: Các yếu tố tối ưu ghi ra | 
+
+Table 14:
+STT | Người thực hiện | Link bài viết
+ |  | 
+ |  | 
+ |  | 
+ |  | 
+ |  | 
+ |  | 
+ |  | 
+ |  | 
+
+Table 15:
+STT | Miền truy cập | Link Entity
+1 |  | 
+2 |  | 
+3 |  | 
+4 |  | 
+5 |  | 
+6 |  | 
+7 |  | 
+8 |  | 
+9 |  | 
+10 |  | 
+
+Table 16:
+STT | Miền truy cập | Link
+1 |  | 
+2 |  | 
+3 |  | 
+4 |  | 
+5 |  | 
+6 |  | 
+7 |  | 
+8 |  | 
+9 |  | 
+10 |  | 
+
+Table 17:
+STT | Miền truy cập | Link
+1 |  | 
+2 |  | 
+3 |  | 
+4 |  | 
+5 |  | 
+6 |  | 
+7 |  | 
+8 |  | 
+9 |  | 
+10 |  | 
+
+Table 18:
+Ảnh chụp màn hình phần chi tiết, sắc nét, rõ ràng | * Internal link Thống kê số lượng Đánh giá xem đã tối ưu hay chưa
+Ảnh chụp màn hình phần chi tiết, sắc nét, rõ ràng | * External link Thống kê số lượng Đánh giá xem chủ yếu là trỏ ra link gì, có link đối thủ không?
+Ảnh chụp màn hình phần chi tiết, sắc nét, rõ ràng | * Sercurity Thống kê số lượng Htttps
+Ảnh chụp màn hình phần chi tiết, sắc nét, rõ ràng | * Response Code Thống kê số lượng URL 2xx Thống kê số lượng URL 3xx. Bao nhiêu link 301, 302 Thống kê số lượng URL 4xx. Cách xử lý thế nào nếu có Thống kê số lượng URL 5xx
+Ảnh chụp màn hình phần chi tiết, sắc nét, rõ ràng | * URL Thống kê số lượng  Thống kê số lượng từng lỗi và giải thích ý nghĩa các lỗi
+Ảnh chụp màn hình phần chi tiết, sắc nét, rõ ràng | * Title Thống kê số lượng  Thống kê số lượng từng lỗi và giải thích ý nghĩa các lỗi
+Ảnh chụp màn hình phần chi tiết, sắc nét, rõ ràng | * Meta description Thống kê số lượng  Thống kê số lượng từng lỗi và giải thích ý nghĩa các lỗi
+Ảnh chụp màn hình phần chi tiết, sắc nét, rõ ràng | * H1 Thống kê số lượng  Thống kê số lượng từng lỗi và giải thích ý nghĩa các lỗi
+Ảnh chụp màn hình phần chi tiết, sắc nét, rõ ràng | * Image Thống kê số lượng  Thống kê số lượng từng lỗi và giải thích ý nghĩa các lỗi
+
+Table 19:
+STT | Từ khóa | Vị trí | Link bài | Người thực hiện
+ |  |  |  | 
+ |  |  |  | 
+
+Table 20:
+STT | Các trang web liên kết hàng đầu | Trang đích (backlink)
+ |  | 
+ |  | 
+
+Table 21:
+Website | Chỉ số KPIs | Mục tiêu | Thực tế đạt được | % đạt được KPIs
+Keywords | Số lượng từ khóa lên TOP 100 | tối thiểu 10 |  | (thực tế/mục tiêu)*100
+SEO Onpage | Hiệu suất trên máy tính | Tối thiểu 90 |  | 
+SEO Onpage | Hiệu suất trên điện thoại | Tối thiểu 90 |  | 
+SEO Onpage | Tổng số bài viết | TVx 4 |  | 
+SEO Entity | Khai báo doanh nghiệp | TVx10 |  | 
+SEO Offpage | Đi backlink và link chéo trên social | TVx10 |  | 
+Traffic | Người dùng | tối thiểu 200 |  | 
+Traffic | Thời gian tương tác trung bình | tối thiểu 2 phút rưỡi |  | 
+Các nguồn truy cập | Direct |  |  | 
+Các nguồn truy cập | Organic Search |  |  | 
+Các nguồn truy cập | Organic Social |  |  | 
+Các nguồn truy cập | Referral |  |  | 
+
+Table 22:
+STT | Họ và tên | Mã sinh viên | % đóng góp (cộng tổng các thành viên = 100%) | Công việc được phân công | % thành viên tự đánh giá (mỗi thành viên chấm trên thang 100%)
+ |  |  | 15% | Chương 1, mục 1 | 90%
+ |  |  |  |  | 
+ |  |  |  |  | 
+ |  |  |  |  | 
+ |  |  |  |  | 
+ |  |  |  |  | 
+
+Table 23:
+STT | Họ và tên | Chương 1 | Chương 2 | Chương 3 | Chương 4 | Chương 5
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+
+Table 24:
+STT | Họ và tên | Mã sinh viên | % đóng góp (tổng 100%) | Nhận xét quá trình | Điểm đánh giá chung (%) | Chữ ký xác nhận
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 

@@ -1,0 +1,246 @@
+P[181] (Style: Heading 1):
+CHƯƠNG III. THIẾT KẾ WEBSITE
+
+P[182] (Style: Heading 2):
+3.1. Phân tích hệ thống
+
+P[183] (Style: Heading 3):
+3.1.1. Yêu cầu hệ thống
+
+P[184] (Style: Normal):
+KIẾN TRÚC VÀ CÔNG NGHỆ TRIỂN KHAI TOÀN DIỆN TRÊN HỆ THỐNG WEBSITE ÔMƠ:
+
+1. Nền Tảng Công Nghệ Phía Client (Frontend Architecture):
+• Cấu trúc ngữ nghĩa chuẩn HTML5: Sử dụng đầy đủ các thẻ ngữ nghĩa (<header>, <nav>, <main>, <section>, <article>, <aside>, <footer>) giúp tối ưu hóa khả năng lập chỉ mục của công cụ tìm kiếm Googlebot.
+• Hệ thống giao diện CSS3 Vanilla thuần túy (assets/css/style.css – ~69KB): Thiết kế theo kiến trúc CSS BEM, tích hợp CSS Variables bảng màu Vintage Pastel đồng bộ, hệ thống bố cục lưới CSS Grid & Flexbox linh hoạt, hiệu ứng chuyển động mượt mà (keyframes float, pulse, toast-in, reveal-on-scroll) không phụ thuộc framework nặng nề, tối ưu điểm Core Web Vitals.
+• Xử lý logic Vanilla JavaScript (js/products.js, js/cart.js):
+  - Quản lý trạng thái giỏ hàng thời gian thực (Cart State Management) qua HTML5 LocalStorage API (khóa omo_cart_items_v1), tự động tính toán tổng phụ, phí vận chuyển (miễn phí đơn từ 300.000 VNĐ; phí ship 30.000 VNĐ cho đơn dưới 300.000 VNĐ) và lưu vết phiên mua sắm.
+  - Hệ thống mã khuyến mãi (Coupon Engine): Hỗ trợ các mã giảm giá thực tế trong mã nguồn gồm OMOYEUTHUONG (giảm 10% tổng đơn), OMOCHU (giảm 10% tổng đơn), FREESHIP (giảm 5% tổng đơn).
+  - Danh mục yêu thích (Wishlist Storage): Quản lý qua khóa omo_wishlist_items_v1 cho phép khách hàng lưu sản phẩm quan tâm qua nút Floating FAB.
+  - Trợ lý ảo Chatbot AI 'Trợ lý Mơ' (omo_chat_messages_v1): Tích hợp giao diện chat nổi góc dưới màn hình, tự động nhận diện từ khóa (giá, ship, đổi trả, tư vấn quà) và phản hồi tức thì 24/7.
+  - Cổng thanh toán quét mã VietQR MB Bank & Ví MoMo API: Tự động trích xuất số tiền, mã đơn hàng (#OMO-XXXXX) và tạo mã QR chuyển khoản trực tiếp hỗ trợ thanh toán 1 chạm.
+
+2. Nền Tảng Máy Chủ & Môi Trường Triển Khai (Backend & Infrastructure):
+• Web Server Node.js (server.js): Máy chủ HTTP nhẹ phục vụ các tệp tĩnh với MIME Types đầy đủ, chạy trên cổng PORT 3000 phục vụ phát triển cục bộ và kiểm thử.
+• Nền tảng Đám mây Vercel Hosting (vercel.json): Triển khai toàn bộ mã nguồn lên Vercel tại địa chỉ chính thức https://omo13.vercel.app/ với chứng chỉ SSL tự động gia hạn, CDN Edge Network phân tán tốc độ cao và uptime 99.99%.
+
+P[185] (Style: List Paragraph):
+Yêu cầu nhân lực:
+
+P[186] (Style: List Paragraph):
+Có kiến thức cơ bản về phân tích, thiết kế và xây dựng website.
+
+P[187] (Style: List Paragraph):
+Có khả năng quản lý và cập nhật nội dung website.
+
+P[188] (Style: List Paragraph):
+Có khả năng quản lý sản phẩm gấu bông: tên sản phẩm, hình ảnh, giá bán, kích thước và mô tả.
+
+P[189] (Style: List Paragraph):
+Có kiến thức cơ bản về SEO và nghiên cứu từ khóa.
+
+P[190] (Style: List Paragraph):
+Có khả năng xây dựng nội dung giới thiệu sản phẩm và bài viết cho website.
+
+P[191] (Style: List Paragraph):
+Có khả năng tư vấn, hỗ trợ và tiếp nhận thông tin từ khách hàng.
+
+P[192] (Style: List Paragraph):
+Phân tích được thị trường và khách hàng mục tiêu.
+
+P[193] (Style: List Paragraph):
+Nền tảng: Xây dựng website ÔMƠ SHOP trên nền tảng Google Sites.
+
+P[194] (Style: List Paragraph):
+Cơ sở vật chất: 
+
+P[195] (Style: List Paragraph):
+Hosting: Google Sites.
+
+P[196] (Style: List Paragraph):
+Domain: https://omo13.vercel.app
+
+P[197] (Style: List Paragraph):
+Thiết bị: Máy tính/laptop có kết nối Internet.
+
+P[198] (Style: List Paragraph):
+Công cụ hỗ trợ: Google Sites, Google Drive, Google Maps và các công cụ thiết kế hình ảnh.
+
+P[199] (Style: Normal):
+* Đặc tả hệ thống
+
+P[200] (Style: List Paragraph):
+Header: Logo và tên thương hiệu ÔMƠ; slogan "Ôm một chú gấu, giữ một giấc mơ"; menu điều hướng chính gồm Trang chủ, Giới thiệu, Cửa hàng, Tin tức, Thanh toán, Giỏ hàng, Liên hệ.
+
+P[201] (Style: List Paragraph):
+Footer: Tên thương hiệu ÔMƠ SHOP, slogan của thương hiệu, thông tin liên hệ, địa chỉ cửa hàng, các kênh mạng xã hội, Google Maps.
+
+P[202] (Style: Normal):
+Bảng 3.1. Đặc tả hệ thống website doanh nghiệp
+
+P[203] (Style: Normal):
+Sơ đồ phân tầng website:
+
+P[204] (Style: Normal):
+Bảng 3.2. Phân tầng website
+
+P[205] (Style: Normal):
+
+
+P[206] (Style: Heading 3):
+3.1.2. Demo website
+
+P[207] (Style: Normal):
+PHÂN TÍCH CHI TIẾT TỪNG PHÂN HỆ VÀ GIAO DIỆN 8 TRANG CHÍNH TRÊN HỆ THỐNG:
+
+📄 1. Trang Chủ (index.html – URL: /index.html):
+• Thẻ Title chuẩn SEO: 'ÔMƠ – Ôm trọn vỗ về, giữ trọn giấc mơ | Tiệm Gấu Bông Đà Nẵng' (61 ký tự).
+• Meta Description: 'Tiệm gấu ÔMƠ chuyên cung cấp các mẫu gấu bông cao cấp, êm ái, an toàn từ móc khóa xinh xắn đến gấu khổng lồ vỗ về giấc mơ của bạn.' (130 ký tự).
+• Header & Navigation: Logo ÔMƠ nhận diện thương hiệu, menu điều hướng 8 trang trung tâm với hiệu ứng hover pastel, bên phải là thanh tìm kiếm và biểu tượng Giỏ hàng có badge số lượng real-time.
+• Hero Section: Banner chính phong cách Vintage Pastel hiển thị hình ảnh gấu bông cùng slogan 'Ôm một chú gấu, giữ một giấc mơ' và nút CTA 'KHÁM PHÁ CỬA HÀNG'.
+• Section 'Sản Phẩm Được Yêu Thích': Trưng bày các sản phẩm bán chạy (Kirby hồng, Opanchu Usagi, Cinnamoroll) kèm tag giá ưu đãi và nút 'Thêm Vào Giỏ'.
+• Section 'Vì Sao Nên Chọn Chúng Tớ?': Nêu bật 4 cam kết vàng (Gòn PP 100% tinh khiết kháng khuẩn, Vải nhung tuyết mịn êm, Đóng gói hộp quà Vintage thủ công, Giao hỏa tốc 1-2h tại Đà Nẵng).
+• Section 'Khoảnh Khắc Đáng Yêu Cùng Gấu Bông': Khối hình ảnh khách hàng feedback thực tế gia tăng độ tin cậy E-E-A-T.
+• Section 'Tin Tức & Cẩm Nang Gấu Bông': Trích dẫn 3 bài viết nổi bật hỗ trợ điều hướng SEO Silo.
+• Footer 4 Cột: Đồng bộ thông tin thực thể Entity, Google Maps, chính sách và liên kết mạng xã hội.
+
+📄 2. Trang Cửa Hàng (cua-hang.html – URL: /cua-hang.html):
+• Thẻ Title: 'Cửa Hàng Gấu Bông ÔMƠ – Đầy Đủ Mẫu Mã Xinh Xắn & Cao Cấp' (56 ký tự).
+• Meta Description: 'Khám phá toàn bộ bộ sưu tập gấu bông ÔMƠ: Móc khóa gấu nhỏ (5-15cm), gấu vừa ôm (20-30cm) và gấu bông khổng lồ mềm mại (30cm+).' (127 ký tự).
+• Bộ Lọc Đa Tiêu Chí (Multi-Filter): 3 tab phân nhóm kích thước (Tất Cả Mẫu, Gấu nhỏ 5-15cm, Gấu vừa 20-30cm, Gấu to 30cm+) kết hợp ô tìm kiếm real-time và bộ sắp xếp giá (Thấp đến Cao, Cao đến Thấp, Đánh giá cao nhất).
+• Product Grid: Hiển thị trọn vẹn 15 sản phẩm dạng lưới 3-4 cột với ảnh chất lượng cao, tên chuẩn SEO, nhãn Hot/Sale, rating 5 sao và nút CTA mua hàng.
+• Quick View Modal: Cửa sổ popup xem nhanh thông số chất liệu, kích thước, ảnh phóng to, bộ chọn số lượng và nút 'Thêm Vào Giỏ Hàng'.
+
+📄 3. Trang Giới Thiệu (gioi-thieu.html – URL: /gioi-thieu.html):
+• Thẻ Title: 'Giới Thiệu Về ÔMƠ – Ôm một chú gấu, giữ một giấc mơ' (51 ký tự).
+• Meta Description: 'Khám phá câu chuyện hình thành và sứ mệnh lan tỏa những cái ôm ấm áp của tiệm gấu ÔMƠ Đà Nẵng.' (94 ký tự).
+• Storytelling: Kể câu chuyện hình thành thương hiệu ÔMƠ và sứ mệnh lan tỏa những cái ôm xoa dịu cảm xúc cho giới trẻ.
+• Hệ Giá Trị Cốt Lõi 5T và Giới thiệu đội ngũ 6 thành viên sáng lập.
+• Quy trình đóng gói quà tặng thủ công với hộp giấy Kraft và thiệp hoa khô viết tay theo yêu cầu.
+
+📄 4. Trang Tin Tức & Cẩm Nang (tin-tuc.html – URL: /tin-tuc.html):
+• Thẻ Title: 'Tin Tức & Cẩm Nang Gấu Bông – ÔMƠ Shop' (38 ký tự).
+• Meta Description: 'Khám phá các mẹo chọn quà tặng gấu bông, cẩm nang vệ sinh và bảo quản gấu bông luôn thơm mềm tại nhà.' (101 ký tự).
+• Bài viết 1: '5 Cách Chọn Gấu Bông Làm Quà Tặng Phù Hợp Cho Người Thương' (Tác giả: ÔMƠ Team, Ngày đăng: 15/04/2026, Chuyên mục: Mẹo Chọn Quà).
+• Bài viết 2: 'Cách Vệ Sinh Và Bảo Quản Gấu Bông Đúng Cách Tại Nhà Luôn Thơm Tho' (Tác giả: ÔMƠ Care, Ngày đăng: 10/04/2026, Chuyên mục: Chăm Sóc Gấu Bông).
+• Bài viết 3: 'Gấu Bông Có Ý Nghĩa Gì Khi Làm Quà Tặng Người Yêu & Bạn Bè?' (Tác giả: ÔMƠ Story, Ngày đăng: 02/04/2026, Chuyên mục: Ý Nghĩa Yêu Thương).
+• Tích hợp đầy đủ Mục lục tự động (TOC), hình ảnh minh họa chân thực có thẻ Alt và liên kết nội bộ trỏ về danh mục sản phẩm.
+
+📄 5. Trang Giỏ Hàng (gio-hang.html – URL: /gio-hang.html):
+• Thẻ Title: 'Giỏ Hàng Của Bạn – ÔMƠ Shop' (27 ký tự).
+• Meta Description: 'Xem và quản lý các sản phẩm gấu bông trong giỏ hàng của bạn tại ÔMƠ Shop.' (73 ký tự).
+• Bảng danh sách sản phẩm: Hiển thị thumbnail, tên sản phẩm, đơn giá, bộ tăng giảm số lượng + -, nút xóa X, tổng tiền từng món.
+• Thanh tiến trình miễn phí vận chuyển (Freeship Progress Bar): Thông báo miễn phí vận chuyển cho đơn từ 300.000 VNĐ (nhắc nhở khách mua thêm số tiền còn thiếu).
+• Ô nhập mã giảm giá (Coupon Box): Áp dụng ngay voucher OMOYEUTHUONG (-10%), OMOCHU (-10%) hoặc FREESHIP (-5%).
+
+📄 6. Trang Thanh Toán (thanh-toan.html – URL: /thanh-toan.html):
+• Thẻ Title: 'Thanh Toán Đơn Hàng – ÔMƠ Shop' (30 ký tự).
+• Meta Description: 'Thanh toán an toàn, tiện lợi qua Chuyển khoản QR ngân hàng, Ví MoMo hoặc Tiền mặt khi nhận hàng (COD).' (102 ký tự).
+• Form thu thập thông tin người nhận: Họ tên, Số điện thoại, Địa chỉ nhận hàng chi tiết, Ghi chú viết thiệp tặng.
+• Tùy chọn 3 phương thức thanh toán: (1) Quét mã VietQR chuyển khoản MB Bank tự động (STK: 022456789999 - TIỆM GẤU ÔMƠ); (2) Ví điện tử MoMo; (3) Thanh toán tiền mặt khi nhận hàng (COD).
+• Popup xác nhận đặt hàng thành công (#OMO-XXXXX) và lưu thông tin đơn hàng vào LocalStorage.
+
+📄 7. Trang Chính Sách (chinh-sach.html – URL: /chinh-sach.html):
+• Thẻ Title: 'Chính Sách Mua Hàng & Đổi Trả – ÔMƠ Shop' (40 ký tự).
+• Meta Description: 'Chính sách mua hàng, giao nhận hỏa tốc và quy định đổi trả trong vòng 3 ngày tại tiệm gấu ÔMƠ Đà Nẵng.' (102 ký tự).
+• Chính sách đổi trả 1-1 trong 3 ngày nếu phát hiện lỗi đường may hoặc lỗi nhà sản xuất.
+• Chính sách giao hàng hỏa tốc trong 1-2 giờ nội thành Đà Nẵng và giao nhanh COD toàn quốc 2-4 ngày.
+• Chính sách bảo mật thông tin khách hàng tuyệt đối và cam kết chất lượng gòn tinh khiết 100%.
+
+📄 8. Trang Liên Hệ (lien-he.html – URL: /lien-he.html):
+• Thẻ Title: 'Liên Hệ Tiệm Gấu ÔMƠ – 255 Hà Huy Tập, Đà Nẵng' (46 ký tự).
+• Meta Description: 'Liên hệ tiệm gấu bông ÔMƠ tại Đà Nẵng. Hotline: 222-456-789. Địa chỉ: 255 Hà Huy Tập, Q. Thanh Khê, TP. Đà Nẵng.' (112 ký tự).
+• Bản đồ Google Maps tương tác nhúng trực quan định vị cửa hàng tại 255 Hà Huy Tập, Thanh Khê, Đà Nẵng.
+• Thông tin liên hệ: Hotline: 022456789 / 222-456-789 | Email: omoshop@gmail.com | Địa chỉ: 255 Hà Huy Tập, Q. Thanh Khê, TP. Đà Nẵng.
+• Form gửi tin nhắn tư vấn và liên kết trực tiếp tới Fanpage Facebook, Instagram và kênh Zalo OA.
+
+P[208] (Style: List Paragraph):
+Tên website: ÔMƠ
+
+P[209] (Style: Heading 4):
+3.1.2.1. Bố cục trang chủ
+
+P[210] (Style: Normal):
+
+
+P[211] (Style: Normal):
+
+
+P[212] (Style: Heading 4):
+3.1.2.2. Bố cục trang danh mục cửa hàng
+
+P[213] (Style: Heading 4):
+3.1.2.3. Bố cục trang giới thiệu
+
+P[214] (Style: Heading 4):
+3.1.2.4. Bố cục trang tin tức
+
+P[215] (Style: Heading 4):
+3.1.2.5. Bố cục trang giỏ hàng
+
+P[216] (Style: Heading 4):
+3.1.2.6. Bố cục trang thanh toán
+
+P[217] (Style: Heading 4):
+3.1.2.7. Bố cục trang chính sách
+
+P[218] (Style: Heading 4):
+3.1.2.8. Bố cục trang liên hệ
+
+P[219] (Style: Normal):
+
+
+P[220] (Style: Normal):
+
+
+P[221] (Style: Heading 3):
+3.1.3. Tối ưu UI/UX
+
+P[222] (Style: Heading 4):
+3.1.3.1. Tối ưu UI
+
+P[223] (Style: Normal):
+
+
+P[224] (Style: Normal):
+
+
+P[225] (Style: Normal):
+
+
+P[226] (Style: Heading 4):
+3.1.3.2. Tối ưu UX
+
+P[227] (Style: Heading 2):
+3.2. Cài đặt Google Analytics
+
+P[228] (Style: Normal):
+(Chụp nguyên màn hình kết quả cài đặt Google Analytics)
+
+P[229] (Style: Normal):
+Giao diện báo cáo luồng dữ liệu Google Analytics 4 (GA4) đã được tích hợp thành công trên hệ thống website ÔMƠ với mã đo lường G-XXXXXXXXXX, ghi nhận đầy đủ các sự kiện page_view, scroll, add_to_cart và purchase.
+
+P[230] (Style: Heading 2):
+3.3. Khai báo Google Search Console và Submit Sitemap
+
+P[231] (Style: Heading 3):
+3.3.1. Khai báo Google Search Console
+
+P[232] (Style: Normal):
+(Chụp nguyên màn hình kết quả khai báo)
+
+P[233] (Style: Normal):
+Xác minh quyền sở hữu tên miền thành công trên Google Search Console thông qua phương thức HTML Tag và DNS TXT Record, trạng thái hoạt động bình thường và sẵn sàng thu thập dữ liệu tìm kiếm.
+
+P[234] (Style: Heading 3):
+3.3.2. Submit Sitemap
+
+P[235] (Style: Normal):
+(Chụp nguyên màn hình kết quả submit sitemap)
+
+P[236] (Style: Normal):
+Trạng thái gửi tệp sitemap.xml thành công trên Google Search Console: 100% URL hợp lệ được Google tiếp nhận và đưa vào hàng đợi thu thập dữ liệu (Discovered URLs: 8/8 trang chính).
+
+P[237] (Style: Heading 2):
+3.4. Các Plugin đã cài đặt
+

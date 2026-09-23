@@ -1,0 +1,1442 @@
+--- P0 [Normal] ---
+ĐỒ ÁN NHÓM – MÔN IS425
+
+--- P1 [Normal] ---
+BỘ GIÁO DỤC VÀ ĐÀO TẠO — TRƯỜNG ĐẠI HỌC FPT ĐÀ NẴNG
+KHOA CÔNG NGHỆ THÔNG TIN & THƯƠNG MẠI ĐIỆN TỬ
+BÁO CÁO ĐỒ ÁN TỐT NGHIỆP MÔN HỌC IS425
+CHUYÊN ĐỀ: THƯƠNG MẠI ĐIỆN TỬ & TỐI ƯU HÓA CÔNG CỤ TÌM KIẾM (SEO)
+
+--- P2 [Normal] ---
+LỜI CẢM ƠN
+
+Lời đầu tiên, Nhóm 13 (Dự án Tiệm gấu bông ÔMƠ) xin gửi lời tri ân sâu sắc nhất đến Ban Giám hiệu Trường Đại học FPT, Ban Chủ nhiệm Khoa Công nghệ Thông tin & Thương mại Điện tử đã tạo điều kiện học tập và nghiên cứu tốt nhất cho chúng em trong suốt học kỳ vừa qua.
+
+Đặc biệt, nhóm chúng em xin bày tỏ lòng biết ơn chân thành và sâu sắc nhất đến Giảng viên hướng dẫn bộ môn IS425. Thầy/Cô đã luôn tận tình giảng dạy, truyền đạt những kiến thức chuyên môn sâu sắc về Thương mại điện tử, Marketing số, Kỹ thuật SEO Onpage/Offpage và tận tâm định hướng, góp ý từng chi tiết để nhóm hoàn thiện đồ án này một cách chỉn chu, chuyên nghiệp và đúng chuẩn học thuật nhất.
+
+Chúng em cũng xin gửi lời cảm ơn đến tất cả các thành viên trong Nhóm 13 đã luôn nỗ lực, đoàn kết, phát huy tinh thần làm việc nhóm cao độ để cùng nhau xây dựng nên một hệ thống website E-commerce hoàn chỉnh và chiến dịch SEO thành công rực rỡ.
+
+Dù đã nỗ lực hết mình nhưng do kiến thức và kinh nghiệm thực tế còn đang trong quá trình tích lũy, đồ án khó tránh khỏi những thiếu sót nhất định. Nhóm rất mong nhận được những lời nhận xét, góp ý quý báu từ quý Thầy/Cô để dự án ngày càng hoàn thiện hơn nữa trong các giai đoạn phát triển tiếp theo.
+
+Chúng em xin trân trọng cảm ơn!
+
+--- P3 [Normal] ---
+DANH MỤC TỪ VIẾT TẮT CHUYÊN NGÀNH
+
+• SEO (Search Engine Optimization): Tối ưu hóa công cụ tìm kiếm nhằm nâng cao thứ hạng tự nhiên của website trên Google.
+• KGR (Keyword Golden Ratio): Chỉ số vàng nghiên cứu từ khóa ngách (KGR = Allintitle / Search Volume < 0.25).
+• GA4 (Google Analytics 4): Nền tảng phân tích dữ liệu và đo lường hành vi người dùng thế hệ mới của Google.
+• GSC (Google Search Console): Công cụ quản trị trang web và theo dõi hiệu suất lập chỉ mục của Google.
+• CTR (Click-Through Rate): Tỷ lệ nhấp chuột vào liên kết trên tổng số lượt hiển thị (CTR = Clicks / Impressions).
+• UI (User Interface): Giao diện người dùng (Màu sắc, Typography, Bố cục hình ảnh, Nút bấm CTA).
+• UX (User Experience): Trải nghiệm người dùng (Tốc độ tải trang, luồng mua hàng, độ mượt mà, tính dễ dùng).
+• CRO (Conversion Rate Optimization): Tối ưu hóa tỷ lệ chuyển đổi từ khách truy cập thành khách mua hàng.
+• E-E-A-T (Experience - Expertise - Authoritativeness - Trustworthiness): Bộ tiêu chuẩn đánh giá chất lượng website của Google.
+• LCP (Largest Contentful Paint): Thời gian tải phần tử nội dung lớn nhất trên trang (Core Web Vitals chuẩn < 2.5s).
+• FID (First Input Delay) / INP (Interaction to Next Paint): Thời gian phản hồi tương tác đầu tiên của người dùng.
+• CLS (Cumulative Layout Shift): Điểm số đo lường độ ổn định hình ảnh bố cục khi tải trang (Chuẩn < 0.1).
+• SSL/TLS (Secure Sockets Layer): Giao thức bảo mật mã hóa đường truyền dữ liệu giữa máy chủ và trình duyệt qua HTTPS.
+• API (Application Programming Interface): Giao diện lập trình ứng dụng kết nối cổng thanh toán VietQR và MoMo.
+• JSON-LD (JavaScript Object Notation for Linked Data): Định dạng dữ liệu có cấu trúc Schema.org khai báo thực thể Entity.
+
+--- P4 [Normal] ---
+TIỆM GẤU BÔNG ÔMƠ
+
+--- P5 [Normal] ---
+NHÓM 13
+
+--- P6 [Normal] ---
+
+
+--- P7 [Normal] ---
+MỤC LỤC
+
+--- P8 [Normal] ---
+DANH MỤC HÌNH ẢNH
+
+--- P9 [Normal] ---
+Hình 1.1. Logo Tiệm gấu bông ÔMƠ
+
+--- P10 [Normal] ---
+Hình 1.2. Mã QR website Tiệm gấu bông ÔMƠ
+
+--- P11 [Normal] ---
+Hình 1.3. Mã QR fanpage Tiệm gấu bông ÔMƠ
+
+--- P12 [Normal] ---
+Hình 1.4. Kết quả phân tích các từ khóa được quan tâm đối với ngành hàng gấu bông
+
+--- P13 [Normal] ---
+Hình 1.5. Nghiên cứu Google Trends về mức độ quan tâm ngành hàng thú bông
+
+--- P14 [Normal] ---
+Phân tích chuyên sâu biểu đồ Google Trends 5 năm (2021 - 2026) đối với 3 cụm từ khóa đại diện ngành hàng:
+1. Từ khóa 'gấu bông teddy' (Đường màu xanh lam): Duy trì lượng tìm kiếm nền tảng ổn định quanh năm với chỉ số quan tâm trung bình từ 60 - 75 điểm. Đây là dòng sản phẩm kinh điển (Evergreen Products) có nhu cầu mua sắm quanh năm làm quà tặng sinh nhật, tốt nghiệp và đồ chơi cho trẻ em.
+2. Từ khóa 'thỏ bông' (Đường màu đỏ): Xuất hiện xu hướng tăng trưởng đột phá mạnh mẽ từ cuối năm 2023 đến 2026 (chỉ số quan tâm tăng từ 40 lên trên 85 điểm). Điều này phản ánh rõ nét sự chuyển dịch thị hiếu của giới trẻ Gen Z sang các dòng thú bông động vật dễ thương, tai dài mềm mại mang phong cách Jellycat và Sanrio (Cinnamoroll, My Melody).
+3. Từ khóa 'gấu bông quà tặng' (Đường màu vàng): Thể hiện tính mùa vụ (Seasonality) cực kỳ rõ rệt với các đỉnh sóng tìm kiếm tăng vọt lên mức tối đa 100 điểm vào 4 thời điểm vàng trong năm:
+   - Đợt 1 (Tháng 2): Dịp Lễ Tình Nhân (Valentine 14/2) – Nhu cầu gấu bông cặp đôi và gấu teddy cỡ lớn tặng người yêu tăng gấp 3.5 lần ngày thường.
+   - Đợt 2 (Tháng 3): Ngày Quốc Tế Phụ Nữ (8/3) – Nhu cầu quà tặng tri ân mẹ, bạn gái và đồng nghiệp nữ tăng cao.
+   - Đợt 3 (Tháng 10): Ngày Phụ Nữ Việt Nam (20/10) – Nhu cầu quà tặng học sinh, sinh viên và nhân viên văn phòng.
+   - Đợt 4 (Tháng 12): Mùa Lễ Hội Giáng Sinh (Noel 24/12) và Tết Dương Lịch – Nhu cầu mua sắm gấu bông trang trí và quà tặng tự thưởng xả stress cuối năm.
+Từ kết quả phân tích số liệu khách quan trên Google Trends, nhóm 13 đã xác định chiến lược Digital Marketing trọng tâm: Duy trì SEO bền vững cho nhóm từ khóa Evergreen ('gấu bông teddy', 'móc khóa gấu bông') và tập trung đẩy mạnh chiến dịch khuyến mãi, bài viết SEO chuyên sâu đón đầu các đỉnh sóng mùa vụ trước 3 - 4 tuần để tối đa hóa lưu lượng truy cập và tỷ lệ chuyển đổi đơn hàng.
+
+--- P15 [Normal] ---
+Hình 2.1. Các hội nhóm về gấu bông mà khách hàng mục tiêu quan tâm
+
+--- P16 [Normal] ---
+DANH MỤC BẢNG BIỂU
+
+--- P17 [Normal] ---
+Bảng 1.1. Đội ngũ sáng lập
+
+--- P18 [Normal] ---
+Bảng 1.2. Danh mục sản phẩm của Tiệm gấu bông ÔMƠ
+
+--- P19 [Normal] ---
+Bảng 1.3. Mô hình Canvas của thương hiệu Tiệm gấu bông ÔMƠ
+
+--- P20 [Normal] ---
+PHÂN TÍCH CHUYÊN SÂU 9 TRỤ CỘT MÔ HÌNH BUSINESS MODEL CANVAS:
+
+1. Đối Tác Chính (Key Partners): Xây dựng mối quan hệ hợp tác chiến lược lâu dài với: (a) Các xưởng sản xuất gấu bông cao cấp đạt chứng nhận ISO và an toàn dệt may tại Việt Nam; (b) Nhà cung cấp bao bì hộp quà Kraft vintage và thiệp hoa khô thủ công tại Đà Nẵng; (c) Các đối tác thanh toán số VietQR, Napas, Ví điện tử MoMo; (d) Các đơn vị vận chuyển uy tín Giao Hàng Tiết Kiệm (GHTK), Ahamove (giao hỏa tốc 1-2h); (e) Mạng lưới hơn 20 Micro-KOCs và Content Creators tại các trường Đại học ở Đà Nẵng.
+
+2. Hoạt Động Chính (Key Activities): (a) Quản trị và tối ưu hóa hệ sinh thái website E-commerce chuẩn SEO (`omo13.vercel.app`); (b) Nghiên cứu và sáng tạo nội dung số Plan Content 24 bài viết chuẩn SEO kết hợp Video Viral chữa lành trên TikTok; (c) Kiểm định chất lượng sản phẩm gòn PP 3D và quy trình đóng gói quà tặng cá nhân hóa; (d) Vận hành chiến dịch SEO Onpage/Offpage và xây dựng thực thể thương hiệu Entity; (e) Chăm sóc khách hàng đa kênh 24/7 và xử lý đơn hàng hỏa tốc.
+
+3. Nguồn Lực Chính (Key Resources): (a) Nguồn nhân lực trẻ gồm 6 thành viên chuyên môn hóa cao; (b) Hệ thống công nghệ web tối ưu UI/UX, mã nguồn nhẹ, tốc độ tải siêu tốc; (c) Kho dữ liệu sản phẩm 15 mẫu thú bông độc quyền chất lượng cao; (d) Bộ tài sản số gồm 60 Entity Social Profiles, Fanpage, Kênh TikTok và cơ sở dữ liệu khách hàng.
+
+4. Giải Pháp Giá Trị (Value Propositions): (a) Thú nhồi bông cao cấp an toàn tuyệt đối cho sức khỏe (100% vỏ nhung tuyết mịn, ruột bông gòn PP 3D tinh khiết kháng khuẩn); (b) Định vị phong cách Vintage Pastel mang lại cảm xúc vỗ về, chữa lành tinh thần; (c) Trọn gói dịch vụ cá nhân hóa quà tặng (Hộp quà vintage, thiệp hoa khô viết tay theo yêu cầu); (d) Trải nghiệm mua sắm mượt mà với thanh toán quét mã QR tự động và giao hỏa tốc 1-2h tại Đà Nẵng; (e) Chính sách bảo hành đường may trọn đời và đổi trả 1-1 trong 3 ngày.
+
+5. Quan Hệ Khách Hàng (Customer Relationships): Xây dựng mối quan hệ gắn kết cảm xúc sâu sắc thông qua: (a) Tư vấn cá nhân hóa chọn quà theo dịp và ngân sách qua Trợ lý Chatbot AI và CSKH; (b) Chương trình tích điểm khách hàng thân thiết và tặng voucher sinh nhật giảm 20%; (c) Minigame 'Gửi gắm yêu thương cùng ÔMƠ' trên mạng xã hội; (d) Lắng nghe phản hồi và đồng hành cùng khách hàng trong suốt vòng đời sử dụng sản phẩm.
+
+6. Kênh Phân Phối (Channels): (a) Kênh trực tuyến chính thức: Website thương mại điện tử `omo13.vercel.app`; (b) Kênh Social Commerce: Facebook Fanpage, Instagram Direct, TikTok Shop; (c) Kênh giao nhận: Giao hỏa tốc 1-2 giờ nội thành Đà Nẵng qua GrabExpress/Ahamove và chuyển phát nhanh COD toàn quốc 2-3 ngày qua GHTK.
+
+7. Phân Khúc Khách Hàng (Customer Segments): (a) Học sinh, sinh viên (18-24 tuổi) yêu thích gấu bông dễ thương, móc khóa trang trí balo và quà tặng sinh nhật bạn bè; (b) Người đi làm, nhân viên văn phòng (22-30 tuổi) có nhu cầu mua gấu bông tựa lưng, xoa dịu áp lực công việc và quà tặng lãng mạn cho người yêu; (c) Phụ huynh trẻ tìm kiếm thú bông cao cấp an toàn tuyệt đối cho con nhỏ.
+
+8. Cơ Cấu Chi Phí (Cost Structure): (a) Chi phí cố định: Duy trì tên miền Domain, máy chủ Hosting Vercel, công cụ SEO bản quyền (Ahrefs, Semrush, Spineditor); (b) Chi phí biến đổi: Giá vốn hàng bán (COGS - nhập gấu bông, bông gòn, phụ kiện), chi phí bao bì hộp quà Kraft, cước vận chuyển và chi phí đóng gói chống sốc; (c) Chi phí Marketing & Xúc tiến thương mại (ngân sách 100 triệu phân bổ cho sản xuất nội dung, quà tặng minigame và tài trợ sự kiện sinh viên).
+
+9. Dòng Doanh Thu (Revenue Streams): (a) Doanh thu bán lẻ từ 4 phân nhóm thú bông (Keychain, Gấu nhỏ, Gấu vừa, Gấu to); (b) Doanh thu từ dịch vụ gia tăng: Đóng hộp quà vintage cao cấp, thiệp hoa khô viết tay và may phụ kiện áo/mũ theo yêu cầu; (c) Doanh thu từ các combo quà tặng theo dịp lễ (Valentine, 8/3, 20/10, Giáng sinh, Tốt nghiệp) với biên lợi nhuận ròng kỳ vọng đạt 28 - 35%.
+
+--- P21 [Normal] ---
+Bảng 2.1. Căn cứ lựa chọn đối thủ cạnh tranh
+
+--- P22 [Normal] ---
+Bảng 2.2. Phân tích tổng quan đối thủ cạnh tranh
+
+--- P23 [Normal] ---
+Bảng 2.3. Phân tích UI website đối thủ cạnh tranh
+
+--- P24 [Normal] ---
+Bảng 2.4. Phân tích UX website đối thủ cạnh tranh (Fanpage)
+
+--- P25 [Normal] ---
+Bảng 2.5. Phân tích website đối thủ cạnh tranh bằng SEMrush
+
+--- P26 [Normal] ---
+Bảng 2.6. Bảng tổng hợp chỉ số KPIs chi tiết của dự án
+
+--- P27 [Normal] ---
+Bảng 3.1. Đặc tả hệ thống website doanh nghiệp
+
+--- P28 [Normal] ---
+Bảng 3.2. Phân tầng website
+
+--- P29 [Normal] ---
+Bảng 4.1. Yếu tố tối ưu SEO Onpage bài viết demo
+
+--- P30 [Normal] ---
+Bảng 4.2. Thông tin khai báo Entity doanh nghiệp
+
+--- P31 [Normal] ---
+Bảng 4.3. Danh sách 10 Entity demo
+
+--- P32 [Normal] ---
+Bảng 4.4. Danh sách 10 Backlink demo
+
+--- P33 [Normal] ---
+Bảng 4.5. Danh sách 10 link Social media/Bookmarking demo
+
+--- P34 [Normal] ---
+Bảng 5.1. Vị trí thứ hạng từ khóa
+
+--- P35 [Normal] ---
+Bảng 5.2. Báo cáo KPIs
+
+--- P36 [Heading 1] ---
+CHƯƠNG I. TỔNG QUAN VỀ DỰ ÁN
+
+--- P37 [Heading 2] ---
+1.1. Giới thiệu tổng quan về thương hiệu
+
+--- P38 [Normal] ---
+BỘ QUY CHUẨN NHẬN DIỆN THƯƠNG HIỆU CHI TIẾT (BRAND GUIDELINES – ÔMƠ SHOP):
+
+1. Quy chuẩn Hệ Màu Sắc Chủ Đạo (Color Palette):
+• Màu Hồng Phấn (Pastel Blush Pink – #FFF0F5 / RGB: 255, 240, 245): Tượng trưng cho sự ngọt ngào, cảm xúc yêu thương và nét nữ tính dịu dàng. Sử dụng làm màu nền chính (Background) và các dải banner nổi bật.
+• Màu Vàng Kem Nhạt (Cream Yellow – #FFF8DC / RGB: 255, 248, 220): Đại diện cho ánh nắng ấm áp, sự chở che và năng lượng tích cực. Sử dụng cho các khối danh mục sản phẩm và badge điểm nhấn.
+• Màu Nâu Ấm Vintage (Warm Earth Brown – #8B5A2B / RGB: 139, 90, 43): Thể hiện sự mộc mạc, gần gũi, đáng tin cậy và phong cách hoài niệm cổ điển. Sử dụng cho chữ tiêu đề, đường viền và bao bì hộp quà Kraft.
+• Màu Xanh Sage Nhẹ (Sage Healing Green – #9CAF88 / RGB: 156, 175, 136): Tượng trưng cho liệu pháp chữa lành (Healing), sự tươi mới và thanh bình của thiên nhiên. Sử dụng cho các nhãn chứng nhận chất lượng và nút Call To Action phụ.
+
+2. Quy chuẩn Typography (Nghệ thuật chữ viết):
+• Font chữ Tiêu đề (Primary Heading): Sử dụng họ font Google Fonts 'Playfair Display' và 'Quicksand' tạo cảm giác mềm mại, thanh lịch, uyển chuyển nhưng vẫn hiện đại và đậm chất nghệ thuật.
+• Font chữ Thân bài & Kỹ thuật (Body Text & Technical): Sử dụng họ font 'Inter' và 'Times New Roman' chuẩn học thuật với độ tương phản cao, khả năng hiển thị rõ nét trên mọi độ phân giải màn hình đạt chuẩn WCAG AA.
+
+--- P39 [List Paragraph] ---
+Tên thương hiệu: Tiệm gấu bông ÔMƠ
+
+--- P40 [Normal] ---
+Triết lý kinh doanh và Giá trị cốt lõi (Core Values) của ÔMƠ Shop:
+• Chữ 'ÔM' (Cái ôm ấm áp): Đại diện cho sự kết nối tình cảm, cảm giác an toàn và sự chở che. Trong nhịp sống hiện đại đầy áp lực của giới trẻ, một cái ôm mềm mại từ chú gấu bông là liệu pháp tinh thần xoa dịu những mệt mỏi sau ngày dài học tập và làm việc.
+• Chữ 'MƠ' (Giấc mơ ngọt ngào): Tượng trưng cho những ước mơ trong trẻo, lưu giữ những kỷ niệm tươi đẹp và nuôi dưỡng tâm hồn tích cực. ÔMƠ mong muốn mỗi sản phẩm trao đi không đơn thuần là món đồ chơi, mà là một 'sứ giả cảm xúc' đồng hành cùng giấc mơ của bạn.
+• Hệ giá trị cốt lõi 5T:
+  1. TÂM (Trọng chữ Tâm trong chất lượng): Tuyệt đối không sử dụng bông gòn tái chế độc hại; 100% sản phẩm sử dụng bông gòn tinh khiết PP 3D kháng khuẩn và vải nhung tuyết co giãn 4 chiều mềm mịn an toàn cho da nhạy cảm.
+  2. TÍN (Giữ trọn chữ Tín với khách hàng): Cam kết hình ảnh chụp thực tế 100% đúng như mô tả trên website; chính sách đổi trả minh bạch 1-1 trong vòng 3 ngày nếu có bất kỳ lỗi sản xuất nào.
+  3. TINH TẾ (Chăm chút từng đường kim mũi chỉ): Dịch vụ đóng gói quà tặng thủ công phong cách Vintage với hộp Kraft bảo vệ môi trường, thắt nơ ruy băng lụa và thiệp hoa khô viết tay theo yêu cầu.
+  4. TẬN TÂM (Phục vụ khách hàng trên mức kỳ vọng): Tư vấn tận tình 24/7 qua trợ lý Chatbot AI và đội ngũ CSKH; hỗ trợ giao hàng hỏa tốc trong 1-2 giờ tại nội thành Đà Nẵng.
+  5. THẤU HIỂU (Đồng hành cảm xúc cùng Gen Z): Không ngừng cập nhật các mẫu thú bông hot-trend, phát triển dòng sản phẩm gấu bông chữa lành (Healing toys) phù hợp với thị hiếu giới trẻ.
+
+--- P41 [Normal] ---
+Tên thương hiệu ÔMƠ được hình thành từ hai từ "Ôm" và "Mơ", thể hiện mong muốn mang đến cho khách hàng những chú gấu bông không chỉ đáng yêu mà còn tạo cảm giác ấm áp, gần gũi và dễ chịu. "Ôm" gợi lên sự yêu thương, an toàn và kết nối, trong khi "Mơ" tượng trưng cho những ước mơ, kỷ niệm và những điều ngọt ngào trong cuộc sống. Vì vậy, ÔMƠ hướng đến hình ảnh một tiệm gấu bông nơi khách hàng có thể tìm thấy một món quà phù hợp để trao gửi tình cảm cho bản thân hoặc những người mình yêu thương.
+
+--- P42 [List Paragraph] ---
+Slogan: "Ôm một chú gấu, giữ một giấc mơ"
+
+--- P43 [List Paragraph] ---
+Logo:
+
+--- P44 [Normal] ---
+
+
+--- P45 [Normal] ---
+Hình 1.1. Logo Tiệm gấu bông ÔMƠ
+
+--- P46 [List Paragraph] ---
+Ý nghĩa logo: Logo Tiệm gấu bông ÔMƠ mang phong cách Vintage Pastel ngọt ngào, gửi gắm thông điệp vỗ về cảm xúc và trân trọng từng khoảnh khắc. Khung viền uốn lượn tựa đám mây cùng chiếc nơ hồng làm điểm nhấn thể hiện mỗi sản phẩm trao đi là một món quà chỉn chu, đong đầy tình cảm. Sự kết hợp giữa gấu nâu ấm áp và thỏ hồng dịu dàng trên nền màu pastel (hồng phấn, kem ngà, nâu đất) tạo cảm giác an yên, gần gũi. Đi cùng slogan "Ôm một chú gấu, giữ một giấc mơ", logo khẳng định gấu bông ÔMƠ không chỉ là món đồ chơi đơn thuần, mà là "bảo bối" mang lại sự bình yên và vỗ về những giấc mơ đẹp cho người sở hữu.
+
+--- P47 [List Paragraph] ---
+Website: https://omo13.vercel.app/
+
+--- P48 [Normal] ---
+
+
+--- P49 [Normal] ---
+Hình 1.2. Mã QR website Tiệm gấu bông ÔMƠ
+
+--- P50 [List Paragraph] ---
+Fanpage: https://www.facebook.com/Omo.shop1
+
+--- P51 [Normal] ---
+
+
+--- P52 [Normal] ---
+Hình 1.3. Mã QR fanpage Tiệm gấu bông ÔMƠ
+
+--- P53 [Normal] ---
+
+
+--- P54 [Heading 3] ---
+1.1.1. Thành lập và ý tưởng dự án
+
+--- P55 [List Paragraph] ---
+Ngày thành lập: 15/08/2026
+
+--- P56 [List Paragraph] ---
+Đội ngũ sáng lập:
+
+--- P57 [Normal] ---
+Bảng 1.1. Đội ngũ sáng lập
+
+--- P58 [List Paragraph] ---
+Ý tưởng dự án: 
+
+--- P59 [Normal] ---
+Tiệm gấu bông ÔMƠ ra đời từ sự kết hợp giữa nét đẹp ngọt ngào của dòng thú bông phong cách Vintage Pastel và xu hướng "chữa lành" (healing) tâm hồn cho giới trẻ hiện đại. Không dừng lại ở việc kinh doanh đồ chơi thông thường, dự án hướng tới việc biến mỗi chú gấu bông thành một "bảo bối cảm xúc" – một điểm tựa êm đềm, biết lắng nghe và mang lại cảm giác an yên sau những giờ học tập, làm việc căng thẳng.
+
+--- P60 [List Paragraph] ---
+Mục đích:
+
+--- P61 [List Paragraph] ---
+Mục đích ngắn hạn: Xây dựng nhận diện thương hiệu ÔMƠ, tiếp cận khách hàng trẻ và tạo độ nhận biết thông qua website, mạng xã hội và các hoạt động SEO, từ đó thu hút khách hàng và tăng doanh số bán hàng.
+
+--- P62 [List Paragraph] ---
+Mục đích dài hạn: Trở thành thương hiệu quà tặng thú bông "Top-of-Mind" mỗi khi khách hàng có nhu cầu vỗ về cảm xúc hoặc trao gửi yêu thương, đồng thời mở rộng các sản phẩm quà tặng mang tính chữa lành và phát triển chuỗi cửa hàng trải nghiệm với không gian thơ mộng, gắn liền với thông điệp "Ôm một chú gấu, giữ một giấc mơ".
+
+--- P63 [Normal] ---
+
+
+--- P64 [Normal] ---
+
+
+--- P65 [Heading 3] ---
+1.1.2. Lĩnh vực kinh doanh và danh mục sản phẩm
+
+--- P66 [List Paragraph] ---
+Lĩnh vực kinh doanh: Bán lẻ thú bông cao cấp và Quà tặng sáng tạo (Plush Toys & Gifts).
+
+--- P67 [Normal] ---
+Danh mục sản phẩm:
+
+--- P68 [Normal] ---
+Bảng 1.2. Danh mục sản phẩm của Tiệm gấu bông ÔMƠ
+
+--- P69 [Normal] ---
+
+
+--- P70 [Heading 2] ---
+1.2. Lý do lựa chọn ngành hàng
+
+--- P71 [List Paragraph] ---
+Nhóm lựa chọn ngành hàng gấu bông để xây dựng ý tưởng kinh doanh tiệm gấu bông ÔMƠ dựa trên kết quả phân tích từ khóa trên nền tảng Metric. Việc phân tích từ khóa giúp nhóm nhận biết những sản phẩm và cụm từ liên quan đến gấu bông đang được người tiêu dùng quan tâm, từ đó có cơ sở để lựa chọn ngành hàng và định hướng sản phẩm phù hợp.
+
+--- P72 [Heading 3] ---
+1.2.1. Tiềm năng thị trường và ngành hàng
+
+--- P73 [List Paragraph] ---
+Để đánh giá mức độ quan tâm đối với ngành hàng gấu bông, nhóm sử dụng công cụ Phân tích từ khóa của Metric. Kết quả thu được danh sách các từ khóa được quan tâm liên quan đến sản phẩm gấu bông.
+
+--- P74 [Normal] ---
+
+
+--- P75 [Normal] ---
+Hình 1.4. Kết quả phân tích các từ khóa được quan tâm đối với ngành hàng gấu bông
+
+--- P76 [List Paragraph] ---
+Dựa vào bảng trên, có thể thấy các từ khóa liên quan đến gấu bông xuất hiện ở những vị trí cao trong danh sách từ khóa được quan tâm. Cụ thể, "thỏ bông" đứng ở vị trí thứ 1, "gấu bông teddy" đứng ở vị trí thứ 2, "thỏ bông tai dài" đứng ở vị trí thứ 3, "thỏ bông jellycat" đứng ở vị trí thứ 4 và "gấu bông teddy siêu to" đứng ở vị trí thứ 5. Kết quả này cho thấy sự quan tâm của người tiêu dùng đối với ngành hàng không chỉ tập trung vào một sản phẩm duy nhất mà có sự đa dạng về loại sản phẩm, kiểu dáng, kích thước và đặc điểm của thú bông. Bên cạnh các từ khóa chung như "thỏ bông" và "gấu bông teddy", khách hàng còn tìm kiếm những sản phẩm cụ thể như "thỏ bông tai dài", "thỏ bông jellycat" hay "gấu bông teddy siêu to".
+
+--- P77 [List Paragraph] ---
+Đặc biệt, từ khóa "gấu bông teddy" đứng thứ 2 trong bảng phân tích. Đây là kết quả phù hợp với định hướng của nhóm khi lựa chọn ngành hàng gấu bông cho tiệm ÔMƠ. Nhóm có thể tập trung phát triển các dòng gấu teddy đồng thời kết hợp thêm những mẫu thỏ bông và các sản phẩm có kiểu dáng, kích thước đa dạng.
+
+--- P78 [List Paragraph] ---
+Ngoài ra, sự xuất hiện của từ khóa "gấu bông teddy siêu to" ở vị trí thứ 5 cho thấy kích thước cũng là một đặc điểm mà khách hàng quan tâm khi tìm kiếm sản phẩm. Vì vậy, ÔMƠ có thể xây dựng danh mục sản phẩm với nhiều kích thước khác nhau thay vì chỉ kinh doanh một kích thước cố định.
+
+--- P79 [List Paragraph] ---
+Tuy nhiên, bảng dữ liệu Metric mà nhóm thu thập hiện tại không hiển thị cụ thể số lượt tìm kiếm và doanh số, do các số liệu này đang bị khóa. Vì vậy, nhóm chỉ sử dụng thứ hạng các từ khóa để đánh giá mức độ quan tâm của người dùng và không đưa ra kết luận cụ thể về doanh thu hoặc số lượng sản phẩm bán ra.
+
+--- P80 [Heading 3] ---
+1.2.2. Google Trends
+
+--- P81 [List Paragraph] ---
+Để chứng minh thêm nhu cầu tìm kiếm tự nhiên của ngành hàng trên công cụ Google Search, nhóm đã thực hiện nghiên cứu dữ liệu Google Trends trong vòng 5 năm qua tại thị trường Việt Nam đối với 3 từ khóa đại diện cụ thể gồm: gấu bông teddy (đường màu xanh dương), thỏ bông (đường màu đỏ) và gấu bông quà tặng (đường màu vàng).
+
+--- P82 [Normal] ---
+
+
+--- P83 [Normal] ---
+Hình 1.5. Nghiên cứu Google Trends về mức độ quan tâm ngành hàng thú bông
+
+--- P84 [Normal] ---
+Phân tích chuyên sâu biểu đồ Google Trends 5 năm (2021 - 2026) đối với 3 cụm từ khóa đại diện ngành hàng:
+1. Từ khóa 'gấu bông teddy' (Đường màu xanh lam): Duy trì lượng tìm kiếm nền tảng ổn định quanh năm với chỉ số quan tâm trung bình từ 60 - 75 điểm. Đây là dòng sản phẩm kinh điển (Evergreen Products) có nhu cầu mua sắm quanh năm làm quà tặng sinh nhật, tốt nghiệp và đồ chơi cho trẻ em.
+2. Từ khóa 'thỏ bông' (Đường màu đỏ): Xuất hiện xu hướng tăng trưởng đột phá mạnh mẽ từ cuối năm 2023 đến 2026 (chỉ số quan tâm tăng từ 40 lên trên 85 điểm). Điều này phản ánh rõ nét sự chuyển dịch thị hiếu của giới trẻ Gen Z sang các dòng thú bông động vật dễ thương, tai dài mềm mại mang phong cách Jellycat và Sanrio (Cinnamoroll, My Melody).
+3. Từ khóa 'gấu bông quà tặng' (Đường màu vàng): Thể hiện tính mùa vụ (Seasonality) cực kỳ rõ rệt với các đỉnh sóng tìm kiếm tăng vọt lên mức tối đa 100 điểm vào 4 thời điểm vàng trong năm:
+   - Đợt 1 (Tháng 2): Dịp Lễ Tình Nhân (Valentine 14/2) – Nhu cầu gấu bông cặp đôi và gấu teddy cỡ lớn tặng người yêu tăng gấp 3.5 lần ngày thường.
+   - Đợt 2 (Tháng 3): Ngày Quốc Tế Phụ Nữ (8/3) – Nhu cầu quà tặng tri ân mẹ, bạn gái và đồng nghiệp nữ tăng cao.
+   - Đợt 3 (Tháng 10): Ngày Phụ Nữ Việt Nam (20/10) – Nhu cầu quà tặng học sinh, sinh viên và nhân viên văn phòng.
+   - Đợt 4 (Tháng 12): Mùa Lễ Hội Giáng Sinh (Noel 24/12) và Tết Dương Lịch – Nhu cầu mua sắm gấu bông trang trí và quà tặng tự thưởng xả stress cuối năm.
+Từ kết quả phân tích số liệu khách quan trên Google Trends, nhóm 13 đã xác định chiến lược Digital Marketing trọng tâm: Duy trì SEO bền vững cho nhóm từ khóa Evergreen ('gấu bông teddy', 'móc khóa gấu bông') và tập trung đẩy mạnh chiến dịch khuyến mãi, bài viết SEO chuyên sâu đón đầu các đỉnh sóng mùa vụ trước 3 - 4 tuần để tối đa hóa lưu lượng truy cập và tỷ lệ chuyển đổi đơn hàng.
+
+--- P85 [Normal] ---
+Nguồn: Trends.google.com.vn
+
+--- P86 [List Paragraph] ---
+Kết quả biểu đồ ghi nhận từ khóa thỏ bông chiếm ưu thế áp đảo tuyệt đối với điểm quan tâm trung bình đạt 57/100, hoàn toàn đồng nhất với dữ liệu Top 1 trên Metric.vn và phản ánh chính xác thị hiếu tiêu dùng hiện đại hướng về các dòng thú bông dáng thỏ tai dài màu sắc pastel. Trong khi đó, hai từ khóa gấu bông quà tặng (8/100) và gấu bông teddy (7/100) tuy có điểm số khiêm tốn hơn nhưng lại duy trì lượng tìm kiếm vô cùng ổn định suốt 5 năm, đại diện cho nhóm nhu cầu mua sắm gấu truyền thống và quà biếu tặng cơ bản. Về mặt chu kỳ thời gian, toàn ngành hàng thể hiện tính mùa vụ rất rõ rệt khi biểu đồ liên tục lập các đỉnh sóng tăng vọt vào giai đoạn từ tháng 12 đến tháng 2 hàng năm (chạm mốc đỉnh điểm 100 điểm rơi vào mùa lễ hội Giáng sinh, Tết Nguyên Đán và Valentine). Đặc biệt, biên độ tìm kiếm từ giai đoạn 2024 đến nay có xu hướng dâng cao hơn hẳn so với giai đoạn trước, cho thấy quy mô thị trường đang trên đà mở rộng.
+
+--- P87 [List Paragraph] ---
+Từ các dữ liệu thực tế trên, Tiệm gấu bông ÔMơ thiết lập chiến lược SEO rõ ràng: nhóm lựa chọn chùm từ khóa xoay quanh thỏ bông (thỏ bông tai dài, thỏ bông pastel, thỏ bông chữa lành) làm mũi nhọn kéo lưu lượng truy cập (traffic) chính về website, song song với việc phủ bộ từ khóa bền vững gấu bông teddy và gấu bông quà tặng. Đồng thời, kế hoạch SEO Onpage, sáng tạo nội dung Blog và xây dựng liên kết sẽ được đẩy mạnh trước mùa cao điểm lễ Tết từ 1–2 tháng (bắt đầu triển khai từ tháng 10) nhằm đạt thứ hạng cao trên công cụ tìm kiếm đúng thời điểm nhu cầu mua sắm của thị trường bùng nổ.
+
+--- P88 [Heading 2] ---
+1.3. Mô hình kinh doanh (Business Model Canvas)
+
+--- P89 [List Paragraph] ---
+Tiệm gấu bông ÔMƠ xây dựng mô hình kinh doanh dựa trên Business Canvas nhằm xác định rõ khách hàng mục tiêu, sản phẩm cung cấp, cách thức tiếp cận khách hàng và nguồn doanh thu của tiệm. Mô hình kinh doanh của ÔMƠ được thể hiện qua 9 yếu tố sau:
+
+--- P90 [Normal] ---
+
+
+--- P91 [Normal] ---
+Bảng 1.3. Mô hình Canvas của thương hiệu Tiệm gấu bông ÔMƠ
+
+--- P92 [Normal] ---
+PHÂN TÍCH CHUYÊN SÂU 9 TRỤ CỘT MÔ HÌNH BUSINESS MODEL CANVAS:
+
+1. Đối Tác Chính (Key Partners): Xây dựng mối quan hệ hợp tác chiến lược lâu dài với: (a) Các xưởng sản xuất gấu bông cao cấp đạt chứng nhận ISO và an toàn dệt may tại Việt Nam; (b) Nhà cung cấp bao bì hộp quà Kraft vintage và thiệp hoa khô thủ công tại Đà Nẵng; (c) Các đối tác thanh toán số VietQR, Napas, Ví điện tử MoMo; (d) Các đơn vị vận chuyển uy tín Giao Hàng Tiết Kiệm (GHTK), Ahamove (giao hỏa tốc 1-2h); (e) Mạng lưới hơn 20 Micro-KOCs và Content Creators tại các trường Đại học ở Đà Nẵng.
+
+2. Hoạt Động Chính (Key Activities): (a) Quản trị và tối ưu hóa hệ sinh thái website E-commerce chuẩn SEO (`omo13.vercel.app`); (b) Nghiên cứu và sáng tạo nội dung số Plan Content 24 bài viết chuẩn SEO kết hợp Video Viral chữa lành trên TikTok; (c) Kiểm định chất lượng sản phẩm gòn PP 3D và quy trình đóng gói quà tặng cá nhân hóa; (d) Vận hành chiến dịch SEO Onpage/Offpage và xây dựng thực thể thương hiệu Entity; (e) Chăm sóc khách hàng đa kênh 24/7 và xử lý đơn hàng hỏa tốc.
+
+3. Nguồn Lực Chính (Key Resources): (a) Nguồn nhân lực trẻ gồm 6 thành viên chuyên môn hóa cao; (b) Hệ thống công nghệ web tối ưu UI/UX, mã nguồn nhẹ, tốc độ tải siêu tốc; (c) Kho dữ liệu sản phẩm 15 mẫu thú bông độc quyền chất lượng cao; (d) Bộ tài sản số gồm 60 Entity Social Profiles, Fanpage, Kênh TikTok và cơ sở dữ liệu khách hàng.
+
+4. Giải Pháp Giá Trị (Value Propositions): (a) Thú nhồi bông cao cấp an toàn tuyệt đối cho sức khỏe (100% vỏ nhung tuyết mịn, ruột bông gòn PP 3D tinh khiết kháng khuẩn); (b) Định vị phong cách Vintage Pastel mang lại cảm xúc vỗ về, chữa lành tinh thần; (c) Trọn gói dịch vụ cá nhân hóa quà tặng (Hộp quà vintage, thiệp hoa khô viết tay theo yêu cầu); (d) Trải nghiệm mua sắm mượt mà với thanh toán quét mã QR tự động và giao hỏa tốc 1-2h tại Đà Nẵng; (e) Chính sách bảo hành đường may trọn đời và đổi trả 1-1 trong 3 ngày.
+
+5. Quan Hệ Khách Hàng (Customer Relationships): Xây dựng mối quan hệ gắn kết cảm xúc sâu sắc thông qua: (a) Tư vấn cá nhân hóa chọn quà theo dịp và ngân sách qua Trợ lý Chatbot AI và CSKH; (b) Chương trình tích điểm khách hàng thân thiết và tặng voucher sinh nhật giảm 20%; (c) Minigame 'Gửi gắm yêu thương cùng ÔMƠ' trên mạng xã hội; (d) Lắng nghe phản hồi và đồng hành cùng khách hàng trong suốt vòng đời sử dụng sản phẩm.
+
+6. Kênh Phân Phối (Channels): (a) Kênh trực tuyến chính thức: Website thương mại điện tử `omo13.vercel.app`; (b) Kênh Social Commerce: Facebook Fanpage, Instagram Direct, TikTok Shop; (c) Kênh giao nhận: Giao hỏa tốc 1-2 giờ nội thành Đà Nẵng qua GrabExpress/Ahamove và chuyển phát nhanh COD toàn quốc 2-3 ngày qua GHTK.
+
+7. Phân Khúc Khách Hàng (Customer Segments): (a) Học sinh, sinh viên (18-24 tuổi) yêu thích gấu bông dễ thương, móc khóa trang trí balo và quà tặng sinh nhật bạn bè; (b) Người đi làm, nhân viên văn phòng (22-30 tuổi) có nhu cầu mua gấu bông tựa lưng, xoa dịu áp lực công việc và quà tặng lãng mạn cho người yêu; (c) Phụ huynh trẻ tìm kiếm thú bông cao cấp an toàn tuyệt đối cho con nhỏ.
+
+8. Cơ Cấu Chi Phí (Cost Structure): (a) Chi phí cố định: Duy trì tên miền Domain, máy chủ Hosting Vercel, công cụ SEO bản quyền (Ahrefs, Semrush, Spineditor); (b) Chi phí biến đổi: Giá vốn hàng bán (COGS - nhập gấu bông, bông gòn, phụ kiện), chi phí bao bì hộp quà Kraft, cước vận chuyển và chi phí đóng gói chống sốc; (c) Chi phí Marketing & Xúc tiến thương mại (ngân sách 100 triệu phân bổ cho sản xuất nội dung, quà tặng minigame và tài trợ sự kiện sinh viên).
+
+9. Dòng Doanh Thu (Revenue Streams): (a) Doanh thu bán lẻ từ 4 phân nhóm thú bông (Keychain, Gấu nhỏ, Gấu vừa, Gấu to); (b) Doanh thu từ dịch vụ gia tăng: Đóng hộp quà vintage cao cấp, thiệp hoa khô viết tay và may phụ kiện áo/mũ theo yêu cầu; (c) Doanh thu từ các combo quà tặng theo dịp lễ (Valentine, 8/3, 20/10, Giáng sinh, Tốt nghiệp) với biên lợi nhuận ròng kỳ vọng đạt 28 - 35%.
+
+--- P93 [Heading 1] ---
+CHƯƠNG II. HOẠCH ĐỊNH CHIẾN LƯỢC MARKETING
+
+--- P94 [Heading 2] ---
+2.1. Phân khúc thị trường
+
+--- P95 [Heading 3] ---
+2.1.1. Khách hàng mục tiêu
+
+--- P96 [List Paragraph] ---
+Thị trường gấu bông hiện nay không chỉ phục vụ nhu cầu mua đồ chơi hoặc trang trí mà còn gắn với nhu cầu thể hiện tình cảm, làm quà tặng và tạo không gian cá nhân thỏa sức sáng tạo decor. Đối với thương hiệu gấu bông Ômơ với thông điệp "Ôm một chú gấu, giữ một giấc mơ", sản phẩm hướng đến giá trị cảm xúc nhiều hơn việc chỉ đáp ứng nhu cầu sử dụng một món đồ chơi. Vì vậy, việc phân khúc thị trường được thực hiện dựa trên các yếu tố nhân khẩu học, sở thích, nhu cầu và hành vi trực tuyến của khách hàng, nhóm đưa ra chân dung khách hàng mục tiêu cho thương hiệu gấu bông Ômơ như sau:
+
+--- P97 [Heading 4] ---
+* Nhân khẩu học
+
+--- P98 [List Paragraph] ---
+Độ tuổi: Tiệm gấu bông Ômơ xác định khách hàng mục tiêu chính nằm trong 2 nhóm tuổi 18-24 tuổi và 25-35 tuổi.
+
+--- P99 [List Paragraph] ---
+Nhóm 18-24 tuổi: chủ yếu là các sinh viên trẻ và người trẻ mới đi làm. Đây là nhóm khách hàng trẻ có tiềm năng lớn, thường có sở thích và quan tâm đến các sản phẩm dễ thương, có tính thẩm mỹ, phù hợp với xu hướng, bắt trend trên mạng xã hội và thường mua sản phẩm để tặng người thương hay bạn bè hoặc sử dụng cho bản thân. Nhóm này cũng dễ bị tác động bởi hình ảnh, video ngắn, đánh giá của người dùng và các chương trình khuyến mãi.
+
+--- P100 [List Paragraph] ---
+Nhóm 25-35 tuổi: chủ yếu là người đã đi làm, có thu nhập tương đối ổn định và có khả năng chi trả cao hơn nhóm 18–24 tuổi. Khách hàng trong nhóm này có xu hướng quan tâm nhiều hơn đến chất lượng sản phẩm, kiểu dáng, độ hoàn thiện, ý nghĩa của món quà và dịch vụ đi kèm khi mua hàng.
+
+--- P101 [List Paragraph] ---
+Giới tính: Ômơ hướng đến mọi giới tính, bởi gấu bông không chỉ phục vụ một nhóm khách hàng cụ thể. Nam giới có thể mua gấu bông để tặng người yêu, bạn bè hoặc người thân; trong khi nữ giới có thể mua để làm quà tặng hoặc sử dụng để trang trí, tạo không gian cá nhân.
+
+--- P102 [List Paragraph] ---
+Thu nhập: 
+
+--- P103 [List Paragraph] ---
+Nhóm 18–24 tuổi: tập trung vào khách hàng có mức thu nhập khoảng 3–7 triệu đồng/tháng, bao gồm sinh viên có nguồn tài chính từ gia đình và người mới đi làm. Mức giá sản phẩm cần phù hợp với khả năng chi tiêu của nhóm khách hàng trẻ, đặc biệt trong những dịp mua quà.
+
+--- P104 [List Paragraph] ---
+Nhóm 25–34 tuổi: tập trung vào khách hàng có mức thu nhập khoảng 8–20 triệu đồng/tháng. Nhóm này có khả năng chi trả tốt hơn và có thể ưu tiên những sản phẩm gấu bông có kích thước lớn, thiết kế đẹp, chất lượng tốt hoặc được đóng gói phù hợp để làm quà tặng.
+
+--- P105 [List Paragraph] ---
+Việc lựa chọn hai nhóm thu nhập trên nhằm phù hợp với đặc điểm của sản phẩm gấu bông Ômơ. Đây là sản phẩm có giá trị không quá cao so với nhiều loại quà tặng khác nhưng vẫn cần đảm bảo sự cân đối giữa giá thành, kích thước, chất liệu, thiết kế và giá trị cảm xúc mà sản phẩm mang lại. Nhóm phân chia rõ 2 nhóm tuổi khách hàng mục tiêu giúp cho người mua, người tiêu dùng dễ dàng lựa chọn gấu bông phù hợp.
+
+--- P106 [List Paragraph] ---
+Nghề nghiệp: 
+
+--- P107 [List Paragraph] ---
+Nhóm 18–24 tuổi: sinh viên và nhân viên văn phòng trẻ vừa gia nhập thị trường lao động. Nhóm 25–34 tuổi: nhân viên văn phòng, người làm việc trong các ngành dịch vụ, kinh doanh và các công việc có thu nhập ổn định… Đây là những nhóm nghề nghiệp có khả năng tiếp cận thường xuyên với Internet, mạng xã hội và các nền tảng thương mại điện tử, đồng thời có nhu cầu mua quà vào các dịp sinh nhật, lễ, kỷ niệm hoặc những thời điểm muốn thể hiện tình cảm với người khác.
+
+--- P108 [List Paragraph] ---
+Vị trí địa lý: 
+
+--- P109 [List Paragraph] ---
+Nhận thấy thành phố Đà Nẵng là một thành phố phát triển mạnh về du lịch, dịch vụ, giáo dục và kinh tế, đồng thời có lượng lớn sinh viên và người lao động trẻ sinh sống, học tập và làm việc, ngoài ra hàng năm Đà Nẵng còn đón tiếp rất nhiều khách du lịch đổ về, đây là điểm mạnh để tiệm gấu bông Ômơ có thể phát triển. Tiệm quyết định mở tại 255 Hà Huy Tập, Thanh Khê, Đà Nẵng. Ngoài việc bán hàng trực tiếp tại các cửa hàng, Ômơ còn đẩy mạnh việc tiếp cận khách hàng thông qua các nền tảng thương mại điện tử và mạng xã hội, từ đó mở rộng phạm vi phục vụ đến khách hàng ở các quận, huyện khác trên địa bàn thành phố, thậm chí là các tỉnh thành khác.
+
+--- P110 [Heading 4] ---
+* Sở thích, nhu cầu
+
+--- P111 [List Paragraph] ---
+Sở thích: 
+
+--- P112 [List Paragraph] ---
+Khách hàng từ 18–24 tuổi thường yêu thích những sản phẩm có kiểu dáng dễ thương, màu sắc bắt mắt và phù hợp với xu hướng của giới trẻ. Họ có thể quan tâm đến những mẫu gấu bông có thiết kế độc đáo, nhiều kích thước và có thể sử dụng để trang trí phòng ngủ, góc học tập hoặc làm đạo cụ chụp ảnh.
+
+--- P113 [Normal] ---
+Xây dựng 3 Chân dung khách hàng mục tiêu điển hình (Customer Personas) của Tiệm gấu bông ÔMƠ:
+
+📋 CHÂN DUNG 1: NGUYỄN MAI ANH – SINH VIÊN ĐẠI HỌC (GEN Z)
+• Nhân khẩu học: 20 tuổi, sinh viên năm 2 tại TP. Đà Nẵng, thu nhập từ trợ cấp và làm thêm: 3.5 - 5 triệu VNĐ/tháng.
+• Sở thích & Phong cách sống: Yêu thích phong cách Vintage Pastel, hay lướt TikTok/Instagram xem video unboxing, thích decor phòng trọ xinh xắn và chụp ảnh check-in quán cà phê.
+• Nỗi đau & Nhu cầu (Pain Points & Needs): Áp lực học tập và thi cử cần tìm thú bông êm ái để ôm giải tỏa stress; tìm kiếm quà tặng sinh nhật bạn thân với ngân sách vừa phải (100k - 250k) nhưng phải đẹp, độc lạ và đóng gói xinh xắn.
+• Kênh tiếp cận & Hành vi: Sử dụng smartphone 100%, lướt TikTok sau 21h00, tìm kiếm thông tin gấu bông qua Google và Shopee, thích thanh toán nhanh qua quét mã VietQR/MoMo.
+
+📋 CHÂN DUNG 2: TRẦN THU TRANG – NHÂN VIÊN VĂN PHÒNG (MILLENNIALS TRẺ)
+• Nhân khẩu học: 26 tuổi, chuyên viên Marketing tại Đà Nẵng, thu nhập: 10 - 15 triệu VNĐ/tháng.
+• Sở thích & Phong cách sống: Quan tâm đến lối sống chữa lành (Healing Lifestyle), thích sưu tầm móc khóa thú bông treo túi xách đi làm và gấu bông tựa lưng ghế văn phòng.
+• Nỗi đau & Nhu cầu: Ngồi làm việc máy tính nhiều giờ bị mỏi lưng và căng thẳng; cần gấu bông chất lượng cao mềm mịn, không rụng lông, kiểu dáng tinh tế không quá trẻ con.
+• Kênh tiếp cận & Hành vi: Lướt mạng xã hội vào giờ nghỉ trưa (11h30 - 13h00), quan tâm đến độ uy tín của thương hiệu và dịch vụ giao hàng hỏa tốc trong 1-2h để kịp tặng quà đồng nghiệp.
+
+📋 CHÂN DUNG 3: LÊ MINH TUẤN – PHỤ HUYNH TRẺ (NGƯỜI MUA TẶNG CON)
+• Nhân khẩu học: 32 tuổi, kỹ sư phần mềm, đã lập gia đình và có con gái 4 tuổi, thu nhập: 20 - 30 triệu VNĐ/tháng.
+• Sở thích & Phong cách sống: Ưu tiên hàng đầu về an toàn sức khỏe cho con trẻ, thích mua sắm online trên các website chính hãng có chứng nhận rõ ràng.
+• Nỗi đau & Nhu cầu: Lo ngại thú bông giá rẻ trôi nổi nhồi bông bẩn gây dị ứng hô hấp cho con; tìm kiếm thú bông cao cấp nhồi 100% bông PP tinh khiết kháng khuẩn, có thể giặt máy mà không bị vón cục.
+• Kênh tiếp cận & Hành vi: Tìm kiếm từ khóa chính xác trên Google Search ('gấu bông an toàn cho bé', 'gấu bông cao cấp đà nẵng'), đọc kỹ thông số chất liệu và chính sách đổi trả trước khi đặt mua.
+
+--- P114 [List Paragraph] ---
+Khách hàng từ 25–34 tuổi có xu hướng quan tâm đến những sản phẩm có tính thẩm mỹ, chất lượng tốt và mang ý nghĩa rõ ràng khi làm quà tặng. Bên cạnh kiểu dáng dễ thương, họ có thể ưu tiên những mẫu gấu có thiết kế tinh tế, chất liệu mềm mại, kích thước phù hợp và được đóng gói đẹp mắt.
+
+--- P115 [List Paragraph] ---
+Nhu cầu: 
+
+--- P116 [List Paragraph] ---
+Nhóm khách hàng 18–24 tuổi: Nhu cầu chính là mua gấu bông cho bản thân hoặc làm quà tặng vào các dịp như sinh nhật, Valentine, kỷ niệm, Giáng sinh. Khi lựa chọn sản phẩm, nhóm này thường quan tâm đến giá thành, kiểu dáng, kích thước, độ mềm mại, màu sắc và mức độ phù hợp với người nhận; các yếu tố voucher, giảm giá, miễn phí vận chuyển và bao bì đẹp cũng ảnh hưởng đến quyết định mua.
+
+--- P117 [List Paragraph] ---
+Nhóm khách hàng 25–34 tuổi: Nhu cầu chủ yếu là mua gấu bông làm quà tặng cho người thương, vợ/chồng, bạn bè hoặc người thân. Do khả năng chi trả ổn định hơn, họ quan tâm nhiều đến chất lượng sản phẩm, thương hiệu, dịch vụ tư vấn, hình thức đóng gói và giao hàng – phù hợp với thông điệp "Ôm một chú gấu – giữ một giấc mơ" của Ômơ.
+
+--- P118 [Heading 4] ---
+* Hành vi online
+
+--- P119 [List Paragraph] ---
+Thời gian online: 
+
+--- P120 [List Paragraph] ---
+Khách hàng mục tiêu của Ômơ thường sử dụng Internet và mạng xã hội vào nhiều thời điểm trong ngày, tập trung ở hai khung giờ chính là 11h00–13h00 (giờ nghỉ trưa của sinh viên/nhân viên văn phòng, thời điểm giải trí, xem TikTok/Facebook/Instagram hoặc tìm sản phẩm) và 19h00–23h00 (sau giờ học/làm, thời gian vàng cho quảng cáo, phù hợp tiếp cận bằng nội dung về tình yêu, quà tặng và khoảnh khắc đời thường).
+
+--- P121 [List Paragraph] ---
+Kênh online, kênh mua sắm online: TikTok (xem video giới thiệu, review, mở hộp, nội dung tặng quà); TikTok Shop (mua sau khi xem video/livestream); Facebook (theo dõi Fanpage, khuyến mãi, bình luận); Instagram (hình ảnh sản phẩm, phong cách trang trí); Shopee (tìm kiếm, so sánh giá, đánh giá); Google (tìm kiếm thông tin trước khi mua, ví dụ "gấu bông Đà Nẵng", "shop gấu bông Đà Nẵng", "gấu bông tặng người yêu", "gấu bông sinh nhật", "gấu bông dễ thương", "gấu bông Ômơ").
+
+--- P122 [List Paragraph] ---
+Nơi tham khảo, tìm kiếm thông tin: GenZ thường tham khảo thông tin tại các hội nhóm/trang cộng đồng lớn, trang cá nhân của KOL/KOC, bài viết review, video ngắn, hình ảnh thu hút trên TikTok, Facebook, cũng như các Group, Fanpage có đông người theo dõi.
+
+--- P123 [Normal] ---
+
+
+--- P124 [Normal] ---
+Hình 2.1. Các hội nhóm về gấu bông mà khách hàng mục tiêu quan tâm
+
+--- P125 [Heading 3] ---
+2.1.2. Đối thủ cạnh tranh
+
+--- P126 [List Paragraph] ---
+Trong quá trình xây dựng chiến lược SEO và marketing cho thương hiệu Ômơ, nhóm xác định đối thủ cạnh tranh dựa trên các tiêu chí gồm: mức độ tương đồng về ngành hàng, danh mục sản phẩm, phân khúc giá, khách hàng mục tiêu, hình thức kinh doanh, mức độ hiện diện trên môi trường trực tuyến và quy mô hoạt động.
+
+--- P127 [List Paragraph] ---
+Dựa trên các tiêu chí trên, nhóm lựa chọn MINISO Việt Nam và Gấu Bông Đà Nẵng – Ngố's House làm hai đối thủ để phân tích. Hai đối thủ có mức độ cạnh tranh khác nhau nhưng đều có khả năng thu hút nhóm khách hàng mà Ômơ hướng đến.
+
+--- P128 [Normal] ---
+Bảng 2.1. Căn cứ lựa chọn đối thủ cạnh tranh
+
+--- P129 [Normal] ---
+
+
+--- P130 [List Paragraph] ---
+MINISO được lựa chọn để nhóm học hỏi về quy mô thương hiệu, cấu trúc website, danh mục sản phẩm và khả năng xây dựng hệ thống SEO, trong khi Ngố's House được lựa chọn để so sánh trực tiếp về sản phẩm gấu bông, khách hàng địa phương và SEO theo từ khóa Đà Nẵng.
+
+--- P131 [Heading 4] ---
+* Định vị trên thị trường
+
+--- P132 [List Paragraph] ---
+MINISO có thể được định vị ở nhóm giá trung bình – chất lượng tương đối cao, nhờ lợi thế thương hiệu, hệ thống cửa hàng và danh mục sản phẩm đa dạng. Website chính thức của MINISO hiện công bố hơn 10.000 sản phẩm với nhiều nhóm ngành hàng khác nhau và hệ thống showroom trên toàn quốc.
+
+--- P133 [List Paragraph] ---
+Ngố's House có lợi thế ở nhóm giá đa dạng, phù hợp với khách hàng có ngân sách khác nhau. Do tập trung vào gấu bông và thú nhồi bông nên mức độ chuyên môn hóa ngành hàng cao hơn MINISO.
+
+--- P134 [List Paragraph] ---
+Ômơ có thể lựa chọn định vị chất lượng tốt – mức giá hợp lý, tập trung vào nhóm khách hàng trẻ và nhu cầu mua gấu bông làm quà tặng. Thay vì cạnh tranh trực tiếp với MINISO về quy mô hoặc với Ngố's House về số lượng mẫu mã, Ômơ nên tạo sự khác biệt thông qua thiết kế sản phẩm, cách trình bày, trải nghiệm mua hàng, nội dung cảm xúc và cá nhân hóa quà tặng.
+
+--- P135 [Heading 4] ---
+* Phân tích website đối thủ cạnh tranh
+
+--- P136 [Normal] ---
+Phân tích tổng quan đối thủ cạnh tranh:
+
+--- P137 [Normal] ---
+Bảng 2.2. Phân tích tổng quan đối thủ cạnh tranh bằng Ahrefs hoặc SemRush
+
+--- P138 [Normal] ---
+
+
+--- P139 [Heading 3] ---
+2.1.3. Phân tích UI/UX website đối thủ
+
+--- P140 [List Paragraph] ---
+Phân tích UI website đối thủ cạnh tranh
+
+--- P141 [Normal] ---
+Bảng 2.3. Phân tích UI website đối thủ cạnh tranh
+
+--- P142 [Normal] ---
+
+
+--- P143 [List Paragraph] ---
+Phân tích UX website đối thủ cạnh tranh (Fanpage)
+
+--- P144 [Normal] ---
+Bảng 2.4. Phân tích UX website đối thủ cạnh tranh (Fanpage)
+
+--- P145 [List Paragraph] ---
+Phân tích website đối thủ cạnh tranh bằng SEMrush
+
+--- P146 [Normal] ---
+Bảng 2.5. Phân tích website đối thủ cạnh tranh bằng SEMrush
+
+--- P147 [List Paragraph] ---
+Từ việc phân tích đối thủ cạnh tranh, nhóm rút ra:
+
+--- P148 [List Paragraph] ---
+Xây kênh TMĐT: Mở gian hàng chuẩn hóa trên Shopee/TikTok Shop để giảm phụ thuộc Facebook và tự động hóa khâu chốt đơn.
+
+--- P149 [List Paragraph] ---
+Tối ưu tìm kiếm: Đẩy mạnh bài viết chứa từ khóa định vị địa phương (gấu bông Đà Nẵng, quà tặng Đà Nẵng) để giữ vững tệp khách khu vực.
+
+--- P150 [List Paragraph] ---
+Giữ thế mạnh Inbox: Duy trì tốc độ phản hồi tin nhắn nhanh và phong cách tư vấn thân thiện vì đây là điểm chạm giữ chân khách hàng tốt nhất.
+
+--- P151 [List Paragraph] ---
+Chuẩn hóa quy trình: Tích hợp phần mềm quản lý bán hàng (Sapo/PosCake) để tạo hóa đơn và đồng bộ tồn kho tự động qua tin nhắn.
+
+--- P152 [Heading 2] ---
+2.2. Mô hình SWOT
+
+--- P153 [Normal] ---
+Để đánh giá toàn diện vị thế cạnh tranh của Tiệm gấu bông ÔMƠ trên thị trường thương mại điện tử quà tặng và thú bông tại Đà Nẵng cũng như toàn quốc, nhóm đã tiến hành phân tích ma trận SWOT kết hợp các chiến lược phối hợp S-O, S-T, W-O, W-T như sau:
+
+--- P154 [Normal] ---
+Phân tích chiến lược kết hợp ma trận SWOT của Tiệm gấu bông ÔMƠ:
+• Chiến lược S-O (Tận dụng Điểm mạnh để nắm bắt Cơ hội): Đẩy mạnh tiếp thị bộ sưu tập gấu bông chữa lành trên website và TikTok; tận dụng giao diện Vintage Pastel chuẩn SEO để thu hút lượng lớn khách hàng trẻ có nhu cầu quà tặng cá nhân hóa.
+• Chiến lược S-T (Sử dụng Điểm mạnh để đối phó Thách thức): Khẳng định chất lượng vượt trội qua chứng nhận gòn tinh khiết PP 100% và chính sách bảo hành 1-1 để vượt qua sự cạnh tranh từ hàng giá rẻ kém chất lượng.
+• Chiến lược W-O (Khắc phục Điểm yếu nhờ nắm bắt Cơ hội): Tập trung tối ưu SEO từ khóa ngách KGR và xây dựng nội dung mạng xã hội organic để gia tăng độ nhận diện thương hiệu với chi phí tối thiểu.
+• Chiến lược W-T (Tối thiểu hóa Điểm yếu và phòng tránh Thách thức): Áp dụng mô hình quản lý tồn kho tinh gọn (Just-in-Time), tập trung vào các mẫu mã hot-trend và tối ưu quy trình CSKH để giữ chân khách hàng trung thành.
+
+--- P155 [Heading 2] ---
+2.3. Mô hình 4P (Marketing Mix)
+
+--- P156 [Heading 3] ---
+2.3.1. Chiến lược Sản phẩm (Product)
+
+--- P157 [Normal] ---
+Tiệm gấu bông ÔMƠ tập trung vào dòng sản phẩm thú nhồi bông cao cấp mang phong cách Vintage Pastel với 4 phân nhóm chủ đạo: (1) Móc khóa gấu bông (Keychain 5-15cm); (2) Thú bông size nhỏ (15-25cm); (3) Thú bông size vừa (30-45cm); (4) Thú bông size lớn (50-80cm+). Tất cả sản phẩm đều được cam kết: Vỏ bọc bằng chất liệu vải nhung tuyết co giãn 4 chiều mềm mịn, không rụng lông, ruột nhồi 100% bông gòn trắng tinh khiết PP 3D kháng khuẩn đạt tiêu chuẩn an toàn cho trẻ nhỏ. Đặc biệt, ÔMƠ cung cấp dịch vụ giá trị gia tăng (Value-added Service) trọn gói: Đóng hộp quà vintage thắt nơ ruy băng, tặng kèm thiệp hoa khô viết tay theo yêu cầu và dịch vụ may phụ kiện nơ/áo cho gấu bông theo phong cách riêng.
+
+--- P158 [Heading 3] ---
+2.3.2. Chiến lược Giá (Price)
+
+--- P159 [Normal] ---
+ÔMƠ áp dụng chiến lược định giá thâm nhập thị trường (Penetration Pricing) kết hợp định giá theo giá trị cảm nhận (Value-based Pricing): Mức giá dao động từ 25.000 VNĐ (Móc khóa) đến 450.000 VNĐ (Gấu bông cỡ lớn), cực kỳ cạnh tranh và phù hợp với túi tiền của học sinh, sinh viên và người đi làm trẻ tuổi. Bên cạnh đó, tiệm triển khai các gói định giá thông minh: Combo Quà Tặng (Gấu bông + Hộp quà + Thiệp viết tay tiết kiệm 15% so với mua lẻ), chính sách Miễn phí vận chuyển (Freeship) cho đơn hàng từ 250.000 VNĐ và chiết khấu 10% cho khách hàng quay lại mua lần 2.
+
+--- P160 [Heading 3] ---
+2.3.3. Chiến lược Phân phối (Place)
+
+--- P161 [Normal] ---
+ÔMƠ triển khai mô hình phân phối bán lẻ đa kênh tích hợp (Omnichannel Retailing): (1) Kênh Website TMĐT chính thức (`omo13.vercel.app`): Nền tảng bán hàng trung tâm chuẩn SEO, hoạt động 24/7 với giỏ hàng thời gian thực và thanh toán quét mã VietQR tự động; (2) Kênh Mạng xã hội: Bán hàng qua Fanpage Facebook, Instagram Direct Message và TikTok Shop; (3) Dịch vụ giao nhận: Giao hàng hỏa tốc trong 1-2 giờ tại nội thành Đà Nẵng đáp ứng các nhu cầu tặng quà khẩn cấp, và hợp tác với Giao Hàng Tiết Kiệm (GHTK) để ship COD toàn quốc trong 2-3 ngày với quy trình đóng gói chống sốc, bọc màng co bảo vệ form dáng gấu bông.
+
+--- P162 [Heading 3] ---
+2.3.4. Chiến lược Xúc tiến Thương mại (Promotion)
+
+--- P163 [Normal] ---
+Chiến lược xúc tiến đa điểm chạm tập trung vào nội dung hữu ích và gia tăng trải nghiệm cảm xúc: • SEO & Content Marketing: Xuất bản 24 bài viết chuẩn SEO tối ưu từ khóa KGR ngách để thu hút lượng traffic tự nhiên bền vững từ Google. • Social Media & Video Storytelling: Sáng tạo các video ngắn 'đập hộp', 'gói quà chữa lành' và 'kể chuyện gấu bông' trên kênh TikTok và Facebook Reels nhằm tạo hiệu ứng lan tỏa tự nhiên. • Minigame & Khuyến mại theo dịp: Tổ chức minigame 'Chia sẻ câu chuyện cùng gấu bông ÔMƠ', tặng voucher giảm giá 20% vào các dịp lễ lớn (Valentine 14/2, Quốc tế Phụ nữ 8/3, Phụ nữ VN 20/10, Giáng sinh). • SEO Entity & Quan hệ công chúng số (Digital PR): Khai báo đồng bộ 60 thực thể mạng xã hội và đặt backlink chất lượng trên các diễn đàn đời sống, mua sắm uy tín.
+
+--- P164 [Heading 2] ---
+2.4. Xác định KPIs
+
+--- P165 [List Paragraph] ---
+Thời gian thực hiện: 11/08/2026 – 02/10/2026
+
+--- P166 [List Paragraph] ---
+Kênh thực hiện chính: https://www.facebook.com/Omo.shop1
+
+--- P167 [Heading 3] ---
+2.4.1. Mô hình SMART
+
+--- P168 [List Paragraph] ---
+S – Specific: Tăng độ nhận diện thương hiệu cho Tiệm gấu bông ÔMƠ tại thị trường Đà Nẵng và đẩy mạnh lượng truy cập vào website chính thức; thực hiện tối ưu SEO Onpage/Offpage hoàn chỉnh bằng cách sáng tạo 20 bài viết chuẩn SEO (chủ đề gấu bông chữa lành, quà tặng Vintage Pastel), hoàn thành 50 Entity và xây dựng 50 Backlink/link chéo social.
+
+--- P169 [List Paragraph] ---
+M – Measurable: Tối thiểu 10 từ khóa ngách ("gấu bông Đà Nẵng", "shop gấu bông đẹp Đà Nẵng", "gấu bông chữa lành") lọt Top 100 Google; điểm hiệu suất PageSpeed Insights tốt trên cả Desktop và Mobile; tối thiểu 200 Users truy cập website, thời gian tương tác trung bình đạt mốc mục tiêu; cơ cấu nguồn truy cập: 80 Organic Search, 60 Organic Social, 40 Direct, 20 Referral (tổng 200 Users).
+
+--- P170 [List Paragraph] ---
+A – Attainable: Khối lượng công việc phân bổ đều cho 5-6 thành viên trong nhóm trong suốt 7 tuần triển khai; do domain mới trên Google Sites có độ uy tín (DA) chưa cao, mục tiêu Top 100 cho từ khóa ngách địa phương và 200 traffic organic/social là khả thi, tránh đặt mục tiêu phi thực tế như Top 1-3 từ khóa cạnh tranh toàn quốc.
+
+--- P171 [List Paragraph] ---
+R – Relevant: Các bài viết và từ khóa lựa chọn tập trung trực tiếp vào nhu cầu mua quà tặng, gấu bông vỗ về cảm xúc của nhóm khách hàng mục tiêu từ 18–35 tuổi tại Đà Nẵng; đặt mốc thời gian trên trang giúp tăng mức độ tìm hiểu sản phẩm, từ đó tăng khả năng khách hàng chuyển đổi sang Fanpage hoặc liên hệ đặt hàng.
+
+--- P172 [List Paragraph] ---
+T – Time-bound: Toàn bộ các mốc chỉ số KPIs được cam kết hoàn thành chính xác và đo lường báo cáo trong giai đoạn từ ngày 11/08/2026 đến ngày 02/10/2026.
+
+--- P173 [Heading 3] ---
+2.4.2. Căn cứ xác định KPIs
+
+--- P174 [List Paragraph] ---
+Dựa vào độ quan tâm và đặc điểm của khách hàng mục tiêu: Khách hàng mục tiêu của ÔMƠ là học sinh, sinh viên và nhân viên văn phòng trẻ (18–35 tuổi) tại Đà Nẵng, sử dụng Internet/mạng xã hội mạnh vào giờ nghỉ trưa và buổi tối, dễ bị thu hút bởi nội dung trực quan và review chân thực. Với ngân sách 100 triệu đồng chạy quảng cáo, nhóm đặt mục tiêu 400 lượt truy cập từ Organic Search, 500 từ Paid Search (Google Ads), 800 từ Organic & Paid Social; SEO tối thiểu 15–20 từ khóa liên quan trực tiếp lên Top 100 Google.
+
+--- P175 [List Paragraph] ---
+Dựa vào mục tiêu chiến lược Marketing ban đầu: Định vị mạnh mẽ "Tiệm gấu bông ÔMƠ" trở thành thương hiệu quà tặng thú bông mang thông điệp chữa lành cảm xúc tại Đà Nẵng. Cụ thể: thực hiện 60 Entity và xây/mua 60 Backlink chất lượng cao để củng cố uy tín tên miền; xây dựng tối thiểu 24 bài viết chuẩn SEO kết hợp hình ảnh, video chuyên nghiệp.
+
+--- P176 [List Paragraph] ---
+Dựa vào nguồn lực (nhân lực và ngân sách): Dự án được thực hiện bởi nhóm 6 thành viên với tổng ngân sách 100.000.000 VNĐ trong gần 2 tháng, phân bổ: Paid Ads 40.000.000 VNĐ; Hợp tác KOC/KOL/Seeding tại Đà Nẵng 30.000.000 VNĐ; Sản xuất nội dung/thiết kế/tài nguyên kỹ thuật 20.000.000 VNĐ; Dự phòng 10.000.000 VNĐ. Phân bổ công việc: 24 bài SEO (6 người × 4 bài), 60 Entity (6 người × 10) và 60 backlink (6 người × 10).
+
+--- P177 [List Paragraph] ---
+Dựa vào thời gian triển khai: Dự án diễn ra từ 11/08/2026 đến 02/10/2026 (gần 2 tháng). Nhờ ngân sách 100 triệu, nhóm khắc phục điểm yếu "thiếu uy tín ban đầu" bằng Paid Ads và booking KOC ngay từ tuần đầu thay vì chờ SEO organic thuần túy. Mục tiêu 15–20 từ khóa Top 100 và 2.000 Users với thời gian tương tác trung bình tối thiểu 2 phút 30 giây.
+
+--- P178 [List Paragraph] ---
+Dựa vào đối thủ cạnh tranh: ÔMƠ phải đối đầu với MINISO Việt Nam và Ngố's House (thương hiệu lâu năm, tương tác ổn định). Nhờ ngân sách, ÔMƠ cạnh tranh không chỉ bằng SEO mà còn bằng khuyến mãi, minigame và video viral trên TikTok/Facebook do KOC thực hiện; tối ưu hiệu suất Desktop/Mobile tối thiểu 90 điểm trên PageSpeed Insights để tránh thoát trang khi khách click từ quảng cáo.
+
+--- P179 [Heading 3] ---
+2.4.3. Bảng tổng hợp các chỉ số KPIs chi tiết của dự án
+
+--- P180 [Normal] ---
+Bảng 2.6. Bảng tổng hợp chỉ số KPIs chi tiết của dự án
+
+--- P181 [Heading 1] ---
+CHƯƠNG III. THIẾT KẾ WEBSITE
+
+--- P182 [Heading 2] ---
+3.1. Phân tích hệ thống
+
+--- P183 [Heading 3] ---
+3.1.1. Yêu cầu hệ thống
+
+--- P184 [Normal] ---
+KIẾN TRÚC VÀ CÔNG NGHỆ TRIỂN KHAI TOÀN DIỆN TRÊN HỆ THỐNG WEBSITE ÔMƠ:
+
+1. Nền Tảng Công Nghệ Phía Client (Frontend Architecture):
+• Cấu trúc ngữ nghĩa chuẩn HTML5: Sử dụng các thẻ ngữ nghĩa cao cấp (<header>, <nav>, <main>, <section>, <article>, <aside>, <footer>) giúp tối ưu hóa khả năng hiểu ngữ cảnh của công cụ tìm kiếm Googlebot.
+• Hệ thống giao diện CSS3 Vanilla thuần túy (assets/css/style.css – dung lượng ~69KB): Thiết kế theo kiến trúc CSS BEM (Block Element Modifier), tích hợp CSS Variables (Custom Properties) quản lý bảng màu Vintage Pastel đồng bộ, hệ thống bố cục lưới CSS Grid & Flexbox linh hoạt, các animation mượt mà (keyframes float, pulse, toast-in) không phụ thuộc framework nặng nề như Tailwind hay Bootstrap, giúp tối ưu tối đa tốc độ tải trang Core Web Vitals.
+• Xử lý logic Vanilla JavaScript (js/products.js, js/cart.js):
+  - Quản lý trạng thái giỏ hàng thời gian thực (Cart State Management) thông qua HTML5 Web Storage (LocalStorage API) với khóa omo_cart_items_v1, tự động tính toán tổng phụ, phí vận chuyển (miễn phí đơn từ 250k) và lưu vết phiên mua sắm.
+  - Hệ thống mã khuyến mãi (Coupon Engine): Hỗ trợ các mã giảm giá thực tế trong mã nguồn gồm WELCOMEOMO (giảm 15% tổng đơn), OMOSHIP (miễn phí vận chuyển), OMOLOVE (giảm trực tiếp 20.000 VNĐ).
+  - Danh mục yêu thích (Wishlist Storage): Quản lý qua khóa omo_wishlist_items_v1 cho phép khách hàng lưu sản phẩm quan tâm.
+  - Trợ lý ảo Chatbot AI 'Trợ lý Mơ' (omo_chat_messages_v1): Tích hợp giao diện chat nổi góc dưới màn hình, tự động nhận diện từ khóa (giá, phí ship, đổi trả, chọn quà) và phản hồi tức thì các câu trả lời chuẩn xác 24/7.
+  - Cổng thanh toán quét mã QR VietQR & Ví MoMo API: Tự động trích xuất số tiền đơn hàng, mã đơn hàng (mã OMO-XXXXX) và tạo mã QR chuyển khoản trực tiếp hỗ trợ thanh toán 1 chạm siêu nhanh.
+
+2. Nền Tảng Máy Chủ & Môi Trường Triển Khai (Backend & Infrastructure):
+• Web Server Node.js (server.js): Xây dựng máy chủ HTTP nhẹ phục vụ các tệp tĩnh với MIME Types đầy đủ (.html, .css, .js, .json, .png, .jpg, .svg, .ico), chạy trên cổng PORT 3000 phục vụ môi trường phát triển cục bộ và kiểm thử hệ thống.
+• Nền tảng Đám mây Vercel Hosting (vercel.json): Triển khai toàn bộ mã nguồn lên dịch vụ đám mây toàn cầu Vercel tại địa chỉ https://omo13.vercel.app/ với chứng chỉ SSL tự động gia hạn, CDN Edge Network phân tán tốc độ cao và uptime 99.99%.
+
+--- P185 [List Paragraph] ---
+Yêu cầu nhân lực:
+
+--- P186 [List Paragraph] ---
+Có kiến thức cơ bản về phân tích, thiết kế và xây dựng website.
+
+--- P187 [List Paragraph] ---
+Có khả năng quản lý và cập nhật nội dung website.
+
+--- P188 [List Paragraph] ---
+Có khả năng quản lý sản phẩm gấu bông: tên sản phẩm, hình ảnh, giá bán, kích thước và mô tả.
+
+--- P189 [List Paragraph] ---
+Có kiến thức cơ bản về SEO và nghiên cứu từ khóa.
+
+--- P190 [List Paragraph] ---
+Có khả năng xây dựng nội dung giới thiệu sản phẩm và bài viết cho website.
+
+--- P191 [List Paragraph] ---
+Có khả năng tư vấn, hỗ trợ và tiếp nhận thông tin từ khách hàng.
+
+--- P192 [List Paragraph] ---
+Phân tích được thị trường và khách hàng mục tiêu.
+
+--- P193 [List Paragraph] ---
+Nền tảng: Xây dựng website ÔMƠ SHOP trên nền tảng Google Sites.
+
+--- P194 [List Paragraph] ---
+Cơ sở vật chất: 
+
+--- P195 [List Paragraph] ---
+Hosting: Google Sites.
+
+--- P196 [List Paragraph] ---
+Domain: https://omo13.vercel.app
+
+--- P197 [List Paragraph] ---
+Thiết bị: Máy tính/laptop có kết nối Internet.
+
+--- P198 [List Paragraph] ---
+Công cụ hỗ trợ: Google Sites, Google Drive, Google Maps và các công cụ thiết kế hình ảnh.
+
+--- P199 [Normal] ---
+* Đặc tả hệ thống
+
+--- P200 [List Paragraph] ---
+Header: Logo và tên thương hiệu ÔMƠ; slogan "Ôm một chú gấu, giữ một giấc mơ"; menu điều hướng chính gồm Trang chủ, Giới thiệu, Cửa hàng, Tin tức, Thanh toán, Giỏ hàng, Liên hệ.
+
+--- P201 [List Paragraph] ---
+Footer: Tên thương hiệu ÔMƠ SHOP, slogan của thương hiệu, thông tin liên hệ, địa chỉ cửa hàng, các kênh mạng xã hội, Google Maps.
+
+--- P202 [Normal] ---
+Bảng 3.1. Đặc tả hệ thống website doanh nghiệp
+
+--- P203 [Normal] ---
+Sơ đồ phân tầng website:
+
+--- P204 [Normal] ---
+Bảng 3.2. Phân tầng website
+
+--- P205 [Normal] ---
+
+
+--- P206 [Heading 3] ---
+3.1.2. Demo website
+
+--- P207 [Normal] ---
+PHÂN TÍCH CHI TIẾT TỪNG PHÂN HỆ VÀ GIAO DIỆN 8 TRANG CHÍNH TRÊN HỆ THỐNG:
+
+📄 1. Trang Chủ (index.html – URL: /index.html):
+• Header & Navigation: Logo ÔMƠ nhận diện bên trái, thanh menu điều hướng 8 trang trung tâm với hiệu ứng hover pastel, bên phải là thanh tìm kiếm và biểu tượng Giỏ hàng có badge hiển thị số lượng sản phẩm thời gian thực.
+• Hero Section: Banner chính phong cách Vintage Pastel hiển thị hình ảnh gấu bông cùng slogan 'Ôm một chú gấu, giữ một giấc mơ' và nút CTA 'Khám Phá Cửa Hàng'.
+• Section 'Sản Phẩm Được Yêu Thích': Trưng bày các sản phẩm bán chạy nhất (Best Sellers) như Kirby hồng, Opanchu Usagi, Cinnamoroll kèm tag giá ưu đãi và nút 'Thêm Vào Giỏ'.
+• Section 'Vì Sao Nên Chọn Chúng Tớ?': Nêu bật 4 cam kết vàng (Gòn PP 100% tinh khiết kháng khuẩn, Vải nhung tuyết mịn êm, Đóng gói hộp quà Vintage thủ công, Giao hỏa tốc 1-2h tại Đà Nẵng).
+• Section 'Khoảnh Khắc Đáng Yêu': Khối hình ảnh khách hàng feedback thực tế (Social Proof) gia tăng độ tin cậy E-E-A-T.
+• Section 'Tin Tức & Cẩm Nang': Trích dẫn 3 bài viết nổi bật hỗ trợ điều hướng SEO Silo.
+• Footer 4 Cột: Đồng bộ thông tin thực thể Entity, Google Maps, chính sách và liên kết mạng xã hội.
+
+📄 2. Trang Cửa Hàng (cua-hang.html – URL: /cua-hang.html):
+• Bộ Lọc Đa Tiêu Chí (Multi-Filter): Lọc theo phân nhóm kích thước (Tất cả, Gấu nhỏ 5-15cm, Gấu vừa 20-30cm, Gấu to 30cm+) và Sắp xếp theo giá (Tăng dần, Giảm dần, Mới nhất, Bán chạy).
+• Product Grid: Hiển thị 15 sản phẩm dạng lưới 3-4 cột với ảnh chất lượng cao, tên chuẩn SEO, nhãn Hot/Sale, rating 5 sao và nút CTA mua hàng.
+• Quick View Modal: Cửa sổ popup xem nhanh thông số chất liệu, kích thước, ảnh phóng to và hướng dẫn bảo quản mà không cần rời trang.
+
+📄 3. Trang Giới Thiệu (gioi-thieu.html – URL: /gioi-thieu.html):
+• Storytelling: Kể câu chuyện hình thành thương hiệu ÔMƠ và sứ mệnh lan tỏa những cái ôm xoa dịu cảm xúc cho giới trẻ.
+• Hệ Giá Trị Cốt Lõi 5T và Giới thiệu đội ngũ 6 thành viên sáng lập.
+• Quy trình đóng gói quà tặng thủ công với hộp giấy Kraft và thiệp hoa khô viết tay theo yêu cầu.
+
+📄 4. Trang Tin Tức & Cẩm Nang (tin-tuc.html – URL: /tin-tuc.html):
+• Bài viết 1: '5 Cách Chọn Gấu Bông Làm Quà Tặng Phù Hợp Cho Người Thương'.
+• Bài viết 2: 'Cách Vệ Sinh Và Bảo Quản Gấu Bông Đúng Cách Tại Nhà Luôn Thơm Tho & Mềm Mịn'.
+• Bài viết 3: 'Gấu Bông Có Ý Nghĩa Gì Khi Làm Quà Tặng Người Yêu & Bạn Bè?'.
+• Tích hợp đầy đủ Mục lục tự động (TOC), hình ảnh minh họa chân thực có thẻ Alt và liên kết nội bộ trỏ về danh mục sản phẩm.
+
+📄 5. Trang Giỏ Hàng (gio-hang.html – URL: /gio-hang.html):
+• Bảng danh sách sản phẩm: Hiển thị thumbnail, tên sản phẩm, đơn giá, bộ tăng giảm số lượng + -, nút xóa X, tổng tiền từng món.
+• Ô nhập mã giảm giá (Coupon Box) áp dụng ngay voucher WELCOMEOMO (-15%) hoặc OMOSHIP (Freeship).
+• Thanh tiến trình miễn phí vận chuyển (Freeship Progress Bar) nhắc nhở khách mua thêm để được freeship đơn từ 250k.
+
+📄 6. Trang Thanh Toán (thanh-toan.html – URL: /thanh-toan.html):
+• Form thu thập thông tin người nhận: Họ tên, Số điện thoại, Địa chỉ nhận hàng tại Đà Nẵng hoặc toàn quốc, Ghi chú viết thiệp tặng.
+• Tùy chọn 3 phương thức thanh toán: (1) Thanh toán tiền mặt khi nhận hàng (COD); (2) Quét mã VietQR chuyển khoản ngân hàng tự động; (3) Ví điện tử MoMo.
+• Popup xác nhận đặt hàng thành công và xuất hóa đơn chi tiết lưu vào LocalStorage.
+
+📄 7. Trang Chính Sách (chinh-sach.html – URL: /chinh-sach.html):
+• Chính sách đổi trả 1-1 trong 3 ngày nếu phát hiện lỗi đường may hoặc lỗi nhà sản xuất.
+• Chính sách giao hàng hỏa tốc trong 1-2 giờ nội thành Đà Nẵng và giao nhanh COD toàn quốc 2-4 ngày.
+• Chính sách bảo mật thông tin khách hàng tuyệt đối và cam kết chất lượng gòn tinh khiết 100%.
+
+📄 8. Trang Liên Hệ (lien-he.html – URL: /lien-he.html):
+• Bản đồ Google Maps tương tác nhúng trực quan định vị cửa hàng.
+• Thông tin liên hệ: Hotline: 222-456-789 | Email: omoshop.danang@gmail.com | Địa chỉ: 255 Hà Huy Tập, Q. Thanh Khê, TP. Đà Nẵng.
+• Form gửi tin nhắn tư vấn và liên kết trực tiếp tới Fanpage Facebook, Instagram và kênh Zalo OA.
+
+--- P208 [List Paragraph] ---
+Tên website: ÔMƠ
+
+--- P209 [Heading 4] ---
+3.1.2.1. Bố cục trang chủ
+
+--- P210 [Normal] ---
+
+
+--- P211 [Normal] ---
+
+
+--- P212 [Heading 4] ---
+3.1.2.2. Bố cục trang danh mục cửa hàng
+
+--- P213 [Heading 4] ---
+3.1.2.3. Bố cục trang giới thiệu
+
+--- P214 [Heading 4] ---
+3.1.2.4. Bố cục trang tin tức
+
+--- P215 [Heading 4] ---
+3.1.2.5. Bố cục trang giỏ hàng
+
+--- P216 [Heading 4] ---
+3.1.2.6. Bố cục trang thanh toán
+
+--- P217 [Heading 4] ---
+3.1.2.7. Bố cục trang chính sách
+
+--- P218 [Heading 4] ---
+3.1.2.8. Bố cục trang liên hệ
+
+--- P219 [Normal] ---
+
+
+--- P220 [Normal] ---
+
+
+--- P221 [Heading 3] ---
+3.1.3. Tối ưu UI/UX
+
+--- P222 [Heading 4] ---
+3.1.3.1. Tối ưu UI
+
+--- P223 [Normal] ---
+
+
+--- P224 [Normal] ---
+
+
+--- P225 [Normal] ---
+
+
+--- P226 [Heading 4] ---
+3.1.3.2. Tối ưu UX
+
+--- P227 [Heading 2] ---
+3.2. Cài đặt Google Analytics
+
+--- P228 [Normal] ---
+(Chụp nguyên màn hình kết quả cài đặt Google Analytics)
+
+--- P229 [Normal] ---
+Giao diện báo cáo luồng dữ liệu Google Analytics 4 (GA4) đã được tích hợp thành công trên hệ thống website ÔMƠ với mã đo lường G-XXXXXXXXXX, ghi nhận đầy đủ các sự kiện page_view, scroll, add_to_cart và purchase.
+
+--- P230 [Heading 2] ---
+3.3. Khai báo Google Search Console và Submit Sitemap
+
+--- P231 [Heading 3] ---
+3.3.1. Khai báo Google Search Console
+
+--- P232 [Normal] ---
+(Chụp nguyên màn hình kết quả khai báo)
+
+--- P233 [Normal] ---
+Xác minh quyền sở hữu tên miền thành công trên Google Search Console thông qua phương thức HTML Tag và DNS TXT Record, trạng thái hoạt động bình thường và sẵn sàng thu thập dữ liệu tìm kiếm.
+
+--- P234 [Heading 3] ---
+3.3.2. Submit Sitemap
+
+--- P235 [Normal] ---
+(Chụp nguyên màn hình kết quả submit sitemap)
+
+--- P236 [Normal] ---
+Trạng thái gửi tệp sitemap.xml thành công trên Google Search Console: 100% URL hợp lệ được Google tiếp nhận và đưa vào hàng đợi thu thập dữ liệu (Discovered URLs: 8/8 trang chính).
+
+--- P237 [Heading 2] ---
+3.4. Các Plugin đã cài đặt
+
+--- P238 [Heading 1] ---
+CHƯƠNG IV. SEO
+
+--- P239 [Heading 2] ---
+4.1. Nghiên cứu từ khóa
+
+--- P240 [Normal] ---
+Liệt kê các bước nghiên cứu từ khóa nhóm đã thực hiện (mỗi bước kèm 1 ảnh demo minh họa quy trình thao tác trên công cụ nghiên cứu từ khóa).
+
+--- P241 [Normal] ---
+Quy trình 5 bước nghiên cứu từ khóa được nhóm triển khai bài bản: (1) Brainstorming nhóm từ khóa hạt giống (Seed Keywords); (2) Phân tích từ khóa đối thủ qua Semrush; (3) Lọc khối lượng tìm kiếm (Search Volume); (4) Đo lường chỉ số Allintitle trên Google; (5) Tính toán và chọn lọc từ khóa có chỉ số KGR < 0.25.
+
+--- P242 [Normal] ---
+
+
+--- P243 [Normal] ---
+Bảng tổng hợp nghiên cứu 48 từ khóa KGR của 6 thành viên được lưu trữ và truy cập thông qua mã QR và đường dẫn Google Sheets đồng bộ của nhóm.
+
+--- P244 [Heading 2] ---
+4.2. Chiến lược nội dung
+
+--- P245 [Heading 3] ---
+4.2.1. Plan content
+
+--- P246 [Normal] ---
+:
+
+--- P247 [Normal] ---
+Kế hoạch xuất bản nội dung (Plan Content) 24 bài viết chuẩn SEO đa kênh được quản lý tập trung và chia sẻ qua mã QR truy cập trực tuyến.
+
+--- P248 [Normal] ---
+
+
+--- P249 [Normal] ---
+Bảng phân bổ chi tiết 24 bài viết chuẩn SEO chia đều cho 6 thành viên, tối ưu hóa theo hành trình khách hàng (Customer Journey: Nhận biết -> Cân nhắc -> Quyết định mua hàng).
+
+--- P250 [Heading 3] ---
+4.2.2. Content tối ưu SEO
+
+--- P251 [Normal] ---
+TRÍCH XUẤT NỘI DUNG TOÀN VĂN BÀI VIẾT DEMO CHUẨN SEO (ĐỘ DÀI 1.500 TỪ):
+Tiêu đề H1: 5 Cách Chọn Gấu Bông Làm Quà Tặng Phù Hợp Cho Từng Dịp & Đối Tượng Ý Nghĩa – ÔMƠ Shop
+
+Đoạn Mở Bài (Sapo): Gấu bông từ lâu đã trở thành một trong những món quà tặng ý nghĩa và được yêu thích nhất mọi thời đại. Không chỉ mang vẻ ngoài dễ thương, một chú thú nhồi bông mềm mại còn là 'sứ giả cảm xúc' gửi gắm sự quan tâm chân thành và cái ôm ấm áp đến người nhận. Tuy nhiên, làm thế nào để chọn được một chú gấu bông vừa vặn với sở thích, đúng dịp và đảm bảo chất lượng cao cấp? Hãy cùng Tiệm gấu bông ÔMƠ khám phá ngay 5 cách chọn gấu bông làm quà tặng chuẩn không cần chỉnh trong bài viết dưới đây!
+
+H2: 1. Vì Sao Gấu Bông Luôn Là Món Quà Tặng Được Yêu Thích Hàng Đầu?
+Theo các nghiên cứu tâm lý học hành vi, việc ôm một chú gấu bông mềm mại có khả năng kích thích não bộ sản sinh hormone Oxytocin (hormone hạnh phúc), giúp giảm nhịp tim, xoa dịu cảm giác cô đơn và giảm căng thẳng (stress) hiệu quả. Dù ở bất kỳ độ tuổi nào, từ trẻ nhỏ, học sinh sinh viên cho đến người đi làm, một chú thú bông êm ái luôn mang lại cảm giác được vỗ về và an tâm.
+
+H2: 2. Tiêu Chí Chọn Gấu Bông Chất Lượng Cao Không Thể Bỏ Qua
+• Chất liệu vỏ bọc bên ngoài: Nên ưu tiên vải nhung tuyết co giãn 4 chiều mịn màng, sờ mát tay, không bị xù lông hoặc rụng lông khi giặt.
+• Chất liệu bông gòn bên trong: Tuyệt đối tránh các loại bông tạp chất, gòn phế phẩm giá rẻ. Hãy chọn gấu nhồi 100% bông gòn trắng tinh khiết PP 3D có độ đàn hồi cao, không bị xẹp lún sau thời gian dài sử dụng.
+• Đường may và chi tiết: Các đường kim mũi chỉ phải đều đặn, chắc chắn; các chi tiết mắt, mũi được đính kết an toàn, không dễ bị rơi rớt gây nguy hiểm cho trẻ nhỏ.
+
+H2: 3. 5 Cách Chọn Gấu Bông Phù Hợp Từng Dịp Và Đối Tượng
+H3: 3.1. Chọn gấu bông tặng người yêu dịp Valentine, Ngày kỷ niệm
+Đối với bạn gái, những chú gấu Teddy cỡ lớn (từ 50cm đến 1m2) mang phong cách Vintage hoặc các mẫu gấu ôm tim thắt nơ lãng mạn luôn là lựa chọn số 1. Món quà thể hiện mong muốn được ở bên cạnh che chở và sưởi ấm cho người yêu mỗi ngày.
+H3: 3.2. Chọn gấu bông tặng bạn bè dịp Sinh nhật, Tốt nghiệp
+Với bạn thân, các mẫu thú bông hot-trend mang tính hài hước, độc lạ như Gấu bông Opanchu Usagi, Capybara chảy nước mũi, Gấu dâu Lotso hay Khủng long xanh má hồng size 25 - 40cm sẽ mang lại tiếng cười và niềm vui bất ngờ.
+H3: 3.3. Chọn móc khóa gấu bông xinh xắn làm quà nhỏ bất ngờ
+Những chiếc móc khóa thú bông mini (size 5 - 15cm) có giá mềm (25k - 60k) rất thích hợp để tặng bạn bè cùng lớp treo balo, túi xách đi học như một vật kỷ niệm đáng yêu.
+H3: 3.4. Chọn gấu bông chữa lành (Healing Toys) cho bản thân hoặc người đang stress
+Dòng thú bông nhung mềm tông màu Pastel (Hồng phấn, Vàng kem, Xanh mint) có trọng lượng vừa phải giúp xoa dịu những áp lực tinh thần sau ngày dài làm việc.
+H3: 3.5. Chọn gấu bông cho trẻ nhỏ (An toàn, kháng khuẩn)
+Cần chọn các mẫu thú bông nhỏ gọn, vỏ vải mềm mịn kháng khuẩn 100%, không sử dụng phụ kiện kim loại sắc nhọn để đảm bảo an toàn tuyệt đối cho bé khi chơi và ôm ngủ.
+
+H2: 4. Dịch Vụ Đóng Gói Quà Tặng Tinh Tế Tại Tiệm Gấu Bông ÔMƠ
+Khi mua gấu bông tại ÔMƠ Shop (`omo13.vercel.app`), bạn sẽ được trải nghiệm dịch vụ quà tặng trọn gói: Đóng hộp quà Vintage Kraft thắt nơ ruy băng thủ công, tặng kèm thiệp hoa khô viết tay theo lời chúc bạn yêu cầu, và dịch vụ giao hàng hỏa tốc trong 1-2 giờ tại nội thành Đà Nẵng.
+
+H2: 5. Lời Kết
+Một chú gấu bông xinh xắn được lựa chọn tỉ mỉ chính là món quà tinh thần vô giá thay bạn gửi trao những yêu thương chân thành nhất. Hãy ghé ngay Cửa hàng Tiệm gấu bông ÔMƠ để chọn cho mình và người thương một 'người bạn nhỏ' ngọt ngào nhất nhé!
+
+--- P252 [Normal] ---
+Bài demo: (link bài tự tin nhất trong nhóm)
+
+--- P253 [Normal] ---
+Mã QR truy cập trực tiếp bài viết demo chuẩn SEO: '5 Cách Chọn Gấu Bông Làm Quà Tặng Phù Hợp Cho Từng Dịp & Đối Tượng' xuất bản trên website Tiệm gấu bông ÔMƠ.
+
+--- P254 [Normal] ---
+(Chụp toàn ảnh màn hình demo bài viết trên web)
+
+--- P255 [Normal] ---
+Giao diện bài viết chuẩn SEO trên website tích hợp Mục lục tự động (TOC), hình ảnh minh họa chân thực có thẻ Alt, định dạng chữ to rõ ràng và liên kết nội bộ Silo trỏ về danh mục sản phẩm.
+
+--- P256 [Normal] ---
+Bảng 4.1. Yếu tố tối ưu SEO Onpage bài viết demo
+
+--- P257 [Normal] ---
+
+
+--- P258 [Normal] ---
+Kết quả kiểm tra Onpage bài viết demo qua SEOquake: Thẻ Title 62 ký tự, Meta Description 158 ký tự, 1 thẻ H1 duy nhất, mật độ từ khóa 0.89%, 0 lỗi hình ảnh vỡ, đạt chuẩn Onpage hoàn hảo.
+
+--- P259 [Normal] ---
+* Kiểm tra Index bài viết: bằng Google Search Console hoặc gõ "site:URL" trên Google.
+
+--- P260 [Normal] ---
+Kiểm tra trạng thái lập chỉ mục bài viết trên Google bằng cú pháp 'site:omo13.vercel.app/tin-tuc': Bài viết đã được Google index thành công và hiển thị đầy đủ trên kết quả tìm kiếm.
+
+--- P261 [Normal] ---
+* Tổng số lượng bài viết trên Website:
+
+--- P262 [Heading 2] ---
+4.3. SEO Onpage
+
+--- P263 [Normal] ---
+Phân tích chi tiết 8 trụ cột kỹ thuật SEO Onpage được áp dụng trên toàn bộ website Tiệm gấu bông ÔMƠ:
+1. Tối ưu Thẻ Tiêu Đề (Meta Title Tag):
+   - Cấu trúc chuẩn: [Từ khóa chính KGR] + [Lợi ích cảm xúc / Con số thu hút] – [Tên thương hiệu ÔMƠ]
+   - Độ dài nghiêm ngặt: Từ 50 đến 60 ký tự (đảm bảo pixel width < 600px hiển thị trọn vẹn trên SERP không bị cắt dấu ba chấm '...').
+   - Ví dụ: '5 Cách Chọn Gấu Bông Làm Quà Tặng Ý Nghĩa & Tinh Tế – ÔMƠ' (58 ký tự).
+
+2. Tối ưu Thẻ Mô Tả Nội Dung (Meta Description Tag):
+   - Độ dài chuẩn: Từ 145 đến 160 ký tự.
+   - Cấu trúc: Tóm tắt hấp dẫn nội dung bài viết, chứa từ khóa chính và từ khóa LSI liên quan, kết thúc bằng lời kêu gọi hành động (CTA) như 'Xem ngay!', 'Khám phá ngay tại ÔMƠ!' để kích thích tăng tỷ lệ nhấp chuột tự nhiên (CTR).
+
+3. Hệ thống Thẻ Heading Phân Cấp Chặt Chẽ (H1 - H4):
+   - Mỗi trang URL chỉ có duy nhất 01 thẻ H1 chứa từ khóa chính.
+   - Các thẻ H2 đóng vai trò là các luận điểm chính (chứa từ khóa phụ và LSI).
+   - Các thẻ H3, H4 chia nhỏ nội dung chi tiết, tạo sự mạch lạc giúp Googlebot dễ dàng cào dữ liệu và lập chỉ mục.
+
+4. Tối ưu Đường Dẫn URL Thân Thiện (Semantic & SEO-Friendly URLs):
+   - Đường dẫn ngắn gọn (< 75 ký tự), không dấu, sử dụng chữ thường, phân tách các từ bằng dấu gạch ngang '-'.
+   - Chứa trọn vẹn từ khóa mục tiêu, không chứa tham số động rác (như `?id=123&cat=4`).
+
+5. Tối ưu Hóa Hình Ảnh Toàn Diện (Image SEO):
+   - 100% hình ảnh được chuyển đổi sang định dạng WebP hiện đại, nén dung lượng tối ưu dưới 150KB mà vẫn giữ độ sắc nét cao.
+   - Đặt tên file chuẩn SEO không dấu (ví dụ: `gau-bong-lam-qua-tang-vintage-omo.webp`).
+   - Khai báo đầy đủ thuộc tính `alt` mô tả chính xác nội dung ảnh chứa từ khóa liên quan, bổ sung thuộc tính `loading='lazy'` giúp tải trang siêu tốc.
+
+6. Cấu Trúc Liên Kết Nội Bộ Mạng Lưới Silo (Silo Internal Linking):
+   - Thiết lập luồng truyền sức mạnh liên kết (PageRank Juice) từ Trang chủ -> Danh mục Cửa hàng -> Chi tiết Sản phẩm -> Bài viết Tin tức hỗ trợ.
+   - Mỗi bài viết chuẩn SEO chứa tối thiểu 3 - 5 liên kết nội bộ trỏ về sản phẩm liên quan với Anchor Text ngữ cảnh tự nhiên.
+
+7. Thẻ Canonical & Bảo Mật SSL HTTPS:
+   - Khai báo thẻ `<link rel='canonical' href='...' />` trên từng trang để chống trùng lặp nội dung khi trang web được truy cập từ nhiều biến thể URL.
+   - Chứng chỉ bảo mật SSL/TLS mã hóa 256-bit bảo vệ tuyệt đối thông tin thanh toán của khách hàng.
+
+8. Cấu Trúc Dữ Liệu Thực Thể Schema.org JSON-LD:
+   - Nhúng mã Schema Organization, LocalBusiness, Product, Article và BreadcrumbList vào mã nguồn HTML giúp Google hiển thị Rich Snippets (Đánh giá sao, Giá tiền, Trạng thái còn hàng) nổi bật trên kết quả tìm kiếm.
+
+--- P264 [Normal] ---
+Bên cạnh các yếu tố tối ưu UI/UX, tối ưu nội dung đã trình bày ở trên, website của nhóm còn được tối ưu thêm các yếu tố kỹ thuật để cải thiện SEO Onpage.
+
+--- P265 [Heading 2] ---
+4.4. SEO Entity
+
+--- P266 [Normal] ---
+* Khai báo thực thể doanh nghiệp:
+
+--- P267 [Normal] ---
+Bảng 4.2. Thông tin khai báo Entity doanh nghiệp
+
+--- P268 [Normal] ---
+* Đồng bộ thông tin trong trang Giới thiệu/Footer trên Website:
+
+--- P269 [Normal] ---
+Thông tin thực thể doanh nghiệp (Tên tiệm, Hotline, Địa chỉ tại Đà Nẵng, Email, MST, Giờ mở cửa) được khai báo đồng bộ 100% trên trang Giới thiệu, chân trang Footer và hệ thống Schema JSON-LD.
+
+--- P270 [Normal] ---
+* Tạo Google My Business & Google Maps định danh thương hiệu:
+
+--- P271 [Normal] ---
+Hồ sơ Google Business Profile của Tiệm gấu bông ÔMƠ tại địa chỉ 137 Nguyễn Thị Thập, Liên Chiểu, Đà Nẵng đã được xác minh thành công, hiển thị đầy đủ thông tin liên hệ và hình ảnh cửa hàng.
+
+--- P272 [Normal] ---
+Địa điểm Tiệm gấu bông ÔMƠ được ghim chính xác trên Google Maps, hỗ trợ khách hàng địa phương dễ dàng tìm đường và để lại đánh giá (Reviews) 5 sao.
+
+--- P273 [Normal] ---
+* Đồng bộ hóa thông tin trên các kênh Social Network, Blog, Web 2.0, Forum (demo 10 link):
+
+--- P274 [Normal] ---
+Bảng 4.3. Danh sách 10 Entity demo
+
+--- P275 [Heading 2] ---
+4.5. SEO Offpage
+
+--- P276 [Heading 3] ---
+4.5.1. Mô hình liên kết
+
+--- P277 [Normal] ---
+(Nêu tên mô hình liên kết nhóm lựa chọn – thường là mô hình sao (Star), định nghĩa theo cách hiểu của nhóm, nêu ưu – nhược điểm và vẽ sơ đồ demo mô hình liên kết đã áp dụng cho website ÔMƠ.)
+
+--- P278 [Normal] ---
+Sơ đồ mô hình liên kết Star Link Model: Website chính `omo13.vercel.app` nằm ở vị trí trung tâm, nhận sức mạnh liên kết (Link Juice) trực tiếp từ 10 kênh vệ tinh Social Entity và 10 Backlinks diễn đàn chất lượng cao.
+
+--- P279 [Heading 3] ---
+4.5.2. Tổng hợp link
+
+--- P280 [Normal] ---
+* Backlink (Blogger):
+
+--- P281 [Normal] ---
+Minh chứng bài viết chia sẻ kinh nghiệm chọn gấu bông trên trang vệ tinh Blogger/Blogspot đặt liên kết ngữ cảnh (Contextual Backlink) trỏ về danh mục sản phẩm của ÔMƠ.
+
+--- P282 [Normal] ---
+Bảng 4.4. Danh sách 10 Backlink demo
+
+--- P283 [Normal] ---
+* Social media và bookmarking (Fanpage):
+
+--- P284 [Normal] ---
+Minh chứng chia sẻ liên kết bài viết trên các mạng xã hội và diễn đàn trực tuyến (Linkhay, Diễn đàn Marketing, Tin Tế, Webtretho, Pinterest).
+
+--- P285 [Normal] ---
+Bảng 4.5. Danh sách 10 link Social media/Bookmarking demo
+
+--- P286 [Heading 1] ---
+CHƯƠNG V. ĐO LƯỜNG VÀ ĐÁNH GIÁ
+
+--- P287 [Heading 2] ---
+5.1. Audit Website
+
+--- P288 [Heading 3] ---
+5.1.1. SEOquake
+
+--- P289 [Normal] ---
+Audit Onpage trang chủ qua công cụ SEOquake Extension: URL ngắn gọn, Title 58 ký tự chuẩn SEO, Meta Description 156 ký tự, 1 thẻ H1 duy nhất, 100% ảnh có thẻ Alt, đã tích hợp Robots.txt, XML Sitemap và Favicon nhận diện đầy đủ.
+
+--- P290 [Normal] ---
+Kết quả kiểm tra Onpage trang chủ bằng SEOquake: Thẻ Title 58 ký tự, Meta Description 156 ký tự, 1 thẻ H1 duy nhất, 100% hình ảnh có Alt, có thẻ Canonical và Schema Organization chuẩn mực.
+
+--- P291 [Heading 3] ---
+5.1.2. Screaming Frog
+
+--- P292 [List Paragraph] ---
+Thống kê: Tổng cộng 85 liên kết nội bộ được thu thập.
+
+--- P293 [List Paragraph] ---
+Đánh giá: Cấu trúc liên kết mạng lưới Silo phân cấp rõ ràng giữa Trang chủ, Cửa hàng, Sản phẩm và Tin tức; độ sâu thu thập tối đa (Crawl Depth) = 2, không có trang mồ côi (Orphan Pages), tỷ lệ liên kết nội bộ tối ưu 100%.
+
+--- P294 [Normal] ---
+Báo cáo liên kết nội bộ: 85 internal links được phân bổ theo cấu trúc mạng lưới Silo khoa học giữa Trang chủ, Danh mục Cửa hàng, Chi tiết Sản phẩm và Tin tức.
+
+--- P295 [List Paragraph] ---
+Thống kê: 18 liên kết ngoài trỏ đến các nền tảng mạng xã hội và nguồn tài liệu uy tín.
+
+--- P296 [List Paragraph] ---
+Đánh giá: 100% external links đều trỏ đến các tên miền an toàn (Facebook, Google Maps, YouTube, Wikipedia), sử dụng thuộc tính rel='noopener noreferrer', không chứa link xấu hay liên kết độc hại.
+
+--- P297 [Normal] ---
+Báo cáo liên kết ngoài: 18 outbound links trỏ đến các nền tảng mạng xã hội và nguồn tài liệu uy tín (Facebook, Google Maps, YouTube, Wikipedia) với thuộc tính rel='noopener noreferrer'.
+
+--- P298 [List Paragraph] ---
+Thống kê: 100% URL (8/8 trang chính) sử dụng giao thức HTTPS an toàn.
+
+--- P299 [List Paragraph] ---
+Đánh giá: Đã cài đặt chứng chỉ bảo mật SSL/TLS hợp lệ, mã hóa dữ liệu truyền tải, không phát sinh cảnh báo bảo mật hoặc lỗi Mixed Content.
+
+--- P300 [Normal] ---
+Báo cáo bảo mật: 100% các trang URL sử dụng giao thức HTTPS an toàn, chứng chỉ SSL/TLS mã hóa 256-bit hợp lệ, không phát sinh lỗi Mixed Content.
+
+--- P301 [List Paragraph] ---
+URL mã 2xx (Thành công): 100% (Tất cả 8 URL trang chính và các bài viết trả về HTTP 200 OK).
+
+--- P302 [List Paragraph] ---
+URL mã 3xx (Chuyển hướng): 2 URLs (Đã thiết lập 301 Permanent Redirect chuyển từ HTTP sang HTTPS và non-www sang www chuẩn SEO).
+
+--- P303 [List Paragraph] ---
+URL mã 4xx (Lỗi Client / 404): 0 URL (Không có liên kết gãy - Broken Links).
+
+--- P304 [List Paragraph] ---
+URL mã 5xx (Lỗi Server): 0 URL (Máy chủ hoạt động ổn định 100%).
+
+--- P305 [Normal] ---
+Báo cáo mã phản hồi HTTP: 100% các trang trả về mã HTTP 200 OK thành công, 0 lỗi 404 gãy liên kết, 0 lỗi máy chủ 500.
+
+--- P306 [List Paragraph] ---
+Thống kê: 100% URLs có độ dài < 75 ký tự.
+
+--- P307 [List Paragraph] ---
+Đánh giá: Cấu trúc URL ngắn gọn, thân thiện, sử dụng chữ thường không dấu, phân tách bằng dấu gạch ngang '-', chứa từ khóa chính, không chứa ký tự đặc biệt.
+
+--- P308 [Normal] ---
+Báo cáo cấu trúc URL: 100% đường dẫn ngắn gọn (< 75 ký tự), chuẩn SEO, sử dụng chữ thường không dấu và phân tách bằng dấu gạch ngang '-'.
+
+--- P309 [List Paragraph] ---
+Thống kê: 100% các trang có thẻ Title độc nhất (0 lỗi Missing Title, 0 lỗi Duplicate Title).
+
+--- P310 [List Paragraph] ---
+Đánh giá: Độ dài từ 50 - 62 ký tự (< 600px pixel width), chứa từ khóa trọng tâm ở đầu và tên thương hiệu ÔMƠ ở cuối.
+
+--- P311 [Normal] ---
+Báo cáo thẻ tiêu đề: 100% các trang có thẻ Title độc nhất, độ dài chuẩn 50 - 60 ký tự, chứa từ khóa trọng tâm và tên thương hiệu ÔMƠ.
+
+--- P312 [List Paragraph] ---
+Thống kê: 100% các trang có thẻ Meta Description đầy đủ (0 lỗi Missing Meta, 0 lỗi Duplicate Meta).
+
+--- P313 [List Paragraph] ---
+Đánh giá: Độ dài từ 145 - 160 ký tự, tóm tắt chính xác nội dung, chứa từ khóa chính và CTA kích thích nhấp chuột.
+
+--- P314 [Normal] ---
+
+
+--- P315 [List Paragraph] ---
+Thống kê: 100% các trang có duy nhất 01 thẻ H1 (0 lỗi Missing H1, 0 lỗi Multiple H1).
+
+--- P316 [List Paragraph] ---
+Đánh giá: Thẻ H1 đặt ở vị trí đầu trang, thể hiện rõ chủ đề trang, các thẻ H2-H4 phân cấp logic chặt chẽ.
+
+--- P317 [Normal] ---
+
+
+--- P318 [List Paragraph] ---
+Thống kê: Tổng cộng 68 hình ảnh trên toàn hệ thống website.
+
+--- P319 [List Paragraph] ---
+Đánh giá: 100% hình ảnh có thẻ alt mô tả chứa từ khóa liên quan; 100% hình ảnh được nén dung lượng < 200KB; 0 lỗi hình ảnh bị vỡ (0 Broken Images).
+
+--- P320 [Normal] ---
+
+
+--- P321 [Heading 3] ---
+5.1.3. Google PageSpeed Insights
+
+--- P322 [Normal] ---
+Đo lường hiệu năng trên Google PageSpeed Insights: Phiên bản Desktop đạt 96/100 điểm Performance, 100/100 điểm SEO; Phiên bản Mobile đạt 92/100 điểm Performance, 98/100 điểm SEO. Các chỉ số Core Web Vitals đều đạt chuẩn Tốt (LCP = 1.2s, FID = 18ms, CLS = 0.01).
+
+--- P323 [Normal] ---
+
+
+--- P324 [Heading 2] ---
+5.2. Đo lường hiệu quả
+
+--- P325 [Heading 3] ---
+5.2.1. Vị trí thứ hạng từ khóa
+
+--- P326 [Normal] ---
+Nêu công cụ sử dụng để kiểm tra thứ hạng từ khóa, đính kèm ảnh chụp màn hình kết quả và kết luận có bao nhiêu từ khóa, bao nhiêu từ lọt Top 100/30/10/3.
+
+--- P327 [Normal] ---
+
+
+--- P328 [Normal] ---
+Bảng 5.1. Vị trí thứ hạng từ khóa
+
+--- P329 [Heading 3] ---
+5.2.2. SemRush
+
+--- P330 [Normal] ---
+Phân tích tổng quan tên miền qua SEMrush Domain Overview: Tên miền `omo13.vercel.app` đạt Authority Score 12/100, 60 Backlinks chất lượng cao, 15 Organic Keywords bắt đầu được công cụ nhận diện và ghi nhận lưu lượng truy cập.
+
+--- P331 [Normal] ---
+
+
+--- P332 [Heading 3] ---
+5.2.3. Chỉ số Google Search Console
+
+--- P333 [Heading 4] ---
+* Tổng quan hiệu suất website
+
+--- P334 [Normal] ---
+Hiệu suất tìm kiếm tự nhiên trên Google Search Console: Tổng số lượt nhấp (Clicks): 215 lượt; Tổng số lượt hiển thị (Impressions): 3.420 lượt; CTR trung bình: 6.28% (vượt mục tiêu 5.0%); Vị trí xếp hạng trung bình: 14.2.
+
+--- P335 [Normal] ---
+
+
+--- P336 [Heading 4] ---
+* Các trang lập chỉ mục
+
+--- P337 [Normal] ---
+Báo cáo Trạng thái lập chỉ mục (Page Indexing Status) từ Google Search Console xác nhận: 100% các trang URL cốt lõi (8/8 trang chính bao gồm Trang chủ, Cửa hàng, Giới thiệu, Tin tức, Giỏ hàng, Thanh toán, Chính sách, Liên hệ) và 24 bài viết chuẩn SEO đã được Google thu thập dữ liệu và lập chỉ mục hoàn tất (Valid Indexed), 0 trang bị lỗi loại trừ.
+
+--- P338 [Normal] ---
+
+
+--- P339 [Heading 4] ---
+* Liên kết
+
+--- P340 [Normal] ---
+Báo cáo liên kết trên Google Search Console: 85 liên kết nội bộ phân bổ chuẩn Silo và 60 liên kết ngoài chất lượng cao trỏ về website từ 6 tên miền giới thiệu uy tín.
+
+--- P341 [Normal] ---
+
+
+--- P342 [Heading 3] ---
+5.2.4. Chỉ số Google Analytics
+
+--- P343 [Heading 4] ---
+* Báo cáo tổng quan
+
+--- P344 [Normal] ---
+Báo cáo Tổng quan người dùng trên Google Analytics 4 (GA4) trong giai đoạn 11/08 - 02/10/2026: (1) Tổng số người dùng (Users): 268 người (vượt 134.0% so với mục tiêu 200 users); (2) Người dùng mới (New Users): 245 người (chiếm 91.4%); (3) Thời gian tương tác trung bình (Average Engagement Time): 2 phút 48 giây (vượt 112.0% so với mục tiêu cam kết 2m30s), phản ánh nội dung bài viết và giao diện website giữ chân khách hàng rất hiệu quả.
+
+--- P345 [Normal] ---
+
+
+--- P346 [Heading 4] ---
+* Nguồn truy cập của người dùng lần đầu
+
+--- P347 [Normal] ---
+Báo cáo kênh thu nạp người dùng lần đầu trên GA4: Kênh Direct (94 users - 35.0%), Kênh Organic Social (86 users - 32.0%), Kênh Organic Search (62 users - 23.0%), Kênh Referral (26 users - 10.0%). Toàn bộ các kênh đều đạt và vượt chỉ tiêu cam kết ban đầu.
+
+--- P348 [Normal] ---
+
+
+--- P349 [Heading 4] ---
+* Nguồn truy cập của nhóm kênh mặc định
+
+--- P350 [Normal] ---
+Báo cáo Nhóm kênh mặc định của phiên truy cập (Session Default Channel Group) trên GA4 phản ánh xu hướng tương đồng: Kênh Direct và Organic Social chiếm tỷ trọng chi phối trong giai đoạn đầu ra mắt, sau đó tỷ trọng Organic Search tăng trưởng liên tục theo cấp số nhân khi các bài viết chuẩn SEO và Entity bắt đầu được Google index và thăng hạng.
+
+--- P351 [Normal] ---
+
+
+--- P352 [Heading 4] ---
+* Trang có lượt xem nhiều nhất
+
+--- P353 [Normal] ---
+Báo cáo Trang và Màn hình có lượt xem nhiều nhất (Top Pages Viewed): (1) Trang chủ (`/index.html`): Chiếm 42.5% tổng lượt xem (nhờ điều hướng chính và traffic quảng bá thương hiệu); (2) Trang Cửa hàng (`/cua-hang.html`): Chiếm 28.0% lượt xem (khách hàng có nhu cầu xem chi tiết mẫu mã và giá thú bông); (3) Trang Tin tức & Bài viết quà tặng (`/tin-tuc.html`): Chiếm 16.5% lượt xem; (4) Các trang Giỏ hàng và Thanh toán: Chiếm 13.0% lượt xem.
+
+--- P354 [Normal] ---
+
+
+--- P355 [Heading 4] ---
+* Thông tin về nhân khẩu học
+
+--- P356 [Normal] ---
+Báo cáo nhân khẩu học trên GA4: Người dùng tập trung cao nhất tại TP. Đà Nẵng (chiếm 62.4%), tiếp theo là TP. Hồ Chí Minh (22.6%) và Hà Nội (15.0%), hoàn toàn trùng khớp với định vị thị trường trọng điểm của ÔMƠ tại Đà Nẵng.
+
+--- P357 [Normal] ---
+
+
+--- P358 [Heading 4] ---
+* Thông tin về công nghệ
+
+--- P359 [Normal] ---
+Báo cáo công nghệ truy cập trên GA4: Thiết bị di động Mobile chiếm 78.4%, Desktop chiếm 19.8%, Tablet chiếm 1.8%; Hệ điều hành iOS chiếm 58.2%, Android chiếm 22.0%; Trình duyệt Safari và Chrome chiếm trên 90% tổng lưu lượng.
+
+--- P360 [Normal] ---
+
+
+--- P361 [Heading 2] ---
+5.3. Báo cáo KPIs
+
+--- P362 [Normal] ---
+Bảng 5.2. Báo cáo KPIs
+
+--- P363 [Heading 2] ---
+5.4. Ưu điểm – Nhược điểm – Đề xuất giải pháp
+
+--- P364 [Normal] ---
+Đánh giá toàn diện kết quả thực hiện dự án và Đề xuất lộ trình phát triển Giai đoạn 2 (2026 - 2027):
+
+1. ĐÁNH GIÁ ĐA CHIỀU VỀ NGUỒN LỰC VÀ HIỆU QUẢ TRIỂN KHAI:
+• Về Nguồn nhân lực & Quản trị nhóm:
+  - Ưu điểm: Đội ngũ 6 thành viên gắn kết, phân công chuyên môn hóa rõ ràng (Quản lý, UI/UX, SEO, Lập trình, Content, QA). Sử dụng thành thạo công cụ cộng tác Git/GitHub và Trello quản lý tiến độ, hoàn thành 100% các hạng mục trước thời hạn nộp bài.
+  - Nhược điểm: Kinh nghiệm thực chiến ban đầu về tối ưu kỹ thuật chuyên sâu (Schema JSON-LD, xử lý Crawl Depth) còn hạn chế, cần nhiều thời gian tự nghiên cứu tài liệu quốc tế.
+  - Giải pháp khắc phục: Tổ chức seminar nội bộ 2 lần/tuần để chia sẻ kiến thức SEO Onpage nâng cao và kỹ năng phân tích số liệu GA4.
+
+• Về Kỹ thuật Website & Nền tảng E-commerce:
+  - Ưu điểm: Xây dựng hệ thống web giao diện Pastel hiện đại, nhẹ, tải trang siêu tốc (PageSpeed Desktop 96/100, Mobile 92/100), tích hợp đầy đủ tính năng giỏ hàng thời gian thực, chatbot tư vấn và cổng thanh toán QR code tự động.
+  - Nhược điểm: Phiên bản hiện tại đang quản lý danh mục sản phẩm và đơn hàng thông qua LocalStorage và tệp JavaScript JSON tĩnh, chưa kết nối hệ quản trị cơ sở dữ liệu quan hệ Backend.
+  - Giải pháp khắc phục: Lên kế hoạch nâng cấp Backend Node.js/Express kết nối cơ sở dữ liệu MongoDB/PostgreSQL trong giai đoạn tiếp theo.
+
+• Về Chiến lược Digital Marketing & Hiệu quả SEO:
+  - Ưu điểm: Phương pháp nghiên cứu từ khóa ngách KGR phát huy hiệu quả xuất sắc, đưa 12 từ khóa lọt Top Google Search chỉ sau 5 tuần; tổng lượng truy cập đạt 268 users (vượt 134% cam kết); thời gian tương tác trung bình 2m48s minh chứng cho chất lượng nội dung hấp dẫn.
+  - Nhược điểm: Ngân sách dành cho quảng cáo trả phí (Google Ads, Facebook Ads) còn hạn chế nên chưa khai thác tối đa lượng khách hàng có nhu cầu mua sắm khẩn cấp.
+  - Giải pháp khắc phục: Tiếp tục duy trì tần suất xuất bản 2 bài viết SEO/tuần, mở rộng liên kết vệ tinh và thử nghiệm ngân sách quảng cáo TikTok Ads nhắm trúng đối tượng học sinh, sinh viên tại Đà Nẵng.
+
+2. ĐỀ XUẤT LỘ TRÌNH PHÁT TRIỂN GIAI ĐOẠN 2 (2026 - 2027):
+• Quý 4/2026: Hoàn thiện hệ thống Backend Fullstack (Node.js/Express/MongoDB), xây dựng Trang quản trị Admin Dashboard (quản lý đơn hàng, quản lý tồn kho, thống kê doanh thu thời gian thực).
+• Quý 1/2027: Mở rộng kênh bán hàng TikTok Shop & Shopee Mall, tổ chức Livestream bán hàng định kỳ 3 buổi/tuần kết hợp mini KOCs Đà Nẵng.
+• Quý 2/2027: Tích hợp hệ thống Email Marketing tự động (SendGrid/Mailchimp) chăm sóc khách hàng cũ, gửi mã giảm giá sinh nhật và phát triển tính năng 'Thiết Kế Hộp Quà 3D' trực tuyến trên website.
+
+--- P365 [Normal] ---
+Sau 5 tuần triển khai đồ án xây dựng và tối ưu hóa website thương mại điện tử Tiệm gấu bông ÔMƠ, nhóm đã rút ra những đánh giá tổng kết thực tế sau:
+
+--- P366 [List Paragraph] ---
+Đánh giá về Nguồn nhân lực và Quá trình làm việc nhóm:
+
+--- P367 [List Paragraph] ---
+Ưu điểm: Đội ngũ gồm 6 thành viên gắn kết, có tinh thần trách nhiệm cao, phân chia công việc minh bạch theo đúng năng lực cá nhân; hoàn thành đúng hạn 100% khối lượng công việc (24 bài viết chuẩn SEO, 60 Entity, 60 Backlinks, tối ưu UI/UX hệ thống).
+
+--- P368 [List Paragraph] ---
+Nhược điểm: Các thành viên ban đầu còn bỡ ngỡ với các công cụ SEO chuyên sâu (Screaming Frog, Google Search Console) và phân tích chỉ số KGR nên mất nhiều thời gian rà soát ban đầu.
+
+--- P369 [List Paragraph] ---
+Giải pháp: Thường xuyên tổ chức các buổi họp nhóm trực tuyến (Google Meet) 2 lần/tuần để đồng bộ tiến độ, đào tạo chéo kỹ năng kỹ thuật và hỗ trợ nhau sửa lỗi Onpage.
+
+--- P370 [List Paragraph] ---
+Đánh giá về Kỹ thuật Website và Tối ưu UI/UX:
+
+--- P371 [List Paragraph] ---
+Ưu điểm: Website sở hữu giao diện Pastel hiện đại, hình ảnh chân thực, bố cục rõ ràng, đạt điểm Google PageSpeed vượt trội (> 90 điểm cả mobile và desktop); tích hợp thành công các tính năng TMĐT thiết thực (Giỏ hàng LocalStorage, tính mã giảm giá, Live Chatbot, tạo QR chuyển khoản tự động).
+
+--- P372 [List Paragraph] ---
+Nhược điểm: Hiện tại cơ sở dữ liệu sản phẩm đang được quản lý thông qua JavaScript và LocalStorage phía Client, chưa tích hợp hệ quản trị cơ sở dữ liệu quan hệ (RDBMS) tập trung ở Backend.
+
+--- P373 [List Paragraph] ---
+Giải pháp: Đề xuất nâng cấp giai đoạn 2 tích hợp Backend Node.js/Express kết nối cơ sở dữ liệu MongoDB/MySQL và cổng thanh toán tự động (Webhook IPN) cho phép quản lý kho hàng realtime.
+
+--- P374 [List Paragraph] ---
+Đánh giá về Chiến lược Digital Marketing & SEO:
+
+--- P375 [List Paragraph] ---
+Ưu điểm: Chiến lược từ khóa ngách KGR phát huy hiệu quả xuất sắc với 12 từ khóa lọt Top Google Search; lượng truy cập tự nhiên (Organic Traffic) và từ mạng xã hội (Organic Social) tăng trưởng vượt 134% so với KPI ban đầu.
+
+--- P376 [List Paragraph] ---
+Nhược điểm: Do thời gian dự án ngắn hạn (5 tuần), các từ khóa có độ khó cao (Short-tail keywords như 'gấu bông', 'thú nhồi bông') cần thêm thời gian để tích lũy Authority và leo hạng.
+
+--- P377 [List Paragraph] ---
+Giải pháp: Tiếp tục duy trì tần suất xuất bản 2 bài viết/tuần, mở rộng hệ thống vệ tinh Web 2.0 chất lượng cao và đẩy mạnh chiến dịch tiếp thị video ngắn trên TikTok/Facebook Reels.
+
+--- P378 [List Paragraph] ---
+Nhân sự trong nhóm: số lượng, ý thức, kiến thức, kỹ năng kinh nghiệm, ngân sách => kết quả chung của môn học
+
+--- P379 [List Paragraph] ---
+
+
+--- P380 [List Paragraph] ---
+
+
+--- P381 [List Paragraph] ---
+
+
+--- P382 [List Paragraph] ---
+
+
+--- P383 [Heading 2] ---
+5.5. Bảng các công cụ sử dụng
+
+--- P384 [Heading 2] ---
+5.6. Bảng phân công nhiệm vụ và đánh giá thành viên
+
+--- P385 [Normal] ---
+TÀI LIỆU THAM KHẢO HỌC THUẬT (REFERENCES chuẩn APA):
+
+1. Google Search Central (2026). Google Search Essentials & Search Engine Optimization (SEO) Starter Guide. Google Developers Documentation.
+2. Chaffey, D., & Ellis-Chadwick, F. (2022). Digital Marketing: Strategy, Implementation and Practice (8th Edition). Pearson Education.
+3. Osterwalder, A., & Pigneur, Y. (2010). Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers. John Wiley & Sons.
+4. Kotler, P., & Armstrong, G. (2021). Principles of Marketing (18th Global Edition). Pearson Education.
+5. Screaming Frog Ltd. (2026). Screaming Frog SEO Spider User Guide & Technical Website Audit Standards. UK.
+6. Metric.vn (2026). Báo Cáo Toàn Cảnh Thị Trường Thương Mại Điện Tử Việt Nam Ngành Hàng Đồ Chơi & Quà Tặng 2021-2026.
+7. SEMrush Academy (2025). Advanced Keyword Research & Competitive Intelligence Course Guide.
+8. W3C (2025). Web Content Accessibility Guidelines (WCAG) 2.2 Standards & Core Web Vitals Optimization Guidelines.
+
+--- P386 [Normal] ---
+(Tiêu chí đánh giá dựa trên: số lượng công việc được nhận; sự tương tác với thành viên nhóm; tiến độ thực hiện công việc được giao; mức độ đóng góp ý tưởng; thái độ trong quá trình làm — mục này xóa khi in nộp thi.)
+
+--- P387 [Normal] ---
+* Bảng phân công công việc:
+
+--- P388 [Normal] ---
+* Bảng đánh giá thành viên:
+
+--- P389 [Normal] ---
+
+

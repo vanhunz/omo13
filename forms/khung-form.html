@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khung Form Mẫu Cơ Bản</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 30px;
+    }
+    .form-container {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .form-title {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="password"],
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+    .form-group textarea {
+      resize: vertical;
+      height: 80px;
+    }
+    .radio-group, .checkbox-group {
+      display: flex;
+      gap: 15px;
+      margin-top: 5px;
+      font-size: 14px;
+    }
+    .form-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .btn-submit {
+      flex: 1;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .btn-reset {
+      padding: 10px 15px;
+      background-color: #6c757d;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- KHUNG FORM CƠ BẢN -->
+  <div class="form-container">
+    <h2 class="form-title">TIÊU ĐỀ FORM</h2>
+
+    <form action="" method="POST">
+      
+      <!-- 1. Ô nhập chữ (Text) -->
+      <div class="form-group">
+        <label for="txtTen">Nhãn trường 1 *</label>
+        <input type="text" id="txtTen" name="truong_1" placeholder="Nhập dữ liệu..." required>
+      </div>
+
+      <!-- 2. Ô nhập Email -->
+      <div class="form-group">
+        <label for="txtEmail">Nhãn trường 2 (Email) *</label>
+        <input type="email" id="txtEmail" name="truong_2" placeholder="example@email.com" required>
+      </div>
+
+      <!-- 3. Hộp chọn (Select / Dropdown) -->
+      <div class="form-group">
+        <label for="slLuaChon">Nhãn trường 3 (Chọn danh mục)</label>
+        <select id="slLuaChon" name="truong_3">
+          <option value="">-- Chọn một mục --</option>
+          <option value="1">Lựa chọn A</option>
+          <option value="2">Lựa chọn B</option>
+          <option value="3">Lựa chọn C</option>
+        </select>
+      </div>
+
+      <!-- 4. Tùy chọn 1 mục (Radio Button) -->
+      <div class="form-group">
+        <label>Nhãn trường 4 (Radio):</label>
+        <div class="radio-group">
+          <label><input type="radio" name="radio_group" value="1" checked> Mục 1</label>
+          <label><input type="radio" name="radio_group" value="2"> Mục 2</label>
+        </div>
+      </div>
+
+      <!-- 5. Tùy chọn nhiều mục (Checkbox) -->
+      <div class="form-group">
+        <label>Nhãn trường 5 (Checkbox):</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="chk_group[]" value="a"> Tùy chọn A</label>
+          <label><input type="checkbox" name="chk_group[]" value="b"> Tùy chọn B</label>
+        </div>
+      </div>
+
+      <!-- 6. Ô nhập nhiều dòng (Textarea) -->
+      <div class="form-group">
+        <label for="txtNoiDung">Nhãn trường 6 (Nội dung ghi chú)</label>
+        <textarea id="txtNoiDung" name="truong_6" placeholder="Nhập nội dung chi tiết..."></textarea>
+      </div>
+
+      <!-- 7. Nút thao tác (Buttons) -->
+      <div class="form-actions">
+        <button type="submit" class="btn-submit">Gửi Dữ Liệu</button>
+        <button type="reset" class="btn-reset">Làm Lại</button>
+      </div>
+
+    </form>
+  </div>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <a href="index.html" style="color: #666; text-decoration: none; font-size: 14px;">← Quay lại danh mục khung mẫu</a>
+  </div>
+
+</body>
+</html>

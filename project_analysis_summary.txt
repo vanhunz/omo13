@@ -1,0 +1,132 @@
+=== CRAWLED PAGES SUMMARY ===
+Page: trang-chu
+  URL: https://sites.google.com/view/omo13/trang-ch%E1%BB%A7
+  Title: trang-chu
+  Images count: 25
+  Text length: 0 chars
+  Text preview: ...
+----------------------------------------
+Page: gioi-thieu
+  URL: https://sites.google.com/view/omo13/gi%E1%BB%9Bi-thi%E1%BB%87u
+  Title: gioi-thieu
+  Images count: 4
+  Text length: 0 chars
+  Text preview: ...
+----------------------------------------
+Page: cua-hang
+  URL: https://sites.google.com/view/omo13/c%E1%BB%ADa-h%C3%A0ng
+  Title: cua-hang
+  Images count: 20
+  Text length: 0 chars
+  Text preview: ...
+----------------------------------------
+Page: tin-tuc
+  URL: https://sites.google.com/view/omo13/tin-t%E1%BB%A9c
+  Title: tin-tuc
+  Images count: 16
+  Text length: 0 chars
+  Text preview: ...
+----------------------------------------
+Page: thanh-toan
+  URL: https://sites.google.com/view/omo13/thanh-to%C3%A1n
+  Title: thanh-toan
+  Images count: 5
+  Text length: 0 chars
+  Text preview: ...
+----------------------------------------
+Page: gio-hang
+  URL: https://sites.google.com/view/omo13/gi%E1%BB%8F-h%C3%A0ng
+  Title: gio-hang
+  Images count: 7
+  Text length: 0 chars
+  Text preview: ...
+----------------------------------------
+Page: chinh-sach
+  URL: https://sites.google.com/view/omo13/gi%E1%BB%8F-h%C3%A0ng/ch%C3%ADnh-s%C3%A1ch
+  Title: chinh-sach
+  Images count: 6
+  Text length: 0 chars
+  Text preview: ...
+----------------------------------------
+Page: lien-he
+  URL: https://sites.google.com/view/omo13/li%C3%AAn-h%E1%BB%87
+  Title: lien-he
+  Images count: 9
+  Text length: 0 chars
+  Text preview: ...
+----------------------------------------
+
+=== HTML FILES IN PROJECT ===
+File: chinh-sach.html (11221 bytes)
+  Title: Chính Sách Mua Hàng & Đổi Trả – ÔMƠ Shop
+  Meta Desc: Chính sách mua hàng, giao nhận hỏa tốc và quy định đổi trả trong vòng 3 ngày tại tiệm gấu ÔMƠ Đà Nẵng.
+  H1s (2): ['ÔMƠ', 'Chính Sách ÔMƠ 📜']
+  H2s (1): ['🧸 ÔMƠ SHOP']
+----------------------------------------
+File: cua-hang.html (12603 bytes)
+  Title: Cửa Hàng Gấu Bông ÔMƠ – Đầy Đủ Mẫu Mã Xinh Xắn & Cao Cấp
+  Meta Desc: Khám phá toàn bộ bộ sưu tập gấu bông ÔMƠ: Móc khóa gấu nhỏ (5-15cm), gấu vừa ôm (20-30cm) và gấu bông khổng lồ mềm mại (30cm+).
+  H1s (2): ['ÔMƠ', 'Cửa Hàng ÔMƠ 🛍️']
+  H2s (1): ['🧸 ÔMƠ SHOP']
+----------------------------------------
+File: gio-hang.html (16001 bytes)
+  Title: Giỏ Hàng Của Bạn – ÔMƠ Shop
+  Meta Desc: Xem và quản lý các sản phẩm gấu bông trong giỏ hàng của bạn tại ÔMƠ Shop.
+  H1s (2): ['ÔMƠ', 'Giỏ Hàng Của Bạn 🛒']
+  H2s (2): ['Giỏ hàng của bạn đang trống', '🧸 ÔMƠ SHOP']
+----------------------------------------
+File: gioi-thieu.html (11637 bytes)
+  Title: Giới Thiệu Về ÔMƠ – Ôm một chú gấu, giữ một giấc mơ
+  Meta Desc: Khám phá câu chuyện hình thành và sứ mệnh lan tỏa những cái ôm ấm áp của tiệm gấu ÔMƠ Đà Nẵng.
+  H1s (2): ['ÔMƠ', 'Về ÔMƠ Shop 🧸']
+  H2s (3): ['🧸 Câu Chuyện Của ÔMƠ', '🌟 Sứ Mệnh Của ÔMƠ', '🧸 ÔMƠ SHOP']
+----------------------------------------
+File: index.html (17950 bytes)
+  Title: ÔMƠ – Ôm trọn vỗ về, giữ trọn giấc mơ | Tiệm Gấu Bông Đà Nẵng
+  Meta Desc: Tiệm gấu ÔMƠ chuyên cung cấp các mẫu gấu bông cao cấp, êm ái, an toàn từ móc khóa xinh xắn đến gấu khổng lồ vỗ về giấc mơ của bạn.
+  H1s (1): ['ÔMƠ']
+  H2s (6): ['ÔMƠ SHOP \n          "Ôm một chú gấu, giữ một giấc mơ"', 'Sản Phẩm Được Yêu Thích', 'Vì Sao Nên Chọn Chúng Tớ?', 'Khoảnh Khắc Đáng Yêu Cùng Gấu Bông', 'Tin Tức & Cẩm Nang Gấu Bông']
+----------------------------------------
+File: lien-he.html (12188 bytes)
+  Title: Liên Hệ Tiệm Gấu ÔMƠ – 255 Hà Huy Tập, Đà Nẵng
+  Meta Desc: Liên hệ tiệm gấu bông ÔMƠ tại Đà Nẵng. Hotline: 222-456-789. Địa chỉ: 255 Hà Huy Tập, Q. Thanh Khê, TP. Đà Nẵng.
+  H1s (2): ['ÔMƠ', 'Liên Hệ Với Chúng Tớ 💌']
+  H2s (2): ['Ghé Thăm Tiệm Gấu ÔMƠ', '🧸 ÔMƠ SHOP']
+----------------------------------------
+File: thanh-toan.html (20753 bytes)
+  Title: Thanh Toán Đơn Hàng – ÔMƠ Shop
+  Meta Desc: Thanh toán an toàn, tiện lợi qua Chuyển khoản QR ngân hàng, Ví MoMo hoặc Tiền mặt khi nhận hàng (COD).
+  H1s (2): ['ÔMƠ', 'Thanh Toán Đơn Hàng 💳']
+  H2s (2): ['Đặt Hàng Thành Công!', '🧸 ÔMƠ SHOP']
+----------------------------------------
+File: tin-tuc.html (14722 bytes)
+  Title: Tin Tức & Cẩm Nang Gấu Bông – ÔMƠ Shop
+  Meta Desc: Khám phá các mẹo chọn quà tặng gấu bông, cẩm nang vệ sinh và bảo quản gấu bông luôn thơm mềm tại nhà.
+  H1s (2): ['ÔMƠ', 'Tin Tức & Cẩm Nang 📰']
+  H2s (5): ['Cẩm Nang Hữu Ích Cùng ÔMƠ', '5 Cách Chọn Gấu Bông Làm Quà Tặng Phù Hợp Cho Từng Dịp & Đối Tượng', 'Cách Vệ Sinh Và Bảo Quản Gấu Bông Đúng Cách Tại Nhà Luôn Thơm Tho & Mềm Mịn', 'Gấu Bông Có Ý Nghĩa Gì Khi Làm Quà Tặng?', '🧸 ÔMƠ SHOP']
+----------------------------------------
+
+=== PRODUCTS IN js/products.js ===
+Length of js/products.js: 13258
+Total products found: 15
+  1. Móc Khóa Gấu Bông Keychain Xinh | Danh mục: Gấu nhỏ (5-15cm) | Giá: 45000đ
+  2. Hội Bạn Thân Opanchu Usagi | Danh mục: Gấu nhỏ (5-15cm) | Giá: 85000đ
+  3. Bộ Ba Gấu We Bare Bears Nhỏ | Danh mục: Gấu nhỏ (5-15cm) | Giá: 95000đ
+  4. Móc Khóa Sumikko Gurashi | Danh mục: Gấu nhỏ (5-15cm) | Giá: 55000đ
+  5. Gấu Bông Kirby Tròn Ủm Hồng | Danh mục: Gấu vừa (20-30cm) | Giá: 200000đ
+  6. Minions - Chú Bé Bob Đáng Yêu | Danh mục: Gấu vừa (20-30cm) | Giá: 185000đ
+  7. Cún Tai Dài Cinnamoroll Trắng Muốt | Danh mục: Gấu vừa (20-30cm) | Giá: 210000đ
+  8. Winnie the Pooh Áo Đỏ Ôm Mật | Danh mục: Gấu vừa (20-30cm) | Giá: 195000đ
+  9. Gudetama - Trứng Lười Dễ Thương | Danh mục: Gấu vừa (20-30cm) | Giá: 175000đ
+  10. Cá Ngố Hangyodon Độc Lạ | Danh mục: Gấu vừa (20-30cm) | Giá: 190000đ
+  11. My Melody Nơ Hồng Xinh Xắn | Danh mục: Gấu to (30cm trở lên) | Giá: 290000đ
+  12. Chuột Mickey Mouse Cổ Điển | Danh mục: Gấu to (30cm trở lên) | Giá: 280000đ
+  13. Cáo Tuyết Kitsune Nhật Bản | Danh mục: Gấu to (30cm trở lên) | Giá: 320000đ
+  14. Cún Shiba Inu Béo Tròn | Danh mục: Gấu to (30cm trở lên) | Giá: 310000đ
+  15. Gấu Bông Khổng Lồ Teddy ÔMƠ Vỗ Về | Danh mục: Gấu to (30cm trở lên) | Giá: 490000đ
+
+=== NEWS / ARTICLES IN tin-tuc.html ===
+Total news/articles found in tin-tuc.html: 3
+  1. Gấu bông – Món quà nhỏ gửi trao yêu thương đong đầy
+  2. Cần hỗ trợ tư vấn chọn mẫu gấu bông ưng ý? 💌
+  3. ${b.title}
