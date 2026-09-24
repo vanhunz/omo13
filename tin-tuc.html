@@ -99,7 +99,7 @@
           <p>
             Dù là dịp sinh nhật, kỷ niệm hay chỉ đơn giản là một ngày bình thường muốn tạo bất ngờ, một chú gấu bông xinh xắn từ ÔMƠ chắc chắn sẽ là cầu nối tuyệt vời để bạn gửi gắm những yêu thương chưa ngỏ.
           </p>
-          <a href="#post-detail-01" class="btn btn-primary" style="margin-top: 10px;">Đọc Chi Tiết Bài Viết ✨</a>
+          <a href="tin-tuc/5-cach-chon-gau-bong-lam-qua-tang/" class="btn btn-primary" style="margin-top: 10px;">Đọc Chi Tiết Bài Viết ✨</a>
         </div>
       </div>
 
@@ -292,7 +292,7 @@
               </div>
               <h3 class="blog-title">${b.title}</h3>
               <p class="blog-summary">${b.summary}</p>
-              <a href="#post-detail-0${idx + 1}" class="blog-link">Đọc chi tiết bài viết →</a>
+              <a href="${idx === 0 ? 'tin-tuc/5-cach-chon-gau-bong-lam-qua-tang/' : `#post-detail-0${idx + 1}`}" class="blog-link">Đọc chi tiết bài viết →</a>
             </div>
           </div>
         `).join('');

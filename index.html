@@ -428,7 +428,7 @@
               </div>
               <h3 class="blog-title">${b.title}</h3>
               <p class="blog-summary">${b.summary}</p>
-              <a href="tin-tuc.html" class="blog-link">Đọc bài viết →</a>
+              <a href="${b.url || 'tin-tuc.html'}" class="blog-link">Đọc bài viết →</a>
             </div>
           </div>
         `).join('');

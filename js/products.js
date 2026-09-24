@@ -256,6 +256,7 @@ const BLOG_POSTS = [
     author: 'ÔMƠ Team',
     category: 'Mẹo Chọn Quà',
     image: 'assets/images/img_43.png',
+    url: 'tin-tuc/5-cach-chon-gau-bong-lam-qua-tang/',
     summary: 'Để món quà thêm phần trọn vẹn, việc chọn đúng chú gấu bông là rất quan trọng. Cùng ÔMƠ khám phá 5 tiêu chí: sở thích, độ tuổi, kích thước, chất liệu và dịp tặng quà...',
     content: `
       <p>Giữa nhịp sống hối hả, đôi khi những món quà đắt tiền lại không mang sức mạnh chữa lành bằng một chú gấu bông mềm mại. Gấu bông không chỉ là món đồ chơi, mà còn là "người bạn" đại diện cho sự hiện diện của bạn bên cạnh người thương. Dù là dịp sinh nhật, kỷ niệm hay chỉ đơn giản là một ngày bình thường muốn tạo bất ngờ, một chú gấu bông xinh xắn từ ÔMƠ chắc chắn sẽ là cầu nối tuyệt vời để bạn gửi gắm những yêu thương chưa ngỏ.</p>

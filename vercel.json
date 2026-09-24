@@ -12,6 +12,10 @@
       "dest": "/index.html"
     },
     {
+      "src": "/tin-tuc/5-cach-chon-gau-bong-lam-qua-tang/?",
+      "dest": "/tin-tuc/5-cach-chon-gau-bong-lam-qua-tang/index.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "/$1"
     }
